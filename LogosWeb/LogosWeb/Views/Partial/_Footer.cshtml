@@ -1,0 +1,51 @@
+﻿<!-- Footer-->
+<footer class="footer" ng-controller="FooterController as controller" ng-init="controller.init()">
+    <div class="footer-widgets">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Text widget-->
+                    <aside class="widget widget-text">
+                        <div class="widget-title">
+                            <h6>Onde estamos</h6>
+                        </div>
+                        <div class="textwidget">
+                            <p>
+                                Localização: {{controller.contatoInfo.endereco}}<br>
+                                E-mail: {{controller.contatoInfo.email}}<br>
+                                Telefone: {{controller.contatoInfo.telefone}}<br>
+                            </p>
+                            <ul class="social-icons">
+                                <li ng-repeat="redeSocial in controller.contatoInfo.redesSociais"><a href="{{redeSocial.url}}"><i class="fab fa-{{redeSocial.nome.toLowerCase() === 'facebook' ? redeSocial.nome.toLowerCase() + '-f' : redeSocial.nome.toLowerCase()}}"></i></a></li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-4 logo-footer bg-white text-center">
+                            <img src="~/images/logo-logos.png" width="100px" style="margin-top: 20px;" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="copyright">
+                        <p>© 2018 Boomerang, All Rights Reserved. Design with love by <a href="#">2theme</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center">
+                        <p>Adjusted by © 2020 Seminário Batista Logos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer end-->

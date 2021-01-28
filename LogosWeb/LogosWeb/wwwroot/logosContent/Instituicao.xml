@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Logos>
+  <Instituicao>
+    <Sobre>
+      <Nome>Seminário Batista Logos</Nome>
+      <Missao>O Seminário Batista Logos existe para equipar pastores, professores e outros cristãos a fim de glorificar ao Senhor, servindo a Igreja com excelência no Brasil e no mundo.</Missao>
+      <Visao>O Seminário Batista Logos visa ser uma instituição de referência teológica para as igrejas no Brasil e no mundo.</Visao>
+      <Valores>
+        <Valor>
+          <Nome>Integridade Bíblica</Nome>
+          <Icone>book</Icone>
+        </Valor>
+        <Valor>
+          <Nome>Relevância Cultural</Nome>
+          <Icone>signal</Icone>
+        </Valor>
+        <Valor>
+          <Nome>Excelência Acadêmica</Nome>
+          <Icone>bookmark-alt</Icone>
+        </Valor>
+        <Valor>
+          <Nome>Formação Espiritual</Nome>
+          <Icone>user</Icone>
+        </Valor>
+      </Valores>
+      <Historia>
+        Fundado em 04 de março de 1957, o Seminário Batista Logos
+        está há mais de 60 anos ensinando Teologia com excelência.
+        Ao longo do tempo, participamos da formação acadêmica de
+        pastores, missionários, professores, teólogos, escritores e
+        diversas pessoas que exercem liderança, que estão servindo a
+        Igreja em diversos ministérios e locais, no Brasil e em vários
+        outros países. Anteriormente denominado Seminário e Instituto
+        Bíblico Batista e Seminário Batista Regular de São Paulo
+        (SEBARSP), as atividades foram iniciadas por missionários do
+        movimento Batista Regular dos EUA (ABWE – Association of Baptists for World Evangelism). O Seminário Batista Logos é uma associação sem fins lucrativos, dirigida por um grupo de pessoas cristãs, que confessam Jesus Cristo como seu Senhor e Salvador pessoal, membros de igrejas evangélicas que aceitam as doutrinas bíblicas ensinadas e defendidas pelo Seminário Batista Logos.
+      </Historia>
+      <DeclaracaoDoutrinaria>http://seminariologos.com.br/wa_files/Declara_C3_A7_C3_A3o_Doutrin_C3_A1ria.pdf</DeclaracaoDoutrinaria>
+      <Endereco>Av. Eng. Armando de Arruda Pereira, 2747. Jabaquara, São Paulo-SP, Brasil</Endereco>
+      <RedesSociais>
+        <Facebook>https://www.facebook.com/Logos.seminario.batista</Facebook>
+        <YouTube>https://www.youtube.com/channel/UCygpnUW4Id1wxIR8II9WpYQ/videos</YouTube>
+        <Instagram>https://www.instagram.com/seminariologos/</Instagram>
+        <Twitter>https://twitter.com/seminariologos</Twitter>
+      </RedesSociais>
+    </Sobre>
+    <Contato>
+      <Telefone>+55 (11) 3331-5451</Telefone>
+      <Whatsapp>+55 (11) 99981-3557</Whatsapp>
+      <Email>contato@seminariologos.org.br</Email>
+    </Contato>
+  </Instituicao>
+</Logos>

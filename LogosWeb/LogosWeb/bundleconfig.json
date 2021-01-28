@@ -1,0 +1,43 @@
+﻿[
+  {
+    "outputFileName": "wwwroot/css/site.min.css",
+    "inputFiles": [
+      //"wwwroot/css/site.css",
+      "wwwroot/css/template.css",
+      "wwwroot/css/plugins.min.css"
+    ]
+  },
+  {
+    "outputFileName": "wwwroot/js/site.min.js",
+    "inputFiles": [
+      "wwwroot/js/custom/jquery.min.js",
+      "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "wwwroot/js/custom/plugins.min.js",
+      "wwwroot/js/custom/custom.min.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/js/angular-controllers.min.js",
+    "inputFiles": [
+      "wwwroot/js/app/components/navigation/navigation.controller.js",
+      "wwwroot/js/app/components/footer/footer.controller.js",
+      "wwwroot/js/app/components/contato-panel/contato-panel.controller.js",
+      "wwwroot/js/app/components/blog-content-page/blog-page.controller.js",
+      "wwwroot/js/app/components/cursos-panel/cursos-panel.controller.js",
+      "wwwroot/js/app/components/professores-panel/professores-panel.controller.js",
+      "wwwroot/js/app/components/valores-panel/valores-panel.controller.js",
+      "wwwroot/js/app/components/bottom-buttons/bottom-buttons.controller.js",
+      "wwwroot/js/app/components/testemunho-panel/testemunho-panel.controller.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  }
+]

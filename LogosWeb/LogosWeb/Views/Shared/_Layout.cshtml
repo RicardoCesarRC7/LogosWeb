@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html ng-app="logosApp" lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="~/images/favicon-logos-logo.png">
+    <title>@ViewData["Title"] - Seminário Batista Logos</title>
+    <!-- Web Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600%7cPlayfair+Display:400i" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- Plugins-->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/css/site.min.css" />
+</head>
+<body>
+
+    <!-- Preloader-->
+    <div class="page-loader">
+        <div class="page-loader-inner">
+            <div class="text-center"><img src="~/images/logo-logos.png" alt=""></div>
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Preloader end-->
+
+    <partial name="../Partial/_Navegacao" />
+
+    <div class="wrapper" ng-mod>
+        @RenderBody()
+    </div>
+
+    <partial name="../Partial/_Footer" />
+
+    <!-- form on modal -->
+    <div class="modal fade" id="modal-form-interesse" tabindex="-1" role="dialog" aria-labelledby="formInteresseModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="border-bottom: none;">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <partial name="../Partial/_FormInteresse" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- form on modal end -->
+
+    <partial name="../Partial/_OffCanvas" />
+
+    <div ng-controller="BottomButtonsController as controller">
+
+        <!-- Whatsapp button -->
+        <a class="whatsapp-icon" href="https://api.whatsapp.com/send?phone=5511999813557&amp;text=Ol%C3%A1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+
+        <!-- Form button -->
+        <a class="form-icon" href="" data-toggle="modal" data-target="#modal-form-interesse" ng-click="controller.refreshModalSelect2()">Conte-nos sobre o seu interesse!</a>
+
+        <!-- To top button-->
+        <a class="scroll-top" href="#top"><i class="fas fa-angle-up"></i></a>
+    </div>
+
+    <script src="~/js/site.min.js" asp-append-version="true"></script>
+    <script src="~/js/angular.min.js"></script>
+    <script src="~/js/app/app.module.js"></script>
+    <script src="~/js/angular-controllers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+    @RenderSection("ScriptsSection", false);
+</body>
+</html>

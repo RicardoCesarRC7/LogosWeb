@@ -1,0 +1,109 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="space" data-MY="50px"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-9 m-auto text-center">
+            <h1 class="title-form-interesse">Conte-nos sobre seu interesse</h1>
+            <p class="lead">Em breve entraremos em contato com você</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="space" data-MY="60px"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <form class="contact-form" method="post" novalidate>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input class="form-control" type="text" name="name" placeholder="Nome" required="">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input class="form-control" type="text" name="surname" placeholder="Sobrenome" required="">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input class="form-control" type="email" name="email" placeholder="E-mail" required="">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input class="form-control" type="text" name="telefone" placeholder="Telefone ou Whatsapp" required="">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <select id="" class="area-interesse-form form-control" name="area" multiple="multiple">
+                                <option value="">Selecione a área de interesse</option>
+                                <option value="Qualquer">Qualquer</option>
+                                <option value="Mestrado">Mestrado</option>
+                                <option value="Pós-graduação">Pós-graduação</option>
+                                <option value="Graduação">Graduação</option>
+                                <option value="Música">Música</option>
+                            </select>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <select id="" class="curso-interesse-form form-control" name="curso" multiple="multiple">
+                                <option value="Qualquer">Qualquer</option>
+                                <option value="Teologia Ministerial">Teologia Ministerial</option>
+                                <option value="Música Sacra">Música Sacra</option>
+                                <option value="Master em Ministério">Master em Ministério</option>
+                                <option value="Master em Aconselhamento Bíblico">Master em Aconselhamento Bíblico</option>
+                                <option value="Pós-graduação em Exposição Bíblica">Pós-graduação em Exposição Bíblica</option>
+                                <option value="Pós-graduação em Aconselhamento Bíblico">Pós-graduação em Aconselhamento Bíblico</option>
+                                <option value="Pós-graduação em Liderança Ministerial">Pós-graduação em Liderança Ministerial</option>
+                                <option value="Pós-graduação em Educação Musical na igreja">Pós-graduação em Educação Musical na igreja</option>
+                            </select>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <select id="" class="formato-interesse-form form-control" name="formato" multiple="multiple">
+                                <option value="Qualquer">Qualquer</option>
+                                <option value="Presencial">Presencial</option>
+                                <option value="Online">Online</option>
+                                <option value="Híbrido">Híbrido</option>
+                            </select>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <textarea class="form-control" name="message" placeholder="Mensagem" rows="12"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <p></p>
+                        <div class="text-center">
+                            <button class="btn btn-circle btn-outline-danger form-submit-button" type="submit">
+                                Enviar Mensagem
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!-- Ajax response-->
+            <div class="ajax-response text-center" id="contact-response" style="visibility: hidden">
+                <div class="col-lg-12 col-md-9 m-auto text-center">
+                    <h1 class="text-danger">Já recebemos suas respostas! <i class="fas fa-check"></i></h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

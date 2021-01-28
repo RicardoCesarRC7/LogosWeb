@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<Logos>
+  <Cursos>
+    <Curso>
+      <CursoID>1</CursoID>
+      <Nome>Teologia Ministerial</Nome>
+      <Descricao>
+        Aborda de forma profunda os estudos
+        teológicos, com ênfase na formação espiritual
+        e no ministério da igreja local. Equipa pessoas
+        para os ministérios pastoral, missionário e
+        ensino cristão. São 160 créditos acadêmicos,
+        distribuídos em 8 semestres de estudos,
+        oferecido no período noturno. Para quem
+        busca uma formação teológica consistente,
+        com elevada qualidade de ensino, fidelidade
+        bíblica e busca da excelência na vida cristã.
+      </Descricao>
+      <HorarioAulas>De segunda à sexta-feira, das 19:00h às 22:15h (disponibilizado em EaD)</HorarioAulas>
+      <Duracao>4 anos (8 Semestres)</Duracao>
+      <Formato>1, 2</Formato>
+      <Publicoalvo>Livre</Publicoalvo>
+      <Categoria>Teologia e Ministério</Categoria>
+      <Grau>Graduação</Grau>
+      <Professores>2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20</Professores>
+      <Financeiro>
+        <Financa>
+          <ValorMensalidade>525</ValorMensalidade>
+          <Informacao>R$475,00 para pagamento até o dia 10 de cada mês</Informacao>
+        </Financa>
+      </Financeiro>
+      <UrlImagem>bacharel/bacharel-teologia-ministerial.jpeg</UrlImagem>
+      <Imagens>
+        <Imagem>bacharel/bacharel-teologia-ministerial.jpeg</Imagem>
+      </Imagens>
+    </Curso>
+    <Curso>
+      <CursoID>2</CursoID>
+      <Nome>Master em Ministério</Nome>
+      <Descricao>
+        Curso oferecido em módulos intensivos de
+        uma semana, voltado para alunos graduados
+        (preferencialmente em Teologia). Tem como
+        objetivo aperfeiçoar o/a aluno/a na área de
+        teologia prática, especialmente no âmbito da
+        igreja local e seus ministérios. Também forma
+        professores/as para ensino nas igrejas e em seminários.
+        CURSO TOTALMENTE ON-LINE (EaD).
+      </Descricao>
+      <HorarioAulas>De segunda à sexta-feira, das 19:00h às 22:15h, e sábado, das 8:00h às 16:30h.</HorarioAulas>
+      <Duracao>2 anos (4 Semestres)</Duracao>
+      <Formato>2</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Teologia e Ministério</Categoria>
+      <Grau>Mestrado</Grau>
+      <Professores>1, 5, 6, 9</Professores>
+      <Financeiro>
+        <Financa>
+          <ValorMensalidade>350</ValorMensalidade>
+          <Informacao>Valor pago em 24 parcelas (valor fixo para todo o curso)</Informacao>
+        </Financa>
+      </Financeiro>
+      <UrlImagem>mestrado/metrado-ministerio-1.jpeg</UrlImagem>
+      <Imagens>
+        <Imagem>mestrado/metrado-ministerio-1.jpeg</Imagem>
+        <Imagem>mestrado/metrado-ministerio-2.jpeg</Imagem>
+        <Imagem>mestrado/metrado-ministerio-3.jpeg</Imagem>
+      </Imagens>
+    </Curso>
+    <Curso>
+      <CursoID>3</CursoID>
+      <Nome>Master em Aconselhamento Bíblico</Nome>
+      <Descricao>
+        Curso oferecido em módulos intensivos de
+        uma semana, voltado para alunos graduados
+        (preferencialmente em Teologia). Tem como
+        objetivo aperfeiçoar o/a aluno/a na área de
+        Aconselhamento Bíblico 100% fundamentado nas Escrituras, além de equipar os alunos para o treinamento de novos conselheiros bíblicos.
+        CURSO MODULAR, LIVRE E HÍBRIDO (1 DISCIPLINA PRESENCIAL POR ANO, as demais, on-line - EaD).
+      </Descricao>
+      <HorarioAulas>De segunda à sexta-feira, das 19:00h às 22:15h, e sábado, das 8:00h às 16:30h.</HorarioAulas>
+      <Duracao>2 anos (4 Semestres)</Duracao>
+      <Formato>3</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Aconselhamento Bíblico</Categoria>
+      <Grau>Mestrado</Grau>
+      <Professores></Professores>
+      <Financeiro>
+        <Financa>
+          <ValorMensalidade>350</ValorMensalidade>
+          <Informacao>Valor pago em 36 (valor fixo para todo o curso).</Informacao>
+        </Financa>
+      </Financeiro>
+      <UrlImagem>mestrado/mestrado-aconselhamento-biblico-1.jpeg</UrlImagem>
+      <Imagens>
+        <Imagem>mestrado/mestrado-aconselhamento-biblico-1.jpeg</Imagem>
+        <Imagem>mestrado/mestrado-aconselhamento-biblico-2.jpeg</Imagem>
+        <Imagem>mestrado/mestrado-aconselhamento-biblico-3.jpeg</Imagem>
+      </Imagens>
+    </Curso>
+    <Curso>
+      <CursoID>4</CursoID>
+      <Nome>Música Sacra</Nome>
+      <Descricao>
+        Capacita pessoas para o ministério de música
+        na igreja local, abrangendo teoria musical, canto,
+        regência, instrumentos, formação de conjuntos
+        e coral. Aborda, também, matérias de Teologia
+        Sistemática, Teologia da Adoração, Práticas
+        Ministeriais, etc. Curso prático, que envolve os
+        alunos em apresentações musicais das
+        programações do Seminário Logos. O curso
+        tem a duração de 2 anos.
+      </Descricao>
+      <HorarioAulas>Às terças e quintas-feiras, das 19:00h às 22:15h.</HorarioAulas>
+      <Duracao>2 anos (4 Semestres)</Duracao>
+      <Formato>1</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Música e Ministério</Categoria>
+      <Grau>Graduação</Grau>
+      <Professores></Professores>
+      <Financeiro>
+        <Financa>
+          <ValorMensalidade>330</ValorMensalidade>
+          <Informacao>Este valor com aulas de piano (R$300,00 para pagamento até o dia 10 de cada mês)</Informacao>
+        </Financa>
+        <Financa>
+          <ValorMensalidade>300</ValorMensalidade>
+          <Informacao>Este valor sem aulas de piano (R$270,00 para pagamento até o dia 10 de cada mês)</Informacao>
+        </Financa>
+      </Financeiro>
+      <UrlImagem>bacharel/bacharel-musica-sacra.JPG</UrlImagem>
+      <Imagens>
+        <Imagem>bacharel/bacharel-musica-sacra.JPG</Imagem>
+      </Imagens>
+    </Curso>
+    <Curso>
+      <CursoID>5</CursoID>
+      <Nome>Pós-graduação em Aconselhamento Bíblico</Nome>
+      <Descricao>A Pós-graduação em Aconselhamento Bíblico visa treinar conselheiros bíblicos e interessados no conhecimento e exercício do ministério de aconselhamento. O curso pressupõe que o aluno tenha conhecimento básico sobre a temática. As disciplinas visam aprofundar e discutir os assuntos pertinentes ao aconselhamento bíblico, fornecendo aperfeiçoamento, afim de tornar o aluno especialista na área.</Descricao>
+      <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
+      <Duracao>1 ano e 6 meses (3 Semestres)</Duracao>
+      <Formato>1</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Aconselhamento Bíblico</Categoria>
+      <Grau>Pós-graduacao</Grau>
+      <Professores></Professores>
+      <Financeiro>
+        <Financa>
+          <ValorMensalidade>330</ValorMensalidade>
+          <Informacao>(R$300,00 para pagamento até o 5º dia útil)</Informacao>
+        </Financa>
+      </Financeiro>
+      <UrlImagem>pos-graduacao/pos-graduacao-aconselhamento-biblico-1.jpeg</UrlImagem>
+      <Imagens>
+        <Imagem>pos-graduacao/pos-graduacao-aconselhamento-biblico-1.jpeg</Imagem>
+        <Imagem>pos-graduacao/pos-graduacao-aconselhamento-biblico-2.jpeg</Imagem>
+        <Imagem>pos-graduacao/pos-graduacao-aconselhamento-biblico-3.jpeg</Imagem>
+      </Imagens>
+    </Curso>
+    <Curso>
+      <CursoID>6</CursoID>
+      <Nome>Pós-graduação em Exposição Bíblica</Nome>
+      <Descricao>A Pós-graduação em Exposição Bíblica visa treinar pastores e demais interessados no conhecimento e exercício da exposição das Escrituras Sagradas. O curso pressupõe que o aluno tenha conhecimento básico sobre a temática. As disciplinas visam aprofundar e discutir os assuntos pertinentes à exposição das Escrituras, tanto no Antigo quanto no Novo Testamento, fornecendo aperfeiçoamento para tornar o aluno especialista na área.</Descricao>
+      <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
+      <Duracao>1 ano e 6 meses (3 Semestres)</Duracao>
+      <Formato>1</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Pregação e Exposição Bíblica</Categoria>
+      <Grau>Pós-graduação</Grau>
+      <Professores></Professores>
+      <Financeiro>
+        <Financa>
+          <ValorMensalidade>330</ValorMensalidade>
+          <Informacao>(R$300,00 para pagamento até o 5º dia útil)</Informacao>
+        </Financa>
+      </Financeiro>
+      <UrlImagem>pos-graduacao/pos-graduacao-exposicao-biblica-1.jpeg</UrlImagem>
+      <Imagens>
+        <Imagem>pos-graduacao/pos-graduacao-exposicao-biblica-1.jpeg</Imagem>
+        <Imagem>pos-graduacao/pos-graduacao-exposicao-biblica-2.jpeg</Imagem>
+        <Imagem>pos-graduacao/pos-graduacao-exposicao-biblica-3.jpeg</Imagem>
+      </Imagens>
+    </Curso>
+    <Curso>
+      <CursoID>7</CursoID>
+      <Nome>Pós-graduação em Liderança Cristã</Nome>
+      <Descricao>A Pós-graduação em Liderança Cristã visa treinar pastores, líderes e demais interessados para o conhecimento e exercício da liderança no âmbito cristão. As disciplinas objetivam fornecer bases e aprofundamento em diversos aspectos que envolvem o exercício da liderança e as qualificações e papéis do líder, aperfeiçoando o aluno para se tornar um especialista na área.</Descricao>
+      <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
+      <Duracao>1 ano e 6 meses (3 Semestres)</Duracao>
+      <Formato>1</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Liderança e Ministério</Categoria>
+      <Grau>Pós-graduação</Grau>
+      <Professores></Professores>
+      <Financeiro>
+        <Financa>
+          <ValorMensalidade>330</ValorMensalidade>
+          <Informacao>(R$300,00 para pagamento até o 5º dia útil)</Informacao>
+        </Financa>
+      </Financeiro>
+      <UrlImagem>pos-graduacao/pos-graduacao-lideranca-ministerial-1.jpeg</UrlImagem>
+      <Imagens>
+        <Imagem>pos-graduacao/pos-graduacao-lideranca-ministerial-1.jpeg</Imagem>
+        <Imagem>pos-graduacao/pos-graduacao-lideranca-ministerial-2.jpeg</Imagem>
+        <Imagem>pos-graduacao/pos-graduacao-lideranca-ministerial-3.jpeg</Imagem>
+      </Imagens>
+    </Curso>
+    <Curso>
+      <CursoID>8</CursoID>
+      <Nome>Pós-graduação em Educação Musical</Nome>
+      <Descricao>A Pós-graduação em Educação Musical na Igreja tem como objetivo equipar músicos e educadores à docência empírica e à vivência musical. O aluno ampliará sua visão sobre o ensino de forma clara e sistematizada, aperfeiçoando suas práticas de execução, aprofundando seus conhecimentos para ter melhor capacidade de atuação.</Descricao>
+      <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
+      <Duracao>1 ano e 6 meses (3 Semestres)</Duracao>
+      <Formato>1</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Música e Ministério</Categoria>
+      <Grau>Pós-graduação</Grau>
+      <Professores></Professores>
+      <Financeiro>
+        <Financa>
+          <ValorMensalidade>330</ValorMensalidade>
+          <Informacao>(R$300,00 para pagamento até o 5º dia útil)</Informacao>
+        </Financa>
+      </Financeiro>
+      <UrlImagem>pos-graduacao/pos-graduacao-educacao-musical-1.jpeg</UrlImagem>
+      <Imagens>
+        <Imagem>pos-graduacao/pos-graduacao-educacao-musical-1.jpeg</Imagem>
+        <Imagem>pos-graduacao/pos-graduacao-educacao-musical-2.jpeg</Imagem>
+        <Imagem>pos-graduacao/pos-graduacao-educacao-musical-3.jpeg</Imagem>
+      </Imagens>
+    </Curso>
+  </Cursos>
+</Logos>

@@ -1,0 +1,49 @@
+﻿<!-- Header-->
+<header class="header header-transparent" ng-controller="NavigationController as controller">
+    <div class="container-fluid">
+        <!-- Brand-->
+        <div class="inner-header">
+            <a class="inner-brand" href="/">
+                <img class="brand-dark mt-2 ml-2" src="~/images/logo-logos.png" width="40px" alt="" />
+                <img class="brand-light mt-2 ml-2" src="~/images/logo-logos.png" width="50px" alt="" />
+            </a>
+        </div>
+        <!-- Navigation-->
+        <div class="inner-navigation collapse">
+            <div class="inner-nav">
+                <ul>
+                    <li class="{{menuItem.subMenuItems.length > 0 ? 'menu-item-has-children' : ''}}" ng-repeat="menuItem in controller.menuItems">
+                        <a href="{{menuItem.url}}">
+                            <span class="menu-item-span">{{menuItem.nome}}</span>
+                        </a>
+                        <ul class="sub-menu" ng-show="menuItem.subMenuItems.length > 0">
+                            <li class="{{subMenuItem.subMenuItems.length > 0 ? 'menu-item-has-children' : ''}}" ng-repeat="subMenuItem in menuItem.subMenuItems">
+                                <a style="cursor: pointer;" href="{{subMenuItem.url}}">{{subMenuItem.nome}}</a>
+                                <ul class="sub-menu" ng-show="subMenuItem.subMenuItems.length > 0">
+                                    <li ng-repeat="subSubMenuItem in subMenuItem.subMenuItems"><a href="{{subSubMenuItem.url}}">{{subSubMenuItem.nome}}</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="extra-nav">
+            <ul>
+                <li><a class="off-canvas-open" href="#"><span class="menu-item-span"><i class="ti-menu"></i></span></a></li>
+                <li class="nav-toggle"><a href="#" data-toggle="collapse" data-target=".inner-navigation" class="p-0"><span class="menu-item-span"><i class="ti-menu"></i></span></a></li>
+            </ul>
+        </div>
+        <div class="extra-nav">
+            <ul>
+                <li><a class="top-bar-cart" href="https://api.whatsapp.com/send?phone=5511999813557&amp;text=Ol%C3%A1" target="_blank"><span class="menu-item-span">Fale conosco <i class="fab fa-whatsapp" style="padding-left: 5px; padding-right: 5px"></i></span></a></li>
+            </ul>
+        </div>
+        <div class="extra-nav">
+            <ul>
+                <li><a class="top-bar-cart" href="/Sobre/Estudio"><span class="menu-item-span">Projeto Estúdio <i class="fas fa-microphone" style="padding-left: 5px; padding-right: 5px"></i></span></a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<!-- Header end-->

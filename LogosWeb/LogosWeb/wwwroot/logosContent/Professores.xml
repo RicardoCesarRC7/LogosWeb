@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<Logos>
+  <Professores>
+    <Professor>
+      <ProfessorID>1</ProfessorID>
+      <Nome>Agda Yumi Amaral</Nome>
+      <Descricao>Graduada em Música Sacra pelo JMC/Mackenzie. Graduada em Pedagogia pela UNIP. Pós-graduada em Planejamento Educacional e Docência do Ensino Superior pela ESAB. Mestre em Letras e Artes pela Universidade Estadual do Amazonas (UEA). Líder do Ministério Nossa Canção e Ministra de Música por 23 anos.</Descricao>
+      <Area>Música</Area>
+      <Visitante>False</Visitante>
+      <UrlImagem>agda-yumi-profa.jpg</UrlImagem>
+      <Grau>8</Grau>
+      <RedesSociais>
+        <Facebook>https://www.facebook.com/Logos.seminario.batista</Facebook>
+        <YouTube>https://www.youtube.com/channel/UCygpnUW4Id1wxIR8II9WpYQ/videos</YouTube>
+        <Instagram>https://www.instagram.com/seminariologos/</Instagram>
+        <Twitter>https://twitter.com/seminariologos</Twitter>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>2</ProfessorID>
+      <Nome>Almir Souza Cruz</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário e Instituto Batista Bereiano, em Natal, RN, Licenciado em História pela FUNESO, Licenciando em História da Igreja e da Teologia pela Faculdade Teológica Batista de São Paulo, Bacharelando em Direito pela Universidade Estácio de Sá, Mestrando em Ministério pelo Seminário Batista Logos. Pastor da Igreja Batista Regular de Americanópolis, SP. Casado com Valeska, tem três filhos: Hadassah, Sarah e Asafe.</Descricao>
+      <Area>História e Teologia</Area>
+      <Visitante>False</Visitante>
+      <UrlImagem>almir-cruz-prof.jpg</UrlImagem>
+      <Grau>7</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>3</ProfessorID>
+      <Nome>Antonio Carlos Corrêa</Nome>
+      <Descricao>Bacharel em Teologia pela Faculdade Teológica Batista de São Paulo e pela Universidade Metodista de São Paulo, Mestrando em Teologia pelo Seminário Bíblico Palavra da Vida. Pastor da Igreja Batista Filadélfia, São Paulo, SP.</Descricao>
+      <Area>Filosofia e Sociologia</Area>
+      <Visitante>False</Visitante>
+      <UrlImagem>antonio-carlos-prof.jpg</UrlImagem>
+      <Grau>6</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>4</ProfessorID>
+      <Nome>Carlos Alberto dos S. Bacoccina</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário Batista Logos, convalidação em Teologia pela Faculdade Kurios (CE), Mestre em Ciências da Religião pela Universidade Metodista de São Paulo, Doutorando em Ministério pelo Dallas Theological Seminary. Pastor da Igreja Batista Regular em Jd. Tremembé, São Paulo, SP. Professor do Seminário Batista Logos. Capelão e educador do Colégio Betel Brasileiro. Fundador e Conselheiro do CAD (Clínica de Aconselhamento e Discipulado).  Casado com Fernanda Bacoccina, tem dois filhos: Guilherme e Giovana.</Descricao>
+      <Area>Ministério</Area>
+      <Visitante>False</Visitante>
+      <UrlImagem>carlos-bacoccina.jpg</UrlImagem>
+      <Grau>8</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>5</ProfessorID>
+      <Nome>Élcio Bernardino Correia</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário Batista Logos, convalidação em Teologia pela Faculdade Batista do Paraná, Licenciado em Filosofia pelo SEBI, Pós-graduado em Psicologia Pastoral pela UNIFIL, Mestre em Ministério pelo Seminário Batista Logos, Mestre em Teologia pela PUC, SP, Doutorando em Ministério pelo Seminário Teológico Servo de Cristo. Pastor da Igreja Batista Regular de Diadema, SP. Professor e Presidente do Conselho Fiscal no Seminário Batista Logos. Autor do livro "Paulo, o Mestre". Casado com Rosângela, pai  de uma filha: Julia Helena.</Descricao>
+      <Area>Homilética e Teologia</Area>
+      <Visitante>False</Visitante>
+      <UrlImagem>elcio-bernardino-prof.png</UrlImagem>
+      <Grau>9</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>6</ProfessorID>
+      <Nome>Filipe Ferreira Soares</Nome>
+      <Descricao>Formação em Piano pelo Conservatório Musical Beethoven, Formação em Música com ênfase em Regência pela UNIFIAMFAAM, Bacharel em Teologia pelo Seminário Batista Esperança, Mestre em Ministério pelo Seminário Batista Palavra da Vida. Pastor da Igreja Batista Regular em Rio Pequeno, São Paulo, SP.</Descricao>
+      <Area>Música e Teologia</Area>
+      <Visitante>False</Visitante>
+      <UrlImagem>filipe-soares-prof.png</UrlImagem>
+      <Grau>7</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>7</ProfessorID>
+      <Nome>José Raul Ribeiro Nogueira</Nome>
+      <Descricao>Bacharel em Administração de Empresas com especialização em finanças pela FGV, diversos cursos no Seminário Bíblico Palavra da Vida (entre eles, Inerrância Bíblica e Escatologia, com o Dr. Charles Ryrie), cursos teóricos e práticos em Evangelismo e Discipulado, Liderança e Formação de Líderes pela Cruzada Etudantil no Brasil e nos Estados Unidos. Missão Horizontes.</Descricao>
+      <Area>Missões e Teologia</Area>
+      <Visitante>False</Visitante>
+      <UrlImagem>jose-raul-nogueira-prof.jpg</UrlImagem>
+      <Grau>6</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>8</ProfessorID>
+      <Nome>Joseph Arthur</Nome>
+      <Descricao>Bacharel em Engenharia Civil pela University of Michigan, Mestre em Divindade pelo Grace Theological Seminary, Mestre em Teologia pelo Grace Theological Seminary, Doutor em Filosofia em  Antigo Testamento pelo Dallas Theological Seminary. Pastor da Igreja Batista Vida Nova, SP. Plantador de igrejas com a missão ABWE em São Paulo, Professor, Deão do Curso de Mestrado e Diretor Executivo do Seminário Batista Logos.</Descricao>
+      <Area>Antigo Testamento</Area>
+      <Visitante>False</Visitante>
+      <UrlImagem>joseph-arthur-prof.jpg</UrlImagem>
+      <Grau>10</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>9</ProfessorID>
+      <Nome>Maurício Bulcão Fernandes</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário Batista Emaús e pela UMESP, Bacharel em Direito pela Universidade Paulista, Licenciado em Filosofia e Sociologia e Pós-graduado em Direito Eleitoral e Didática do Ensino Superior pelo Centro Universitário Claretiano, Mestrando em Ministério pela Grace School of Theology. Docente do Instituto Haggai em Integridade e Prestação de Contas, e Prioridades e Família, Presidente do Conselho da APEC-ABC. Autor do livro "Orando com Entendimento". Pastor da Igreja Batista de Jordanópolis, São Bernardo do Campo, SP. Casado com Ana Rocha Fernandes, pai de dois filhos: Maurício Filho e Mariana.</Descricao>
+      <Area>Liderança e Ministério</Area>
+      <Visitante>False</Visitante>
+      <UrlImagem>mauricio-bulcao-prof.png</UrlImagem>
+      <Grau>6</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>10</ProfessorID>
+      <Nome>Messias Santos</Nome>
+      <Descricao>Bacharel em Teologia pelo seminário Batista Logos, convalidação pela FATIN, Pós-graduado em Didática do Ensino Superior pela UNOPAR, Pós-graduando em Aconselhamento Bíblico pelo Seminário Batista Logos, Mestrando em Ministério pelo Seminário Batista Logos. Professor no Seminário Batista Logos. Casado com Andreza, pai de um filho: Gabriel.</Descricao>
+      <Area>Línguas originais</Area>
+      <Visitante>False</Visitante>
+      <UrlImagem>messias-santos-prof.jpg</UrlImagem>
+      <Grau>6</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>11</ProfessorID>
+      <Nome>Norival Almeida Santos</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário Batista Logos, convalidação pela Faculdade Evangélica de Tecnologia, Ciências e Biotecnologia da CGADB, Pós-graduando em Aconselhamento Bíblico pela Sociedade de Estudos Bíblicos Interdiciplinares, Mestrando em Ministério pelo Seminário Batista Logos. Pastor da Igreja Batista Vida Nova, São Paulo, SP.</Descricao>
+      <Area>Teologia e Ministério</Area>
+      <Visitante>False</Visitante>
+      <UrlImagem>norival-almeida-prof.jpg</UrlImagem>
+      <Grau>5</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>12</ProfessorID>
+      <Nome>Pedro Evaristo C. Santos</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário Batista do Cariri, convalidação pela FABAPAR, Mestre em Teologia pela FTBSP, Mestre em Ciências da Religião pela Universidade Metodista de São Paulo, Doutor em Letras com ênfase em Estudos Judaicos pela USP. Professor de Teologia na Faculdade de Teologia da Ucesp, de Pós-graduação em Bíblia da FTBSP, de Teologia Sistemática e do AT e na Pós-graduação em Bíbliano do Seminário TBSB, Guarulhos, SP, de Teologia Sistemática no Seminário Betel Brasileiro, SP, nos cursos de Teologia, Pós-graduação e Mestrado no Seminário Batista Logos. Autor do livro "Os invisíveis da terra em Deuteronômio", e co-autor do livro "Deuteronômio: confissões de liberdade e fé". Casado com Digna, tem um filho: Natan.</Descricao>
+      <Area>Antigo Testamento</Area>
+      <Visitante>False</Visitante>
+      <UrlImagem>pedro-evaristo-santos-prof.jpg</UrlImagem>
+      <Grau>10</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>13</ProfessorID>
+      <Nome>Sharon Lee Payne</Nome>
+      <Descricao>Bacharel em Educação Cristã e Bíblia pelo Faith Baptist Bible College, Mestre em Educação Cristã com especialização em Desenvolvimento de Currículo pela Talbot School of Theology.</Descricao>
+      <Area>Didática</Area>
+      <Visitante>False</Visitante>
+      <UrlImagem>sharon-payne-profa.jpg</UrlImagem>
+      <Grau>7</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>14</ProfessorID>
+      <Nome>Thiago Moreira</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário Batista Logos, Bacharel  em Farmácia e Bioquímica pela UnG, Pós-graduado em Aconselhamento pela FTBSP, Mestre em Ministério pelo Seminário Batista Logos, Mestre em Ciências da Religião pela Universidade Metodista de São Paulo, Doutorando em Ministério pelo Dallas Theological Seminary. Pastor da Igreja Igreja Batista Regular em Jardim Tremembé, SP. Presidente da CAD (Clínica de Aconselhamento e Discipulado), Professor e Deão acadêmico no Seminário Batista Logos. Autor do livro "Construindo uma Igreja Acolhedora". Casado com Celina Moreira, pai de dois filhos: Timóteo e Daniela.</Descricao>
+      <Area>Novo Testamento</Area>
+      <Visitante>False</Visitante>
+      <UrlImagem>thiago-moreira-prof.jpg</UrlImagem>
+      <Grau>9</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>15</ProfessorID>
+      <Nome>Tiago Henrique</Nome>
+      <Descricao>Bacharel em Teologia pela Faculdade Teológica Sul Brasileira, convalidação pela Faculdade da Aldeia de Carapicuíba, Licenciado em Letras pela Faculdade Estácio de Sá. Pós-graduando em Didática do Ensino Superior pela Faculdade Estácio de Sá. Professor Associado da ABCB.</Descricao>
+      <Area>Ministério</Area>
+      <Visitante>False</Visitante>
+      <UrlImagem>tiago-henrique-prof.jpg</UrlImagem>
+      <Grau>7</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>16</ProfessorID>
+      <Nome>Viviam Paizam</Nome>
+      <Descricao>Bacharel em Teologia com ênfase em Educação Cristã e em Teologia com ênfase em Música Sacra pelo Seminário Batista Logos, convalidação em Teologia pela Faculdade Kurios, Pós-graduada em Educação Musical pela Faculdade Mozarteum de São Paulo, Licencianda em Música pela Faculdade Claretiano.</Descricao>
+      <Area>Música</Area>
+      <Visitante>False</Visitante>
+      <UrlImagem>viviam-paizam-profa.jpg</UrlImagem>
+      <Grau>7</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>17</ProfessorID>
+      <Nome>Wagner Amaral</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário Batista do Cariri e pela Faculdade Kuryos, Pós-graduado em Planejamento Educacional e Docência do Ensino Superior pela ESAB, Mestre em Teologa pela FTBSP, Doutor em Ciências da Religião pela PUC, SP. Diretor Administrativo e Executivo do Seminário Batista Logos.</Descricao>
+      <Area>Teologia Sistemática</Area>
+      <Visitante>False</Visitante>
+      <UrlImagem>wagner-lima-amaral.png</UrlImagem>
+      <Grau>10</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>18</ProfessorID>
+      <Nome>Antonio Henrique S. dos Santos</Nome>
+      <Descricao>Técnico Contábil, Bacharel em Teologia pelo SEBARSP e pela Universidade Presbiteriana Mackenzie, com ênfase em História do Pensamento Cristão, Pós-graduado em Ciência da Religião pela Faculdade Batista de Minas Gerais, Mestrando em Ministério pelo Seminário Batista Logos, Licenciando em História pelo SEBI. Professor do Seminário Teológico Baptista da CBA (Angola). Pastor da Segunda Igreja Batista de Osasco.</Descricao>
+      <Area>Ministério e Hermenêutica</Area>
+      <Visitante>True</Visitante>
+      <UrlImagem>antonio-henrique-prof.jpg</UrlImagem>
+      <Grau>6</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>19</ProfessorID>
+      <Nome>Paulo Sérgio Batista</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário Batista Esperança, Graduado em História pela Unisant'Anna. Mestre em História da Ciencia pela PUC. Pastor da Igreja Batista Bíblica Betel em Guarulhos, SP. Harmonizador das Notas de Estudos da Bíblia de Estudos Apologéticos - ICP, ex-redator da Revista "Apologética Cristã". Autor dos livros "Manual de Respostas Bíblicas", "Os Sete Mitos do Adventismo", "Revista de Evangelismo Pessoal", "Verdades Que Libertam", Curso "Em Defesa da Fé" e "Manual Jovem de Aplicação Pessoal".</Descricao>
+      <Area>Apologética</Area>
+      <Visitante>True</Visitante>
+      <UrlImagem>paulo-sergio-batista-prof.jpg</UrlImagem>
+      <Grau>5</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>20</ProfessorID>
+      <Nome>Wilson dos Santos Rocha</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário Batista Logos, convalidação pela Faculdade Teológica Batista do Paraná, Mestre em Ministério pelo Seminário Batista Logos, Pós-graduando em Aconselhamento Bíblicopela Sociedade de Estudos Bíblicos Interdisciplinares. Professor no Seminário Batista Logos e Conselheiro Representante da ABCB. Pastor da Igreja Batista Vida Nova, São Paulo, SP.</Descricao>
+      <Area>Ministério e Teologia</Area>
+      <Visitante>True</Visitante>
+      <UrlImagem>wilson-rocha-prof.jpg</UrlImagem>
+      <Grau>5</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+  </Professores>
+</Logos>

@@ -1,0 +1,348 @@
+<?xml version="1.0"?>
+<Logos>
+  <Instituicao>
+    <Sobre>
+      <Nome>Seminário Batista Logos</Nome>
+      <Missao>O Seminário Batista Logos existe para equipar pastores, professores e outros cristãos a fim de glorificar ao Senhor, servindo a Igreja com excelência no Brasil e no mundo.</Missao>
+      <Visao>O Seminário Batista Logos visa ser uma instituição de referência teológica para as igrejas no Brasil e no mundo.</Visao>
+      <Valores>
+        <Valor>
+          <Nome>Integridade Bíblica</Nome>
+          <Icone>book</Icone>
+        </Valor>
+        <Valor>
+          <Nome>Relevância Cultural</Nome>
+          <Icone>signal</Icone>
+        </Valor>
+        <Valor>
+          <Nome>Excelência Acadêmica</Nome>
+          <Icone>bookmark-alt</Icone>
+        </Valor>
+        <Valor>
+          <Nome>Formação Espiritual</Nome>
+          <Icone>user</Icone>
+        </Valor>
+      </Valores>
+      <Historia>Fundado em 04 de março de 1957, o Seminário Batista Logos
+está há mais de 60 anos ensinando Teologia com excelência.
+Ao longo do tempo, participamos da formação acadêmica de
+pastores, missionários, professores, teólogos, escritores e
+diversas pessoas que exercem liderança, que estão servindo a
+Igreja em diversos ministérios e locais, no Brasil e em vários
+outros países. Anteriormente denominado Seminário e Instituto
+Bíblico Batista e Seminário Batista Regular de São Paulo
+(SEBARSP), as atividades foram iniciadas por missionários do
+movimento Batista Regular dos EUA (ABWE – Association of Baptists for World Evangelism). O Seminário Batista Logos é uma associação sem fins lucrativos, dirigida por um grupo de pessoas cristãs, que confessam Jesus Cristo como seu Senhor e Salvador pessoal, membros de igrejas evangélicas que aceitam as doutrinas bíblicas ensinadas e defendidas pelo Seminário Batista Logos.</Historia>
+      <DeclaracaoDoutrinaria>http://seminariologos.com.br/wa_files/Declara_C3_A7_C3_A3o_Doutrin_C3_A1ria.pdf</DeclaracaoDoutrinaria>
+      <Endereco>Av. Eng. Armando de Arruda Pereira, 2747. Jabaquara, São Paulo-SP, Brasil</Endereco>
+      <RedesSociais>
+        <Facebook>https://www.facebook.com/Logos.seminario.batista</Facebook>
+        <YouTube>https://www.youtube.com/channel/UCygpnUW4Id1wxIR8II9WpYQ/videos</YouTube>
+        <Instagram>https://www.instagram.com/seminariologos/</Instagram>
+        <Twitter>https://twitter.com/seminariologos</Twitter>
+      </RedesSociais>
+    </Sobre>
+    <Contato>
+      <Telefone>+55 (11) 3331-5451</Telefone>
+      <Whatsapp>+55 (11) 99981-3557</Whatsapp>
+      <Email>contato@seminariologos.org.br</Email>
+    </Contato>
+  </Instituicao>
+  <Professores>
+    <Professor>
+      <ProfessorID>1</ProfessorID>
+      <Nome>Agda Yumi Amaral</Nome>
+      <Descricao>Graduada em Música Sacra pelo JMC/Mackenzie. Graduada em Pedagogia pela UNIP. Pós-graduada em Planejamento Educacional e Docência do Ensino Superior pela ESAB. Mestre em Letras e Artes pela Universidade Estadual do Amazonas (UEA). Líder do Ministério Nossa Canção e Ministra de Música por 23 anos.</Descricao>
+      <Visitante>False</Visitante> 
+    </Professor>
+    <Professor>
+      <ProfessorID>2</ProfessorID>
+      <Nome>Almir Souza Cruz</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário e Instituto Batista Bereiano, em Natal, RN, Licenciado em História pela FUNESO, Licenciando em História da Igreja e da Teologia pela Faculdade Teológica Batista de São Paulo, Bacharelando em Direito pela Universidade Estácio de Sá, Mestrando em Ministério pelo Seminário Batista Logos. Pastor da Igreja Batista Regular de Americanópolis, SP. Casado com Valeska, tem três filhos: Hadassah, Sarah e Asafe.</Descricao>
+      <Visitante>False</Visitante>  
+    </Professor>
+    <Professor>
+      <ProfessorID>3</ProfessorID>
+      <Nome>Antonio Carlos Corrêa</Nome>
+      <Descricao>Bacharel em Teologia pela Faculdade Teológica Batista de São Paulo e pela Universidade Metodista de São Paulo, Mestrando em Teologia pelo Seminário Bíblico Palavra da Vida. Pastor da Igreja Batista Filadélfia, São Paulo, SP.</Descricao>
+      <Visitante>False</Visitante>
+    </Professor>
+    <Professor>
+      <ProfessorID>4</ProfessorID>
+      <Nome>Carlos Alberto dos S. Bacoccina</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário Batista Logos, convalidação em Teologia pela Faculdade Kurios (CE), Mestre em Ciências da Religião pela Universidade Metodista de São Paulo, Doutorando em Ministério pelo Dallas Theological Seminary. Pastor da Igreja Batista Regular em Jd. Tremembé, São Paulo, SP. Professor do Seminário Batista Logos. Capelão e educador do Colégio Betel Brasileiro. Fundador e Conselheiro do CAD (Clínica de Aconselhamento e Discipulado).  Casado com Fernanda Bacoccina, tem dois filhos: Guilherme e Giovana.</Descricao>
+      <Visitante>False</Visitante>
+    </Professor>
+    <Professor>
+      <ProfessorID>5</ProfessorID>
+      <Nome>Élcio Bernardino Correia</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário Batista Logos, convalidação em Teologia pela Faculdade Batista do Paraná, Licenciado em Filosofia pelo SEBI, Pós-graduado em Psicologia Pastoral pela UNIFIL, Mestre em Ministério pelo Seminário Batista Logos, Mestre em Teologia pela PUC, SP, Doutorando em Ministério pelo Seminário Teológico Servo de Cristo. Pastor da Igreja Batista Regular de Diadema, SP. Professor e Presidente do Conselho Fiscal no Seminário Batista Logos. Autor do livro "Paulo, o Mestre". Casado com Rosângela, pai  de uma filha: Julia Helena.</Descricao>
+      <Visitante>False</Visitante>
+    </Professor>
+    <Professor>
+      <ProfessorID>6</ProfessorID>
+      <Nome>Filipe Ferreira Soares</Nome>
+      <Descricao>Formação em Piano pelo Conservatório Musical Beethoven, Formação em Música com ênfase em Regência pela UNIFIAMFAAM, Bacharel em Teologia pelo Seminário Batista Esperança, Mestre em Ministério pelo Seminário Batista Palavra da Vida. Pastor da Igreja Batista Regular em Rio Pequeno, São Paulo, SP.</Descricao>
+      <Visitante>False</Visitante>
+    </Professor>
+    <Professor>
+      <ProfessorID>7</ProfessorID>
+      <Nome>José Raul Ribeiro Nogueira</Nome>
+      <Descricao>Bacharel em Administração de Empresas com especialização em finanças pela FGV, diversos cursos no Seminário Bíblico Palavra da Vida (entre eles, Inerrância Bíblica e Escatologia, com o Dr. Charles Ryrie), cursos teóricos e práticos em Evangelismo e Discipulado, Liderança e Formação de Líderes pela Cruzada Etudantil no Brasil e nos Estados Unidos. Missão Horizontes.</Descricao>
+      <Visitante>False</Visitante>
+    </Professor>
+    <Professor>
+      <ProfessorID>8</ProfessorID>
+      <Nome>Joseph Arthur</Nome>
+      <Descricao>Bacharel em Engenharia Civil pela University of Michigan, Mestre em Divindade pelo Grace Theological Seminary, Mestre em Teologia pelo Grace Theological Seminary, Doutor em Filosofia em  Antigo Testamento pelo Dallas Theological Seminary. Pastor da Igreja Batista Vida Nova, SP. Plantador de igrejas com a missão ABWE em São Paulo, Professor, Deão do Curso de Mestrado e Diretor Executivo do Seminário Batista Logos.</Descricao>
+      <Visitante>False</Visitante>
+    </Professor>
+    <Professor>
+      <ProfessorID>9</ProfessorID>
+      <Nome>Maurício Bulcão Fernandes</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário Batista Emaús e pela UMESP, Bacharel em Direito pela Universidade Paulista, Licenciado em Filosofia e Sociologia e Pós-graduado em Direito Eleitoral e Didática do Ensino Superior pelo Centro Universitário Claretiano, Mestrando em Ministério pela Grace School of Theology. Docente do Instituto Haggai em Integridade e Prestação de Contas, e Prioridades e Família, Presidente do Conselho da APEC-ABC. Autor do livro "Orando com Entendimento". Pastor da Igreja Batista de Jordanópolis, São Bernardo do Campo, SP. Casado com Ana Rocha Fernandes, pai de dois filhos: Maurício Filho e Mariana.</Descricao>
+      <Visitante>False</Visitante>
+    </Professor>
+    <Professor>
+      <ProfessorID>10</ProfessorID>
+      <Nome>Messias Santos</Nome>
+      <Descricao>Bacharel em Teologia pelo seminário Batista Logos, convalidação pela FATIN, Pós-graduado em Didática do Ensino Superior pela UNOPAR, Pós-graduando em Aconselhamento Bíblico pelo Seminário Batista Logos, Mestrando em Ministério pelo Seminário Batista Logos. Professor no Seminário Batista Logos. Casado com Andreza, pai de um filho: Gabriel.</Descricao>
+      <Visitante>False</Visitante>
+    </Professor>
+    <Professor>
+      <ProfessorID>11</ProfessorID>
+      <Nome>Norival Almeida Santos</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário Batista Logos, convalidação pela Faculdade Evangélica de Tecnologia, Ciências e Biotecnologia da CGADB, Pós-graduando em Aconselhamento Bíblico pela Sociedade de Estudos Bíblicos Interdiciplinares, Mestrando em Ministério pelo Seminário Batista Logos. Pastor da Igreja Batista Vida Nova, São Paulo, SP.</Descricao>
+      <Visitante>False</Visitante>
+    </Professor> 
+    <Professor>
+      <ProfessorID>12</ProfessorID>
+      <Nome>Pedro Evaristo C. Santos</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário Batista do Cariri, convalidação pela FABAPAR, Mestre em Teologia pela FTBSP, Mestre em Ciências da Religião pela Universidade Metodista de São Paulo, Doutor em Letras com ênfase em Estudos Judaicos pela USP. Professor de Teologia na Faculdade de Teologia da Ucesp, de Pós-graduação em Bíblia da FTBSP, de Teologia Sistemática e do AT e na Pós-graduação em Bíbliano do Seminário TBSB, Guarulhos, SP, de Teologia Sistemática no Seminário Betel Brasileiro, SP, nos cursos de Teologia, Pós-graduação e Mestrado no Seminário Batista Logos. Autor do livro "Os invisíveis da terra em Deuteronômio", e co-autor do livro "Deuteronômio: confissões de liberdade e fé". Casado com Digna, tem um filho: Natan.</Descricao>
+      <Visitante>False</Visitante>
+    </Professor>
+    <Professor>
+      <ProfessorID>13</ProfessorID>
+      <Nome>Sharon Lee Payne</Nome>
+      <Descricao>Bacharel em Educação Cristã e Bíblia pelo Faith Baptist Bible College, Mestre em Educação Cristã com especialização em Desenvolvimento de Currículo pela Talbot School of Theology.</Descricao>
+      <Visitante>False</Visitante>
+    </Professor>
+    <Professor>
+      <ProfessorID>14</ProfessorID>
+      <Nome>Thiago Moreira</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário Batista Logos, Bacharel  em Farmácia e Bioquímica pela UnG, Pós-graduado em Aconselhamento pela FTBSP, Mestre em Ministério pelo Seminário Batista Logos, Mestre em Ciências da Religião pela Universidade Metodista de São Paulo, Doutorando em Ministério pelo Dallas Theological Seminary. Pastor da Igreja Igreja Batista Regular em Jardim Tremembé, SP. Presidente da CAD (Clínica de Aconselhamento e Discipulado), Professor e Deão acadêmico no Seminário Batista Logos. Autor do livro "Construindo uma Igreja Acolhedora". Casado com Celina Moreira, pai de dois filhos: Timóteo e Daniela.</Descricao>
+      <Visitante>False</Visitante>
+    </Professor>
+    <Professor>
+      <ProfessorID>15</ProfessorID>
+      <Nome>Tiago Henrique</Nome>
+      <Descricao>Bacharel em Teologia pela Faculdade Teológica Sul Brasileira, convalidação pela Faculdade da Aldeia de Carapicuíba, Licenciado em Letras pela Faculdade Estácio de Sá. Pós-graduando em Didática do Ensino Superior pela Faculdade Estácio de Sá. Professor Associado da ABCB.</Descricao>
+      <Visitante>False</Visitante>
+    </Professor>
+    <Professor>
+      <ProfessorID>16</ProfessorID>
+      <Nome>Viviam Paizam</Nome>
+      <Descricao>Bacharel em Teologia com ênfase em Educação Cristã e em Teologia com ênfase em Música Sacra pelo Seminário Batista Logos, convalidação em Teologia pela Faculdade Kurios, Pós-graduada em Educação Musical pela Faculdade Mozarteum de São Paulo, Licencianda em Música pela Faculdade Claretiano.</Descricao>
+      <Visitante>False</Visitante>
+    </Professor>
+    <Professor>
+      <ProfessorID>17</ProfessorID>
+      <Nome>Wagner Amaral</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário Batista do Cariri e pela Faculdade Kuryos, Pós-graduado em Planejamento Educacional e Docência do Ensino Superior pela ESAB, Mestre em Teologa pela FTBSP, Doutor em Ciências da Religião pela PUC, SP. Diretor Administrativo e Executivo do Seminário Batista Logos.</Descricao>
+      <Visitante>False</Visitante>
+    </Professor>
+    <Professor>
+      <ProfessorID>18</ProfessorID>
+      <Nome>Antonio Henrique S. dos Santos</Nome>
+      <Descricao>Técnico Contábil, Bacharel em Teologia pelo SEBARSP e pela Universidade Presbiteriana Mackenzie, com ênfase em História do Pensamento Cristão, Pós-graduado em Ciência da Religião pela Faculdade Batista de Minas Gerais, Mestrando em Ministério pelo Seminário Batista Logos, Licenciando em História pelo SEBI. Professor do Seminário Teológico Baptista da CBA (Angola). Pastor da Segunda Igreja Batista de Osasco.</Descricao>
+      <Visitante>True</Visitante>
+    </Professor>
+    <Professor>
+      <ProfessorID>19</ProfessorID>
+      <Nome>Paulo Sérgio Batista</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário Batista Esperança, Graduado em História pela Unisant'Anna. Mestre em História da Ciencia pela PUC. Pastor da Igreja Batista Bíblica Betel em Guarulhos, SP. Harmonizador das Notas de Estudos da Bíblia de Estudos Apologéticos - ICP, ex-redator da Revista "Apologética Cristã". Autor dos livros "Manual de Respostas Bíblicas", "Os Sete Mitos do Adventismo", "Revista de Evangelismo Pessoal", "Verdades Que Libertam", Curso "Em Defesa da Fé" e "Manual Jovem de Aplicação Pessoal".</Descricao>
+      <Visitante>True</Visitante>
+    </Professor>
+    <Professor>
+      <ProfessorID>20</ProfessorID>
+      <Nome>Wilson dos Santos Rocha</Nome>
+      <Descricao>Bacharel em Teologia pelo Seminário Batista Logos, convalidação pela Faculdade Teológica Batista do Paraná, Mestre em Ministério pelo Seminário Batista Logos, Pós-graduando em Aconselhamento Bíblicopela Sociedade de Estudos Bíblicos Interdisciplinares. Professor no Seminário Batista Logos e Conselheiro Representante da ABCB. Pastor da Igreja Batista Vida Nova, São Paulo, SP.</Descricao>
+      <Visitante>True</Visitante>  
+    </Professor>
+  </Professores>
+  <Cursos>
+    <Curso>
+      <CursoID>1</CursoID>
+      <Nome>Teologia Ministerial</Nome>
+      <Descricao>Aborda de forma profunda os estudos
+teológicos, com ênfase na formação espiritual
+e no ministério da igreja local. Equipa pessoas
+para os ministérios pastoral, missionário e
+ensino cristão. São 160 créditos acadêmicos,
+distribuídos em 8 semestres de estudos,
+oferecido no período noturno. Para quem
+busca uma formação teológica consistente,
+com elevada qualidade de ensino, fidelidade
+bíblica e busca da excelência na vida cristã.</Descricao>
+      <HorarioAulas>De segunda à sexta-feira, das 19:00h às 22:15h (disponibilizado em EaD)</HorarioAulas>
+      <Duracao>4 anos (8 Semestres)</Duracao>
+      <Formato>1, 2</Formato>
+      <Publicoalvo>Livre</Publicoalvo>
+      <Categoria>Teologia e Ministério</Categoria>
+      <Professores>2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20</Professores>
+      <Financeiro>
+        <Financa>
+          <ValorMensalidade>525</ValorMensalidade>
+          <Informacao>R$475,00 para pagamento até o dia 10 de cada mês</Informacao>
+        </Financa>
+      </Financeiro>  
+    </Curso>
+    <Curso>
+      <CursoID>2</CursoID>
+      <Nome>Master em Ministério</Nome>
+      <Descricao>Curso oferecido em módulos intensivos de
+uma semana, voltado para alunos graduados
+(preferencialmente em Teologia). Tem como
+objetivo aperfeiçoar o/a aluno/a na área de
+teologia prática, especialmente no âmbito da
+igreja local e seus ministérios. Também forma
+professores/as para ensino nas igrejas e em seminários.
+CURSO TOTALMENTE ON-LINE (EaD).</Descricao>
+      <HorarioAulas>De segunda à sexta-feira, das 19:00h às 22:15h, e sábado, das 8:00h às 16:30h.</HorarioAulas>
+      <Duracao>2 anos (4 Semestres)</Duracao>
+      <Formato>2</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Teologia e Ministério</Categoria>
+      <Professores></Professores>
+      <Financeiro>
+        <Financa>
+          <ValorMensalidade>350</ValorMensalidade>
+          <Informacao>Valor pago em 24 parcelas (valor fixo para todo o curso)</Informacao>
+        </Financa>
+      </Financeiro>
+    </Curso>
+    <Curso>
+      <CursoID>3</CursoID>
+      <Nome>Master em Aconselhamento Bíblico</Nome>
+      <Descricao>Curso oferecido em módulos intensivos de
+uma semana, voltado para alunos graduados
+(preferencialmente em Teologia). Tem como
+objetivo aperfeiçoar o/a aluno/a na área de
+Aconselhamento Bíblico 100% fundamentado nas Escrituras, além de equipar os alunos para o treinamento de novos conselheiros bíblicos.
+CURSO MODULAR, LIVRE E HÍBRIDO (1 DISCIPLINA PRESENCIAL POR ANO, as demais, on-line - EaD).</Descricao>
+      <HorarioAulas>De segunda à sexta-feira, das 19:00h às 22:15h, e sábado, das 8:00h às 16:30h.</HorarioAulas>
+      <Duracao>2 anos (4 Semestres)</Duracao>
+      <Formato>3</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Aconselhamento Bíblico</Categoria>
+      <Professores></Professores>
+      <Financeiro>
+        <Financa>
+          <ValorMensalidade>350</ValorMensalidade>
+          <Informacao>Valor pago em 36 (valor fixo para todo o curso).</Informacao>
+        </Financa>
+      </Financeiro>
+    </Curso>
+    <Curso>
+      <CursoID>4</CursoID>
+      <Nome>Música Sacra</Nome>
+      <Descricao>Capacita pessoas para o ministério de música
+na igreja local, abrangendo teoria musical, canto,
+regência, instrumentos, formação de conjuntos
+e coral. Aborda, também, matérias de Teologia
+Sistemática, Teologia da Adoração, Práticas
+Ministeriais, etc. Curso prático, que envolve os
+alunos em apresentações musicais das
+programações do Seminário Logos. O curso
+tem a duração de 2 anos.</Descricao>
+      <HorarioAulas>Às terças e quintas-feiras, das 19:00h às 22:15h.</HorarioAulas>
+      <Duracao>2 anos (4 Semestres)</Duracao>
+      <Formato>1</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Música e Ministério</Categoria>
+      <Professores></Professores>
+      <Financeiro>
+        <Financa>
+          <ValorMensalidade>330</ValorMensalidade>
+          <Informacao>Este valor com aulas de piano (R$300,00 para pagamento até o dia 10 de cada mês)</Informacao>
+        </Financa>
+        <Financa>
+          <ValorMensalidade>300</ValorMensalidade>
+          <Informacao>Este valor sem aulas de piano (R$270,00 para pagamento até o dia 10 de cada mês)</Informacao>
+        </Financa>
+      </Financeiro>
+    </Curso>
+    <Curso>
+      <CursoID>5</CursoID>
+      <Nome>Pós-graduação em Aconselhamento Bíblico</Nome>
+      <Descricao>A Pós-graduação em Aconselhamento Bíblico visa treinar conselheiros bíblicos e interessados no conhecimento e exercício do ministério de aconselhamento. O curso pressupõe que o aluno tenha conhecimento básico sobre a temática. As disciplinas visam aprofundar e discutir os assuntos pertinentes ao aconselhamento bíblico, fornecendo aperfeiçoamento, afim de tornar o aluno especialista na área.</Descricao>
+      <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
+      <Duracao>1 ano e 6 meses (3 Semestres)</Duracao>
+      <Formato>1</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Aconselhamento Bíblico</Categoria>
+      <Professores></Professores>
+      <Financeiro>
+        <ValorMensalidade>330</ValorMensalidade>
+        <Informacao>(R$300,00 para pagamento até o 5º dia útil)</Informacao>
+      </Financeiro>
+    </Curso>
+    <Curso>
+      <CursoID>6</CursoID>
+      <Nome>Pós-graduação em Exposição Bíblica</Nome>
+      <Descricao>A Pós-graduação em Exposição Bíblica visa treinar pastores e demais interessados no conhecimento e exercício da exposição das Escrituras Sagradas. O curso pressupõe que o aluno tenha conhecimento básico sobre a temática. As disciplinas visam aprofundar e discutir os assuntos pertinentes à exposição das Escrituras, tanto no Antigo quanto no Novo Testamento, fornecendo aperfeiçoamento para tornar o aluno especialista na área.</Descricao>
+      <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
+      <Duracao>1 ano e 6 meses (3 Semestres)</Duracao>
+      <Formato>1</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Pregação e Exposição Bíblica</Categoria>
+      <Professores></Professores>
+      <Financeiro>
+        <ValorMensalidade>330</ValorMensalidade>
+        <Informacao>(R$300,00 para pagamento até o 5º dia útil)</Informacao>
+      </Financeiro>
+    </Curso>
+    <Curso>
+      <CursoID>7</CursoID>
+      <Nome>Pós-graduação em Liderança Cristã</Nome>
+      <Descricao>A Pós-graduação em Liderança Cristã visa treinar pastores, líderes e demais interessados para o conhecimento e exercício da liderança no âmbito cristão. As disciplinas objetivam fornecer bases e aprofundamento em diversos aspectos que envolvem o exercício da liderança e as qualificações e papéis do líder, aperfeiçoando o aluno para se tornar um especialista na área.</Descricao>
+      <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
+      <Duracao>1 ano e 6 meses (3 Semestres)</Duracao>
+      <Formato>1</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Liderança e Ministério</Categoria>
+      <Professores></Professores>
+      <Financeiro>
+        <ValorMensalidade>330</ValorMensalidade>
+        <Informacao>(R$300,00 para pagamento até o 5º dia útil)</Informacao>
+      </Financeiro>
+    </Curso>
+    <Curso>
+      <CursoID>8</CursoID>
+      <Nome>Pós-graduação em Educação Musical</Nome>
+      <Descricao>A Pós-graduação em Educação Musical na Igreja tem como objetivo equipar músicos e educadores à docência empírica e à vivência musical. O aluno ampliará sua visão sobre o ensino de forma clara e sistematizada, aperfeiçoando suas práticas de execução, aprofundando seus conhecimentos para ter melhor capacidade de atuação.</Descricao>
+      <HorarioAulas></HorarioAulas>
+      <Duracao>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</Duracao>
+      <Formato>1</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Música e Ministério</Categoria>
+      <Professores></Professores>
+      <Financeiro>
+        <ValorMensalidade>330</ValorMensalidade>
+        <Informacao>(R$300,00 para pagamento até o 5º dia útil)</Informacao>
+      </Financeiro>
+    </Curso>
+  </Cursos>
+  <Testemunhos>
+    <Testemunho>
+      <Nome>Ricardo Pereira</Nome>
+      <Descricao>O Seminário Batista Logos é uma insituição compromissada com o ensino da Palavra de Deus.</Descricao>
+      <Imagem>ricardo.jpg</Imagem>
+    </Testemunho>
+    <Testemunho>
+      <Nome>Ricardo Pereira</Nome>
+      <Descricao>O Seminário Batista Logos é uma insituição compromissada com o ensino da Palavra de Deus.</Descricao>
+      <Imagem>ricardo.jpg</Imagem>
+    </Testemunho>
+  </Testemunhos>
+</Logos>

@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Contato";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Hero-->
+<section class="module-cover parallax text-center" data-background="../images/local/sala-aula-logos-6.png" data-overlay="0.5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Conte-nos sobre o seu interesse!</h2>
+                <p>Venha estudar teologia com a gente!</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Hero end-->
+<!-- Services-->
+<section class="module" ng-controller="ContatoPanelController as controller" ng-init="controller.init()">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="icon-box text-center">
+                    <div class="icon-box-icon"><span class="ti-email"></span></div>
+                    <div class="icon-box-title">
+                        <h6>E-mail</h6>
+                    </div>
+                    <div class="icon-box-content">
+                        <p>{{controller.contatoInfo.email}}</p>
+                    </div>
+                    <!-- <div class="icon-box-link"><a href="#">Read more</a></div> -->
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="icon-box text-center">
+                    <div class="icon-box-icon"><span class="fab fa-whatsapp"></span></div>
+                    <div class="icon-box-title">
+                        <h6>Whatsapp</h6>
+                    </div>
+                    <div class="icon-box-content">
+                        <p>{{controller.contatoInfo.whatsapp}}</p>
+                    </div>
+                    <!-- <div class="icon-box-link"><a href="#">Read more</a></div> -->
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="icon-box text-center">
+                    <div class="icon-box-icon"><span class="fas fa-phone"></span></div>
+                    <div class="icon-box-title">
+                        <h6>Telefone</h6>
+                    </div>
+                    <div class="icon-box-content">
+                        <p>{{controller.contatoInfo.telefone}}</p>
+                    </div>
+                    <!-- <div class="icon-box-link"><a href="#">Read more</a></div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Services end-->
+<!-- Form -->
+<section class="module bg-gray" id="form-interesse">
+    <partial name="../Partial/_FormInteresse" />
+    <div class="row">
+        <div class="col-md-12">
+            <div class="space" data-MY="50px"></div>
+        </div>
+    </div>
+</section>
+<!-- Form end -->
+<!-- Map-->
+<section class="maps-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.703469905749!2d-46.64171198440512!3d-23.65078827078742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5adb7123092d%3A0x8e14c6e2d73139f0!2sSemin%C3%A1rio%20Batista%20Logos!5e0!3m2!1spt-BR!2sbr!4v1611216270979!5m2!1spt-BR!2sbr" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</section>
+<!-- Map end-->
+
+@section scriptsSection {
+    <script src="~/js/contato.min.js"></script>
+}

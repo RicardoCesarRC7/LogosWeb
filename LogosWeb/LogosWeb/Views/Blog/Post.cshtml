@@ -1,0 +1,115 @@
+﻿@{
+    ViewData["Title"] = "Blog";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div ng-controller="BlogController as controller" ng-init="controller.init()">
+    <!-- Hero-->
+    <section class="module-cover parallax text-center" data-background="../../images/local/livros-2.png" data-overlay="0.3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>{{controller.postagem.titulo}}</h2>
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a href="/">Início</a></li>
+                        <li class="breadcrumb-item"><a href="/Blog">Blog</a></li>
+                        <li class="breadcrumb-item active">{{controller.postagem.titulo}}</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero end-->
+    <!-- Blog-->
+    <section class="module">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Post-->
+                    <article class="post">
+                        <div class="post-preview"><img src="~/images/local/{{controller.postagem.imagem}}" alt=""></div>
+                        <div class="post-wrapper">
+                            <div class="post-header">
+                                <h1 class="post-title">{{controller.postagem.titulo}}</h1>
+                                <ul class="post-meta">
+                                    <li>{{controller.handleDates(controller.postagem)}}</li>
+                                    <li>por {{controller.postagem.autor}}</li>
+                                </ul>
+                            </div>
+                            <div class="post-content">
+                                <p>{{controller.postagem.conteudo}}</p>
+                            </div>
+                            <!-- <div class="post-footer">
+                                <div class="post-tags"><a href="#">Lifestyle</a><a href="#">Music</a><a href="#">News</a><a href="#">Travel</a></div>
+                            </div> -->
+                        </div>
+                    </article>
+                    <!-- Post end-->
+                </div>
+                <!--<div class="col-lg-4">
+                    <div class="sidebar">-->
+
+                        <!-- Search widget-->
+                        <!--<aside class="widget widget-search">
+                            <form>
+                                <input class="form-control" type="search" placeholder="Pesquisar postagem">
+                                <button class="search-button" type="submit"><span class="fas fa-search"></span></button>
+                            </form>
+                        </aside>-->
+
+                        <!-- Categories widget-->
+                        <!--<aside class="widget widget-categories">
+                            <div class="widget-title">
+                                <h6>Categorias</h6>
+                            </div>
+                            <ul>
+                                <li><a href="#">Teologia Sistemática <span class="float-right">112</span></a></li>
+                                <li><a href="#">Teologia Bíblica <span class="float-right">86</span></a></li>
+                                <li><a href="#">Línguas Bíblicas <span class="float-right">10</span></a></li>
+                                <li><a href="#">Hermenêutica <span class="float-right">144</span></a></li>
+                                <li><a href="#">Exegese <span class="float-right">18</span></a></li>
+                            </ul>
+                        </aside>-->
+
+                        <!-- Recent entries widget-->
+                        <!--<aside class="widget widget-recent-entries-custom">
+                            <div class="widget-title">
+                                <h6>Postagens Recentes</h6>
+                            </div>
+                            <ul>
+                                <li class="clearfix">
+                                    <div class="wi"><a href="#"><img src="assets/images/professores/wagner-lima-amaral.png" alt=""></a></div>
+                                    <div class="wb"><a href="#">O Seminário e a igreja</a><span class="post-date">18 Nov. 2020</span></div>
+                                </li>
+                                <li class="clearfix">
+                                    <div class="wi"><a href="#"><img src="assets/images/professores/wagner-lima-amaral.png" alt=""></a></div>
+                                    <div class="wb"><a href="#">O Seminário e a igreja</a><span class="post-date">18 Nov. 2020</span></div>
+                                </li>
+                                <li class="clearfix">
+                                    <div class="wi"><a href="#"><img src="assets/images/professores/wagner-lima-amaral.png" alt=""></a></div>
+                                    <div class="wb"><a href="#">O Seminário e a igreja</a><span class="post-date">18 Nov. 2020</span></div>
+                                </li>
+                            </ul>
+                        </aside>-->
+
+                        <!-- Twitter widget-->
+                        <!-- <aside class="widget twitter-feed-widget">
+                            <div class="widget-title">
+                                <h6>Twitter Feed</h6>
+                            </div>
+                            <div class="twitter-feed" data-twitter="345170787868762112" data-number="2"></div>
+                        </aside> -->
+                        <!-- Tags widget-->
+                        <!--<aside class="widget widget-tag-cloud">
+                            <div class="widget-title">
+                                <h6>Tags</h6>
+                            </div>
+                            <div class="tag-cloud"><a href="#">teologia</a><a href="#">teologia conservadora</a><a href="#">estudo</a><a href="#">seminário</a><a href="#">logos</a></div>
+                        </aside>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+    <!-- Blog end-->
+</div>

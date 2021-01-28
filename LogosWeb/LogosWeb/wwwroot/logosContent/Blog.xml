@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Logos>
+  <Blog>
+    <Postagens>
+      <Postagem>
+        <PostagemID>1</PostagemID>
+        <Titulo>Era uma vez</Titulo>
+        <Subtitulo>testing post</Subtitulo>
+        <Conteudo>Era uma vez...</Conteudo>
+        <Autor>Anônimo Junior</Autor>
+        <Data>01/12/2020</Data>
+        <Imagem>livros-1.png</Imagem>
+        <Categoria>Teologia Sistemática</Categoria>
+      </Postagem>
+      <Postagem>
+        <PostagemID>2</PostagemID>
+        <Titulo>Test Post</Titulo>
+        <Subtitulo>testing post</Subtitulo>
+        <Conteudo>Era uma vez...</Conteudo>
+        <Autor>Anônimo Junior</Autor>
+        <Data>20/12/2020</Data>
+        <Imagem>livros-1.png</Imagem>
+        <Categoria>Aconselhamento Bíblico</Categoria>
+      </Postagem>
+    </Postagens>
+    <Categorias>
+      <Categoria>
+        <CategoriaID>1</CategoriaID>
+        <Nome>Teologia Sistemática</Nome>
+        <Quantidade>1</Quantidade>
+      </Categoria>
+      <Categoria>
+        <CategoriaID>2</CategoriaID>
+        <Nome>Aconselhamento Bíblico</Nome>
+        <Quantidade>1</Quantidade>
+      </Categoria>
+    </Categorias>
+  </Blog>
+</Logos>

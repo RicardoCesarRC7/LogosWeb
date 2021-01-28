@@ -1,0 +1,121 @@
+﻿@{
+    ViewData["Title"] = "Blog";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- Hero-->
+<div ng-controller="BlogController as controller" ng-init="controller.init()">
+    <section class="module-cover parallax text-center" data-background="../images/local/livros-2.png" data-overlay="0.5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Seja bem-vindo ao nosso Blog</h2>
+                    <p>Leia o conteúdo disponibilizado por nossos professores e alunos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero end-->
+    <!-- Blog-->
+    <section class="module">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row row-post-thumbnail">
+                        <!-- Post-->
+                        <article class="post row align-items-center" ng-repeat="post in controller.postagens | filter: { titulo: controller.postSearch, categoria: controller.categoriaFilter } ">
+                            <div class="col-md-5">
+                                <div class="post-preview"><a href="" ng-click="controller.goToBlogContentPage(post.postagemID)"><img src="~/images/local/{{post.imagem}}" alt=""></a></div>
+                            </div>
+                            <div class="col-md-7">
+                                <div class="post-wrapper">
+                                    <div class="post-header">
+                                        <h2 class="post-title"><a href="" ng-click="controller.goToBlogContentPage(post.postagemID)">{{post.titulo}}</a></h2>
+                                        <ul class="post-meta">
+                                            <li>{{controller.handleDates(post)}}</li>
+                                            <li><a href="" ng-click="controller.goToBlogContentPage(post.postagemID)">{{post.autor}}</a></li>
+                                            <!-- <li><a href="#">3 Comments</a></li> -->
+                                        </ul>
+                                    </div>
+                                    <div class="post-content">
+                                        <p>{{post.subtitulo}}</p>
+                                        <p><a href="" ng-click="controller.goToBlogContentPage(post.postagemID)">Ler agora</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Post end-->
+                    </div>
+
+                    <!-- Page Navigation-->
+                    @*<div class="row">
+                        <div class="col-md-12">
+                            <nav>
+                                <ul class="pagination justify-content-center">
+                                    <li class="page-item"><a class="page-link" href="#"><span class="fas fa-angle-left"></span></a></li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                    <li class="page-item"><a class="page-link" href="#"><span class="fas fa-angle-right"></span></a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>*@
+                    <!-- Page Navigation end-->
+                </div>
+                <div class="col-lg-4">
+                    <div class="sidebar">
+
+                        <!-- Search widget-->
+                        <aside class="widget widget-search">
+                            <form>
+                                <input class="form-control" type="search" placeholder="Pesquisar postagem" ng-model="controller.postSearch">
+                                <button class="search-button" type="submit"><span class="fas fa-search"></span></button>
+                            </form>
+                        </aside>
+
+                        <!-- Categories widget-->
+                        <aside class="widget widget-categories" ng-show="controller.categorias != null && controller.categorias.length > 0">
+                            <div class="widget-title">
+                                <h6>Categorias</h6>
+                            </div>
+                            <ul>
+                                <li ng-repeat="categoria in controller.categorias"><a href=""ng-click="controller.filterByCategoria(categoria)">{{categoria.nome}}<span class="float-right">{{categoria.quantidade}}</span></a></li>
+                            </ul>
+                        </aside>
+
+                        <!-- Recent entries widget-->
+                        <aside class="widget widget-recent-entries-custom" ng-show="controller.postagens != null && controller.postagens.length > 0">
+                            <div class="widget-title">
+                                <h6>Postagens Recentes</h6>
+                            </div>
+                            <ul>
+                                <li class="clearfix" ng-repeat="post in controller.postagens | limitTo: 3">
+                                    <div class="wi"><a href="" ng-click="controller.goToBlogContentPage(post.postagemID)"><img src="~/images/blog/{{post.imagem}}" alt=""></a></div>
+                                    <div class="wb"><a href="" ng-click="controller.goToBlogContentPage(post.postagemID)">{{post.titulo}}</a><span class="post-date">{{controller.handleDates(post)}}</span></div>
+                                </li>
+                            </ul>
+                        </aside>
+
+                        <!-- Twitter widget-->
+                        <!-- <aside class="widget twitter-feed-widget">
+                            <div class="widget-title">
+                                <h6>Twitter Feed</h6>
+                            </div>
+                            <div class="twitter-feed" data-twitter="345170787868762112" data-number="2"></div>
+                        </aside> -->
+                        <!-- Tags widget-->
+                        @*<aside class="widget widget-tag-cloud">
+                            <div class="widget-title">
+                                <h6>Tags</h6>
+                            </div>
+                            <div class="tag-cloud"><a href="#">teologia</a><a href="#">teologia conservadora</a><a href="#">estudo</a><a href="#">seminário</a><a href="#">logos</a></div>
+                        </aside>*@
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog end-->
+</div>

@@ -90,17 +90,17 @@
                 <div class="space" data-MY="40px"></div>
             </div>
         </div>
-         @*<div class="row">
-            <div class="col-md-12">
-                <ul class="filters serif">
-                    <li><a class="current" href="#" data-filter="*">Todos</a></li>
-                    <li><a href="#" data-filter=".mestrado">Mestrado</a></li>
-                    <li><a href="#" data-filter=".pos-graduacao">Pós-graduação</a></li>
-                    <li><a href="#" data-filter=".graduacao">Graduação</a></li>
-                    <li><a href="#" data-filter=".reconhecimento-mec">Reconhecidos pelo MEC</a></li>
-                </ul>
-            </div>
-        </div>*@ 
+        @*<div class="row">
+                <div class="col-md-12">
+                    <ul class="filters serif">
+                        <li><a class="current" href="#" data-filter="*">Todos</a></li>
+                        <li><a href="#" data-filter=".mestrado">Mestrado</a></li>
+                        <li><a href="#" data-filter=".pos-graduacao">Pós-graduação</a></li>
+                        <li><a href="#" data-filter=".graduacao">Graduação</a></li>
+                        <li><a href="#" data-filter=".reconhecimento-mec">Reconhecidos pelo MEC</a></li>
+                    </ul>
+                </div>
+            </div>*@
     </div>
     <div class="container">
         <div class="row row-portfolio" data-columns="3">
@@ -110,7 +110,7 @@
                     <div class="portfolio-item-img"><img src="~/images/cursos/{{curso.urlImagemPrincipal}}" alt=""></div>
                     <div class="portfolio-item-caption">
                         <h6 class="portfolio-item-title">{{curso.nome}}</h6><span class="portfolio-item-subtitle serif">{{curso.categoria}}</span>
-                    </div><a class="portfolio-item-link" href=""ng-click="controller.goToCursoDetails(curso.cursoID)"></a>
+                    </div><a class="portfolio-item-link" href="" ng-click="controller.goToCursoDetails(curso.cursoID)"></a>
                 </div>
             </div>
         </div>
@@ -122,7 +122,11 @@
     </div>
 </section>
 <!-- Portfolio end-->
-<!-- Services-->
+<!-- Pos-Online -->
+<section class="module bg-gray p-1">
+    <img src="~/images/cursos/pos-graduacao/painel-pos-online.png" width="100%" />
+</section>
+<!-- Pos online end-->
 <!-- Team-->
 <section id="module-professores" class="module" ng-controller="ProfessoresPanelController as controller" ng-init="controller.init()">
     <div class="container">

@@ -103,7 +103,7 @@
                         <span>R$</span>{{preco.valorMensalidade.toFixed(2)}}
                     </div>
                     <div class="pricing-body">
-                        <p>{{preco.descricao}}</p>
+                        <p ng-repeat="info in preco.informacoes">{{info}}</p>
                         @*<ul>
                                 <li>Acesso à plataforma</li>
                                 <li>Acesso à vídeos</li>

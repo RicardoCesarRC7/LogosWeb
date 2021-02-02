@@ -88,7 +88,7 @@
       <Financeiro>
         <Financa>
           <ValorMensalidade>350</ValorMensalidade>
-          <Informacao>Valor pago em 36 (valor fixo para todo o curso).</Informacao>
+          <Informacao>Valor pago em 36 parcelas (valor fixo para todo o curso).</Informacao>
         </Financa>
       </Financeiro>
       <UrlImagem>mestrado/mestrado-aconselhamento-biblico-1.jpeg</UrlImagem>
@@ -139,8 +139,8 @@
       <Nome>Pós-graduação em Aconselhamento Bíblico</Nome>
       <Descricao>A Pós-graduação em Aconselhamento Bíblico visa treinar conselheiros bíblicos e interessados no conhecimento e exercício do ministério de aconselhamento. O curso pressupõe que o aluno tenha conhecimento básico sobre a temática. As disciplinas visam aprofundar e discutir os assuntos pertinentes ao aconselhamento bíblico, fornecendo aperfeiçoamento, afim de tornar o aluno especialista na área.</Descricao>
       <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
-      <Duracao>1 ano e 6 meses (3 Semestres)</Duracao>
-      <Formato>1</Formato>
+      <Duracao>1 ano e 6 meses (3 Semestres, 18 meses)</Duracao>
+      <Formato>2</Formato>
       <Publicoalvo></Publicoalvo>
       <Categoria>Aconselhamento Bíblico</Categoria>
       <Grau>Pós-graduacao</Grau>
@@ -148,10 +148,10 @@
       <Financeiro>
         <Financa>
           <ValorMensalidade>330</ValorMensalidade>
-          <Informacao>(R$300,00 para pagamento até o 5º dia útil)</Informacao>
+          <Informacao>18 parcelas; R$300,00 para pagamento até o dia 10</Informacao>
         </Financa>
       </Financeiro>
-      <UrlImagem>pos-graduacao/pos-graduacao-aconselhamento-biblico-1.jpeg</UrlImagem>
+      <UrlImagem>pos-graduacao/pos-graduacao-aconselhamento-biblico-4.jpeg</UrlImagem>
       <Imagens>
         <Imagem>pos-graduacao/pos-graduacao-aconselhamento-biblico-1.jpeg</Imagem>
         <Imagem>pos-graduacao/pos-graduacao-aconselhamento-biblico-2.jpeg</Imagem>
@@ -163,8 +163,8 @@
       <Nome>Pós-graduação em Exposição Bíblica</Nome>
       <Descricao>A Pós-graduação em Exposição Bíblica visa treinar pastores e demais interessados no conhecimento e exercício da exposição das Escrituras Sagradas. O curso pressupõe que o aluno tenha conhecimento básico sobre a temática. As disciplinas visam aprofundar e discutir os assuntos pertinentes à exposição das Escrituras, tanto no Antigo quanto no Novo Testamento, fornecendo aperfeiçoamento para tornar o aluno especialista na área.</Descricao>
       <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
-      <Duracao>1 ano e 6 meses (3 Semestres)</Duracao>
-      <Formato>1</Formato>
+      <Duracao>1 ano e 6 meses (3 Semestres, 18 meses)</Duracao>
+      <Formato>2</Formato>
       <Publicoalvo></Publicoalvo>
       <Categoria>Pregação e Exposição Bíblica</Categoria>
       <Grau>Pós-graduação</Grau>
@@ -172,10 +172,10 @@
       <Financeiro>
         <Financa>
           <ValorMensalidade>330</ValorMensalidade>
-          <Informacao>(R$300,00 para pagamento até o 5º dia útil)</Informacao>
+          <Informacao>18 parcelas; R$300,00 para pagamento até o dia 10</Informacao>
         </Financa>
       </Financeiro>
-      <UrlImagem>pos-graduacao/pos-graduacao-exposicao-biblica-1.jpeg</UrlImagem>
+      <UrlImagem>pos-graduacao/pos-graduacao-exposicao-biblica-4.jpeg</UrlImagem>
       <Imagens>
         <Imagem>pos-graduacao/pos-graduacao-exposicao-biblica-1.jpeg</Imagem>
         <Imagem>pos-graduacao/pos-graduacao-exposicao-biblica-2.jpeg</Imagem>
@@ -187,8 +187,8 @@
       <Nome>Pós-graduação em Liderança Cristã</Nome>
       <Descricao>A Pós-graduação em Liderança Cristã visa treinar pastores, líderes e demais interessados para o conhecimento e exercício da liderança no âmbito cristão. As disciplinas objetivam fornecer bases e aprofundamento em diversos aspectos que envolvem o exercício da liderança e as qualificações e papéis do líder, aperfeiçoando o aluno para se tornar um especialista na área.</Descricao>
       <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
-      <Duracao>1 ano e 6 meses (3 Semestres)</Duracao>
-      <Formato>1</Formato>
+      <Duracao>1 ano e 6 meses (3 Semestres, 18 meses)</Duracao>
+      <Formato>2</Formato>
       <Publicoalvo></Publicoalvo>
       <Categoria>Liderança e Ministério</Categoria>
       <Grau>Pós-graduação</Grau>
@@ -196,10 +196,10 @@
       <Financeiro>
         <Financa>
           <ValorMensalidade>330</ValorMensalidade>
-          <Informacao>(R$300,00 para pagamento até o 5º dia útil)</Informacao>
+          <Informacao>18 parcelas; R$300,00 para pagamento até o dia 10</Informacao>
         </Financa>
       </Financeiro>
-      <UrlImagem>pos-graduacao/pos-graduacao-lideranca-ministerial-1.jpeg</UrlImagem>
+      <UrlImagem>pos-graduacao/pos-graduacao-lideranca-ministerial-4.jpeg</UrlImagem>
       <Imagens>
         <Imagem>pos-graduacao/pos-graduacao-lideranca-ministerial-1.jpeg</Imagem>
         <Imagem>pos-graduacao/pos-graduacao-lideranca-ministerial-2.jpeg</Imagem>
@@ -211,8 +211,8 @@
       <Nome>Pós-graduação em Educação Musical</Nome>
       <Descricao>A Pós-graduação em Educação Musical na Igreja tem como objetivo equipar músicos e educadores à docência empírica e à vivência musical. O aluno ampliará sua visão sobre o ensino de forma clara e sistematizada, aperfeiçoando suas práticas de execução, aprofundando seus conhecimentos para ter melhor capacidade de atuação.</Descricao>
       <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
-      <Duracao>1 ano e 6 meses (3 Semestres)</Duracao>
-      <Formato>1</Formato>
+      <Duracao>1 ano e 6 meses (3 Semestres, 18 meses)</Duracao>
+      <Formato>2</Formato>
       <Publicoalvo></Publicoalvo>
       <Categoria>Música e Ministério</Categoria>
       <Grau>Pós-graduação</Grau>
@@ -220,10 +220,10 @@
       <Financeiro>
         <Financa>
           <ValorMensalidade>330</ValorMensalidade>
-          <Informacao>(R$300,00 para pagamento até o 5º dia útil)</Informacao>
+          <Informacao>18 parcelas; R$300,00 para pagamento até o dia 10</Informacao>
         </Financa>
       </Financeiro>
-      <UrlImagem>pos-graduacao/pos-graduacao-educacao-musical-1.jpeg</UrlImagem>
+      <UrlImagem>pos-graduacao/pos-graduacao-educacao-musical-4.jpeg</UrlImagem>
       <Imagens>
         <Imagem>pos-graduacao/pos-graduacao-educacao-musical-1.jpeg</Imagem>
         <Imagem>pos-graduacao/pos-graduacao-educacao-musical-2.jpeg</Imagem>

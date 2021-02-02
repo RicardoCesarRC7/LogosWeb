@@ -49,6 +49,7 @@ function CursosPanelController($scope, $http, $timeout) {
                     self.curso = response.data;
                     self.selectCursoForm();
                     self.getProfessores(self.curso.cursoID);
+                    self.handleFinanceiroInfo();
 
                     $timeout(function () {
                         self.getSugestoes(self.curso.grau);
@@ -180,5 +181,35 @@ function CursosPanelController($scope, $http, $timeout) {
         });
 
         $('#form-interesse .curso-interesse-form').select2({ theme: 'classic', placeholder: 'Clique para selecionar o curso de interesse' });
+    }
+
+    self.handleFinanceiroInfo = function () {
+
+        if (self.curso != null && self.curso.financeiro.length > 0) {
+
+            angular.forEach(self.curso.financeiro, function (financeiroInfo, index) {
+
+                if (financeiroInfo.descricao.length > 0) {
+
+                    let descricaoArr = financeiroInfo.descricao.split(';');
+
+                    if (Array.isArray(descricaoArr) && descricaoArr.length > 0) {
+
+                        angular.forEach(descricaoArr, function (descricao, index) {
+
+                            if (index == 0)
+                                financeiroInfo.informacoes = [];
+
+                            financeiroInfo.informacoes.push(descricao);
+                        })
+                    } else {
+
+                        financeiroInfo.informacoes = [];
+                        financeiroInfo.informacoes.push(descricaoArr);
+                    }
+                }
+            })
+
+        }
     }
 }

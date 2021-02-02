@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\video\**" />
+    <Content Remove="wwwroot\video\**" />
+    <EmbeddedResource Remove="wwwroot\video\**" />
+    <None Remove="wwwroot\video\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="wwwroot\css\font-awesome.css" />
     <Content Remove="wwwroot\css\font-awesome.min.css" />
     <Content Remove="wwwroot\css\magnific-popup.css" />
@@ -132,8 +139,6 @@
     <None Include="wwwroot\images\logo.png" />
     <None Include="wwwroot\images\logos-favicon.ico" />
     <None Include="wwwroot\images\map-icon.png" />
-    <None Include="wwwroot\images\professores\carlos-bacoccina.jpg" />
-    <None Include="wwwroot\images\professores\wagner-lima-amaral.png" />
     <None Include="wwwroot\js\bootstrap\bootstrap.bundle.js.map" />
     <None Include="wwwroot\js\bootstrap\bootstrap.js" />
     <None Include="wwwroot\js\bootstrap\bootstrap.min.js" />
@@ -162,11 +167,6 @@
     <None Include="wwwroot\js\custom\prism.js" />
     <None Include="wwwroot\js\custom\submenu-fix.js" />
     <None Include="wwwroot\js\custom\twitterFetcher.js" />
-    <None Include="wwwroot\video\seminarioLogos.mp4" />
-    <None Include="wwwroot\video\video.jpg" />
-    <None Include="wwwroot\video\video.mp4" />
-    <None Include="wwwroot\video\video.ogv" />
-    <None Include="wwwroot\video\video.webm" />
   </ItemGroup>
 
   <ItemGroup>

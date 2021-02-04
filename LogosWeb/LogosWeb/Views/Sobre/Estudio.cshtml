@@ -112,10 +112,123 @@
                     <!-- Post end-->
                 </div>
                 <div class="col-lg-12 text-center">
-                    <button class="btn btn-circle btn-outline-danger">Quero participar!</button>
+                    <button class="btn btn-circle btn-outline-danger" data-toggle="modal" data-target="#modal-form-estudio">Quero participar!</button>
                 </div>
             </div>
         </div>
     </section>
     <!--History end-->
 </div>
+
+<!-- Modal Formulario Projeto Estúdio -->
+<div class="modal fade" id="modal-form-estudio" tabindex="-1" role="dialog" aria-labelledby="formEstudioModal" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="border-bottom: none;">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="space" data-MY="50px"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 m-auto text-center">
+                            <h1 id="title-form-estudio">Preencha o formulário abaixo</h1>
+                            <p class="lead"></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="space" data-MY="60px"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form id="estudio-form" method="post" novalidate>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" name="nome-completo" placeholder="Nome completo" required="">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input class="form-control" type="email" name="email" placeholder="E-mail" required="">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" name="telefone" placeholder="Telefone ou Whatsapp" required="">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <select id="forma-doacao-estudio" class="form-control" name="forma-doacao" required>
+                                                <option value="">Selecione a forma de doação</option>
+                                                <option value="Depósito Bancário">Depósito Bancário</option>
+                                                <option value="Cartão de crédito">Cartão de crédito</option>
+                                                <option value="Boleto Bancário">Boleto Bancário</option>
+                                                <option value="Outra">Outra</option>
+                                            </select>
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input id="outra-forma-estudio" class="form-control" type="text" name="outraForma" placeholder="Digite a outra forma de doação" disabled>
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" name="valor" placeholder="Valor que pretende doar" required="">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" name="valor-mensal" placeholder="Doe um valor mensal (2, 3, 6 meses ou além, como preferir). Ex. Quero doar R$50,00 por 10 meses.">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" name="residencial" placeholder="CEP Residencial + número da residência e complemento (se houver)" required="">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input class="form-control" type="text" name="cpf" placeholder="CPF (somente os números)" required="">
+                                            <p class="help-block text-danger"></p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control" name="mensagem" placeholder="Sua mensagem (em caso de dúvidas ou maiores esclarecimentos)" rows="12"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <p></p>
+                                        <div class="text-center">
+                                            <button id="form-submit-button-estudio" class="btn btn-circle btn-outline-danger" type="submit">
+                                                Enviar
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

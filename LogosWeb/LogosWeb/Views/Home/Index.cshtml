@@ -235,7 +235,7 @@
             <div class="col-md-4 post-item" ng-repeat="post in controller.postagens">
                 <!-- Post-->
                 <article class="post">
-                    <div class="post-preview"><a href="#"><img src="~/images/local/{{post.imagem}}" alt=""></a></div>
+                    <div class="post-preview"><a href="" ng-click="controller.goToBlogContentPage(post.postagemID)"><img src="~/images/local/{{post.imagem}}" alt=""></a></div>
                     <div class="post-wrapper">
                         <div class="post-header">
                             <h2 class="post-title"><a href="" ng-click="controller.goToBlogContentPage(post.postagemID)">{{post.titulo}}</a></h2>

@@ -100,6 +100,12 @@ namespace LogosWeb.Controllers
             return formInteresse.SendEmail();
         }
 
+        [HttpPost]
+        public Result SendEstudioEmail(InteresseEstudio interesseEstudio)
+        {
+            return interesseEstudio.SendEmail();
+        }
+
         [HttpGet]
         public List<Models.Testemunho> GetTestemunhos()
         {

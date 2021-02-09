@@ -77,7 +77,7 @@
 </section>
 <!-- Alt Services end-->
 <!-- Portfolio-->
-<section id="module-cursos" class="module bg-gray" ng-controller="CursosPanelController as controller" ng-init="controller.init()">
+<section id="module-cursos" class="module bg-gray" ng-controller="CursosPanelController as controller" ng-init="controller.init()" ng-show="controller.cursos.length > 0">
     <div class="container">
         <div class="row">
             <div class="col-md-6 m-auto text-center">
@@ -91,23 +91,23 @@
             </div>
         </div>
         @*<div class="row">
-                <div class="col-md-12">
-                    <ul class="filters serif">
-                        <li><a class="current" href="#" data-filter="*">Todos</a></li>
-                        <li><a href="#" data-filter=".mestrado">Mestrado</a></li>
-                        <li><a href="#" data-filter=".pos-graduacao">Pós-graduação</a></li>
-                        <li><a href="#" data-filter=".graduacao">Graduação</a></li>
-                        <li><a href="#" data-filter=".reconhecimento-mec">Reconhecidos pelo MEC</a></li>
-                    </ul>
-                </div>
-            </div>*@
+            <div class="col-md-12">
+                <ul class="filters serif">
+                    <li><a class="current" href="#" data-filter="*">Todos</a></li>
+                    <li><a href="#" data-filter=".mestrado">Mestrado</a></li>
+                    <li><a href="#" data-filter=".pos-graduacao">Pós-graduação</a></li>
+                    <li><a href="#" data-filter=".graduacao">Graduação</a></li>
+                    <li><a href="#" data-filter=".reconhecimento-mec">Reconhecidos pelo MEC</a></li>
+                </ul>
+            </div>
+        </div>*@
     </div>
     <div class="container">
         <div class="row row-portfolio" data-columns="3">
             @*<div class="grid-sizer"></div>*@
             <div class="portfolio-item {{curso.grau == 'Graduação' ? 'graduacao' : ''}}{{curso.grau == 'Pós-graduação' ? 'pos-graduacao reconhecimento-mec' : ''}}{{curso.grau == 'Mestrado' ? 'mestrado' : ''}}" ng-repeat="curso in controller.cursos">
                 <div class="portfolio-item-wrapper">
-                    <div class="portfolio-item-img"><img src="~/images/cursos/{{curso.urlImagemPrincipal}}" alt=""></div>
+                    <div class="portfolio-item-img"><img ng-src="images/cursos/{{curso.urlImagemPrincipal}}" alt=""></div>
                     <div class="portfolio-item-caption">
                         <h6 class="portfolio-item-title">{{curso.nome}}</h6><span class="portfolio-item-subtitle serif">{{curso.categoria}}</span>
                     </div><a class="portfolio-item-link" href="" ng-click="controller.goToCursoDetails(curso.cursoID)"></a>
@@ -145,7 +145,7 @@
             <div class="col-lg-4 col-md-6" ng-repeat="professor in controller.professores | limitTo: 6">
                 <div class="team-item">
                     <div class="team-image">
-                        <img src="~/images/professores/{{professor.urlImagem}}" alt="" width="100%">
+                        <img ng-src="images/professores/{{professor.urlImagem}}" alt="" width="100%">
                         <div class="team-wrap">
                             <div class="team-content">
                                 <h6 class="team-name">{{professor.nome}}</h6>

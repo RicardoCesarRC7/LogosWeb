@@ -13,7 +13,8 @@
       "wwwroot/js/custom/jquery.min.js",
       "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "wwwroot/js/custom/plugins.min.js",
-      "wwwroot/js/custom/custom.min.js"
+      "wwwroot/js/custom/custom.min.js",
+      "wwwroot/js/custom/jquery.mask.min.js"
     ],
     "minify": {
       "enabled": true,

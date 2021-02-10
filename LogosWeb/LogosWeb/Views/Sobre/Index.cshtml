@@ -42,7 +42,18 @@
                     <h2>Nossos Valores</h2>
                     <p class="lead">Conheça nossos valores</p>
                     <div class="space" data-MY="50px"></div>
-                    <div class="icon-box icon-box-left" ng-repeat="valor in controller.valores">
+                    <!--Desktop-->
+                    <div class="d-none d-lg-block icon-box icon-box-left mb-4" ng-repeat="valor in controller.valores">
+                        <div class="icon-box-icon"><span class="ti-{{valor.icone}}"></span></div>
+                        <div class="icon-box-title">
+                            <h6>{{valor.nome}}</h6>
+                        </div>
+                        <div class="icon-box-content">
+                            <p>{{valor.descricao}}</p>
+                        </div>
+                    </div>
+                    <!--Mobile-->
+                    <div class="d-block d-lg-none icon-box mb-4" ng-repeat="valor in controller.valores">
                         <div class="icon-box-icon"><span class="ti-{{valor.icone}}"></span></div>
                         <div class="icon-box-title">
                             <h6>{{valor.nome}}</h6>

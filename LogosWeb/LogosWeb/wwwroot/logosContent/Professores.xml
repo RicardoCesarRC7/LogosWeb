@@ -3,7 +3,7 @@
   <Professores>
     <Professor>
       <ProfessorID>1</ProfessorID>
-      <Nome>Agda Yumi Amaral</Nome>
+      <Nome>Agda Yumy Amaral</Nome>
       <Descricao>Graduada em Música Sacra pelo JMC/Mackenzie. Graduada em Pedagogia pela UNIP. Pós-graduada em Planejamento Educacional e Docência do Ensino Superior pela ESAB. Mestre em Letras e Artes pela Universidade Estadual do Amazonas (UEA). Líder do Ministério Nossa Canção e Ministra de Música por 23 anos.</Descricao>
       <Area>Música</Area>
       <Visitante>False</Visitante>
@@ -228,7 +228,7 @@
     <Professor>
       <ProfessorID>21</ProfessorID>
       <Nome>Paulo Brito</Nome>
-      <Descricao></Descricao>
+      <Descricao>Paulo Henrique de Brito: Bacharel em Teologia Ministerial pelo Seminário Batista Logos; Curso de Missões Judaicas da Missão Brasileira Messiânica (atual CCME, Instituto Tzadik BaEmunah); Professor de Hebraico Moderno e Bíblico – tendo cursado 7 anos de Hebraico Moderno em aulas particulares e pelo Centro de Línguas Estrangeiras na Universidade Mackenzie, e na Casa de Cultura de Israel (UNIBES Cultural). Membro da Igreja Batista do Brooklin</Descricao>
       <Area>Línguas originais</Area>
       <Visitante>False</Visitante>
       <UrlImagem>paulo-brito-prof.png</UrlImagem>

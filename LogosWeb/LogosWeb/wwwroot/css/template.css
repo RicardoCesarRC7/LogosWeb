@@ -13806,6 +13806,12 @@ img.img-shadow,
     margin: 0 0 18px;
 }
 
+@media screen and (max-width: 992px) {
+    .single-portfolio-title {
+        margin-top: 30px;
+    }
+}
+
 @media (max-width: 1199.98px) {
     .row-portfolio[data-columns="4"] .grid-sizer,
     .row-portfolio[data-columns="4"] .portfolio-item {
@@ -14896,4 +14902,38 @@ body.off-canvas-sidebar-open:after {
 
 #modal-form-interesse .modal-lg {
     max-width: 1000px;
+}
+
+@media screen and (min-width: 1769px) {
+
+    .projeto-estudio-nav-min {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1080px) and (min-width: 991px) {
+    .projeto-estudio-nav-min {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1770px) {
+
+    .projeto-estudio-nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1395px) {
+
+    .whatsapp-contact {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1395px) {
+
+    .whatsapp-contact-min {
+        display: none;
+    }
 }

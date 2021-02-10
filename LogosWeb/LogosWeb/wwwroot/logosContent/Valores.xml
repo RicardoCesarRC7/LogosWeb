@@ -4,22 +4,22 @@
     <Valor>
       <Nome>Integridade Bíblica</Nome>
       <Icone>book</Icone>
-      <Descricao>Test</Descricao>
+      <Descricao></Descricao>
     </Valor>
     <Valor>
       <Nome>Relevância Cultural</Nome>
       <Icone>signal</Icone>
-      <Descricao>Test</Descricao>
+      <Descricao></Descricao>
     </Valor>
     <Valor>
       <Nome>Excelência Acadêmica</Nome>
       <Icone>bookmark-alt</Icone>
-      <Descricao>Test</Descricao>
+      <Descricao></Descricao>
     </Valor>
     <Valor>
       <Nome>Formação Espiritual</Nome>
       <Icone>user</Icone>
-      <Descricao>Test</Descricao>
+      <Descricao></Descricao>
     </Valor>
   </Valores>
 </Logos>

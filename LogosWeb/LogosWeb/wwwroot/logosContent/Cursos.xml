@@ -53,7 +53,7 @@
       <Publicoalvo></Publicoalvo>
       <Categoria>Teologia e Ministério</Categoria>
       <Grau>Mestrado</Grau>
-      <Professores>1, 5, 6, 9</Professores>
+      <Professores></Professores>
       <Financeiro>
         <Financa>
           <ValorMensalidade>350</ValorMensalidade>
@@ -79,7 +79,7 @@
         CURSO MODULAR, LIVRE E HÍBRIDO (1 DISCIPLINA PRESENCIAL POR ANO, as demais, on-line - EaD).
       </Descricao>
       <HorarioAulas>De segunda à sexta-feira, das 19:00h às 22:15h, e sábado, das 8:00h às 16:30h.</HorarioAulas>
-      <Duracao>2 anos (4 Semestres)</Duracao>
+      <Duracao>3 anos (6 Semestres)</Duracao>
       <Formato>3</Formato>
       <Publicoalvo></Publicoalvo>
       <Categoria>Aconselhamento Bíblico</Categoria>

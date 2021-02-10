@@ -57,8 +57,10 @@
                             <div class="portfolio-item-wrapper">
                                 <div class="portfolio-item-img" ng-show="professor.urlImagem"><img src="~/images/professores/{{professor.urlImagem}}" alt="" width="100%"></div>
                                 <div class="portfolio-item-caption">
-                                    <h6 class="portfolio-item-title">{{professor.nome}}</h6><span class="portfolio-item-subtitle serif">{{professor.area}}</span>
-                                </div><a class="professor-show-info portfolio-item-link" style="cursor: pointer;" ng-click="controller.showProfDetails(professor)"></a>
+                                    <h6 class="portfolio-item-title">{{professor.nome}}</h6>
+                                    @*<span class="portfolio-item-subtitle serif">{{professor.area}}</span>*@
+                                </div>
+                                <a class="professor-show-info portfolio-item-link" style="cursor: pointer;" ng-click="controller.showProfDetails(professor)"></a>
                             </div>
                         </div>
                     </div>

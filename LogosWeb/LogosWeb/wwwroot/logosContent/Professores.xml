@@ -228,11 +228,99 @@
     <Professor>
       <ProfessorID>21</ProfessorID>
       <Nome>Paulo Brito</Nome>
-      <Descricao>Paulo Henrique de Brito: Bacharel em Teologia Ministerial pelo Seminário Batista Logos; Curso de Missões Judaicas da Missão Brasileira Messiânica (atual CCME, Instituto Tzadik BaEmunah); Professor de Hebraico Moderno e Bíblico – tendo cursado 7 anos de Hebraico Moderno em aulas particulares e pelo Centro de Línguas Estrangeiras na Universidade Mackenzie, e na Casa de Cultura de Israel (UNIBES Cultural). Membro da Igreja Batista do Brooklin</Descricao>
+      <Descricao>Bacharel em Teologia Ministerial pelo Seminário Batista Logos; Curso de Missões Judaicas da Missão Brasileira Messiânica (atual CCME, Instituto Tzadik BaEmunah); Professor de Hebraico Moderno e Bíblico – tendo cursado 7 anos de Hebraico Moderno em aulas particulares e pelo Centro de Línguas Estrangeiras na Universidade Mackenzie, e na Casa de Cultura de Israel (UNIBES Cultural). Membro da Igreja Batista do Brooklin</Descricao>
       <Area>Línguas originais</Area>
       <Visitante>False</Visitante>
       <UrlImagem>paulo-brito-prof.png</UrlImagem>
       <Grau>5</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>22</ProfessorID>
+      <Nome>Randall Cook</Nome>
+      <Descricao>Doutor em Ministério com ênfase em Pregação Expositiva pelo The Master's Seminary. Mestre em Artes pelo Grace Theological Seminary, mestre em Divindade pelo Grand Rapids Theological Seminary, formado em Missões e Estudos Bíblicos pelo Faith Baptist Bible College, Pastor da Primeira Igreja Batista em Meridian. Foi plantador de igrejas com a missão ABWE em Natal, São Paulo e Jerusalém por 20 anos.</Descricao>
+      <Area></Area>
+      <Visitante>True</Visitante>
+      <UrlImagem>randall-cook.png</UrlImagem>
+      <Grau>9</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>23</ProfessorID>
+      <Nome>Valney Veras</Nome>
+      <Descricao>Pós-Doutorado em Linguística de Texto pela Universidade Federal do Ceará. Doutor em Linguística pela Universidade Federal do Ceará. Mestre em Linguística pela Universidade Federal do Ceará. Mestre em Teologia e Exegese do Antigo Testamento pelo CPAJ - Centro Presbiteriano Andrew Jumper (São Paulo). Especialização em Cultura Greco-Romana pela Universidade Regional do Cariri (URCA, Crato-CE). Bacharelado em Teologia pelo Seminário Batista do Cariri e Licenciatura em Letras pela Universidade Regional do Cariri (URCA, Crato-CE). Pastor da Igreja Batista Manancial, em Fortaleza-CE, e professor nas seguintes instituições: UFC, Seminário Batista do Cariri, Seminário Batista do Cariri, Seminário Batista e Instituto Bíblico Maranata - SIBIMA.</Descricao>
+      <Area></Area>
+      <Visitante>True</Visitante>
+      <UrlImagem>valney-veras.png</UrlImagem>
+      <Grau>9</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>24</ProfessorID>
+      <Nome>Allan Cuthbert</Nome>
+      <Descricao>Mestre em Educação Religiosa e Mestre em Artes pelo Grand Rapids Theological Seminary. Formado em Missões pela Cornerstone University. Plantador de igrejas com a missäo ABWE em São Paulo. Professor residente e visitante no Seminário Logos. Presidente e fundador da Horizon Education Network, ministério online de treinamento de obreiros em 80 seminários de 40 paises.</Descricao>
+      <Area></Area>
+      <Visitante>True</Visitante>
+      <UrlImagem>allan-cuthbert.png</UrlImagem>
+      <Grau>8</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>25</ProfessorID>
+      <Nome>Brian Dix</Nome>
+      <Descricao>Doutor em Ministério pela Trinity International University. Mestre em Divindade pelo Grand Rapids Theological Seminary. Bacharel em Estudos Religiosos pela Cornerstone University. Plantador de igrejas compostas de portugueses, brasileiros e angolanos com a missão ABWE em Lisboa, Portugal. Professor no Seminário Batista em Lisboa. Diretor de Parcerias Educacionais da Horizon Education Network.</Descricao>
+      <Area></Area>
+      <Visitante>True</Visitante>
+      <UrlImagem>brian-dix.png</UrlImagem>
+      <Grau>7</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>26</ProfessorID>
+      <Nome>Randal Richner</Nome>
+      <Descricao>Doutorando em Ministério pelo The Southern Baptist Theological Seminary. Mestre em Liderança pelo Cornerstone University, Grand Rapids, Ml. Mestre em Aconselhamento Bíblico pelo Faith Bible Seminary, Lafayette, IN. Bacharel em Comunicação pelo Cedarville University, Cedarville, OH. Missionário da ABWE - Association Baptist World Evangelism (1994 - presente) em Säo Leopoldo, RS.</Descricao>
+      <Area></Area>
+      <Visitante>True</Visitante>
+      <UrlImagem>randal-richner.png</UrlImagem>
+      <Grau>7</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>27</ProfessorID>
+      <Nome>Fernando Sousa</Nome>
+      <Descricao>Doutorando em Ministérios pelo CPAJ - Centro Presbiteriano Andrew Jumper. Mestre em Psicologia Educacional pelo Centro Universitário UNIFIEO. Mestre em Ministério pelo Seminário Batista Logos. Especialista em Psicologia Pastoral pelo UNIFIL. Bacharel em Teologia pela FABAPAR e em Teologia Ministerial pelo Seminário Batista Logos. Licenciado em Pedagogia e Filosofia. Membro fundador e Diretor Educacional da ABCB - Associação Brasileira de Conselheiros Bíblicos. Pastor da Igreja Batista de Cachoeirinha - Manaus/AM</Descricao>
+      <Area></Area>
+      <Visitante>True</Visitante>
+      <UrlImagem>fernando-sousa.png</UrlImagem>
+      <Grau>8</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>28</ProfessorID>
+      <Nome>Allen Yoder Jr.</Nome>
+      <Descricao>Doutor em Filosofia com especialização em Aconselhamento Bíblico pelo Trinity Theological Seminary. Mestre em Artes com ênfase em Aconselhamento Bíblico pelo The Master's University. Bacharel em Teologia e Missões e graduado em Artes (Música) pelo Baptist Bible College. Conselheiro certificado pela ABCB - Associação Brasileira de Conselheiros Bíblicos. Missionário da ABWE.</Descricao>
+      <Area></Area>
+      <Visitante>True</Visitante>
+      <UrlImagem>allan-yoder.png</UrlImagem>
+      <Grau>7</Grau>
+      <RedesSociais>
+      </RedesSociais>
+    </Professor>
+    <Professor>
+      <ProfessorID>29</ProfessorID>
+      <Nome>Alexandre Mendes</Nome>
+      <Descricao>Doutor em Ministério, com ênfase em exposição bíblica, pelo Southeastern Baptist Theological Seminary. Mestre em Aconselhamento Bíblico pelo The Master's College. Mestre em Divindade pelo Faith Bible Seminary. Bacharel em Teologia pelo Seminário Bíblico Palavra da Vida. Bacharel em Economia pela Universidade São Paulo. Um dos pastores da lgreja Batista Maranata em São José dos Campos - SP. Diretor para visão e expansäo da Associação Brasileira de Conselheiros Bíblicos (ABCB) e membro do conselho diretor da Biblical Counseling Coalition (BCC).</Descricao>
+      <Area></Area>
+      <Visitante>True</Visitante>
+      <UrlImagem>alexandre-mendes.png</UrlImagem>
+      <Grau>8</Grau>
       <RedesSociais>
       </RedesSociais>
     </Professor>

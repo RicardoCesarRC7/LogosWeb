@@ -23,7 +23,7 @@ function ProfessoresPanelController($scope, $http) {
 
             if (response != null) {
 
-                self.professores = response.data;
+                self.professores = response.data.filter(p => !p.isVisitante);
             }
         });
     }

@@ -55,19 +55,20 @@
     <div ng-controller="BottomButtonsController as controller">
 
         <!-- Whatsapp button -->
-        <a class="whatsapp-icon" href="https://api.whatsapp.com/send?phone=5511999813557&amp;text=Ol%C3%A1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        <a class="whatsapp-icon d-lg-block d-none" href="https://api.whatsapp.com/send?phone=5511999813557&amp;text=Ol%C3%A1" target="_blank" data-toggle="tooltip" data-placement="left" title="Fale conosco!"><i class="fab fa-whatsapp fa-3x" style="color: white; transform: translateY(25%)"></i></a>
 
         <!-- Form button -->
         <a class="form-icon" href="" data-toggle="modal" data-target="#modal-form-interesse" ng-click="controller.refreshModalSelect2()">Conte-nos sobre o seu interesse!</a>
 
         <!-- To top button-->
-        <a class="scroll-top" href="#top"><i class="fas fa-angle-up"></i></a>
+        <a class="scroll-top" href="#top"><i class="fas fa-angle-up fa-3x"></i></a>
     </div>
 
     <script src="~/js/site.min.js" asp-append-version="true"></script>
     <script src="~/js/angular.min.js"></script>
     <script src="~/js/app/app.module.js"></script>
     <script src="~/js/angular-controllers.min.js"></script>
+    @*<script src="~/js/app/components/professores-panel/professores-panel.controller.js"></script>*@
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
     @await RenderSectionAsync("Scripts", required: false)
     @RenderSection("ScriptsSection", false);

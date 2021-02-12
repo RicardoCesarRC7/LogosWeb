@@ -11845,15 +11845,17 @@ img.img-shadow,
     right: 1.5625rem;
     z-index: 999;
     background: rgba(255, 255, 255, .9);
-    height: 2.375rem;
-    width: 2.375rem;
+    /*height: 2.375rem;
+    width: 2.375rem;*/
+    height: 4rem;
+    width: 4rem;
     line-height: 2.25rem;
     text-align: center;
     font-size: .875rem;
     border-radius: 100%;
     box-shadow: 0 0 0 5px rgba(0, 0, 0, .05);
     transition: .5s all ease;
-    transform: translateY(4.25rem);
+    transform: translateY(6.25rem);
     color: #788487;
 }
 
@@ -11863,6 +11865,7 @@ img.img-shadow,
 
 .scroll-top:hover {
     transform: translateY(-0.3125rem);
+    color: red !important;
 }
 
 /* @media (max-width: 767.98px) {
@@ -14840,8 +14843,8 @@ body.off-canvas-sidebar-open:after {
 .form-icon {
     position: fixed;
     display: block;
-    bottom: 1.2rem;
-    right: 6rem;
+    bottom: 1.9rem;
+    right: 7rem;
     z-index: 999;
     background: rgba(255, 255, 255, .9);
     /* height: 2.375rem; */
@@ -14852,7 +14855,7 @@ body.off-canvas-sidebar-open:after {
     /* border-radius: 10%; */
     box-shadow: 0 0 0 5px rgba(0, 0, 0, .05);
     transition: .5s all ease;
-    transform: translateY(4.35rem);
+    transform: translateY(5.35rem);
     color: #788487;
     padding: 7px 10px 7px 10px;
 }
@@ -14870,19 +14873,19 @@ body.off-canvas-sidebar-open:after {
 .whatsapp-icon {
     position: fixed;
     display: block;
-    bottom: 1.5625rem;
-    right: 24rem;
+    bottom: 6.6000rem;
+    right: 1.5625rem;
     z-index: 999;
-    background: rgba(255, 255, 255, .9);
-    height: 2.375rem;
-    width: 2.375rem;
+    background: rgb(40, 167, 69);
+    height: 4rem;
+    width: 4rem;
     line-height: 2.25rem;
     text-align: center;
     font-size: .875rem;
     border-radius: 100%;
     box-shadow: 0 0 0 5px rgba(0, 0, 0, .05);
     transition: .5s all ease;
-    transform: translateY(4.25rem);
+    transform: translateY(11.25rem);
     color: #788487;
 }
 

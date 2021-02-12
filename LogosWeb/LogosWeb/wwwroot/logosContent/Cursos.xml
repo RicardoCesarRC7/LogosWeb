@@ -22,7 +22,7 @@
       <Publicoalvo>Livre</Publicoalvo>
       <Categoria>Teologia e Ministério</Categoria>
       <Grau>Graduação</Grau>
-      <Professores>2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20</Professores>
+      <Professores></Professores>
       <Financeiro>
         <Financa>
           <ValorMensalidade>525</ValorMensalidade>
@@ -184,7 +184,7 @@
     </Curso>
     <Curso>
       <CursoID>7</CursoID>
-      <Nome>Pós-graduação em Liderança Cristã</Nome>
+      <Nome>Pós-graduação em Liderança Ministerial</Nome>
       <Descricao>A Pós-graduação em Liderança Cristã visa treinar pastores, líderes e demais interessados para o conhecimento e exercício da liderança no âmbito cristão. As disciplinas objetivam fornecer bases e aprofundamento em diversos aspectos que envolvem o exercício da liderança e as qualificações e papéis do líder, aperfeiçoando o aluno para se tornar um especialista na área.</Descricao>
       <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
       <Duracao>1 ano e 6 meses (3 Semestres, 18 meses)</Duracao>

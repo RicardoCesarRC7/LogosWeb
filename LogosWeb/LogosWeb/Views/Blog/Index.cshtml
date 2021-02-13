@@ -25,7 +25,7 @@
                         <!-- Post-->
                         <article class="post row align-items-center" ng-repeat="post in controller.postagens | filter: { titulo: controller.postSearch, categoria: controller.categoriaFilter } ">
                             <div class="col-md-5">
-                                <div class="post-preview"><a href="" ng-click="controller.goToBlogContentPage(post.postagemID)"><img src="~/images/local/{{post.imagem}}" alt=""></a></div>
+                                <div class="post-preview"><a href="" ng-click="controller.goToBlogContentPage(post.postagemID)"><img ng-src="images/local/{{post.imagem}}" alt=""></a></div>
                             </div>
                             <div class="col-md-7">
                                 <div class="post-wrapper">
@@ -92,7 +92,7 @@
                             </div>
                             <ul>
                                 <li class="clearfix" ng-repeat="post in controller.postagens | limitTo: 3">
-                                    <div class="wi"><a href="" ng-click="controller.goToBlogContentPage(post.postagemID)"><img src="~/images/blog/{{post.imagem}}" alt=""></a></div>
+                                    <div class="wi"><a href="" ng-click="controller.goToBlogContentPage(post.postagemID)"><img ng-src="images/local/{{post.imagem}}" alt=""></a></div>
                                     <div class="wb"><a href="" ng-click="controller.goToBlogContentPage(post.postagemID)">{{post.titulo}}</a><span class="post-date">{{controller.handleDates(post)}}</span></div>
                                 </li>
                             </ul>

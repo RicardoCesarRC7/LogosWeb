@@ -55,7 +55,7 @@
                         @*<div class="grid-sizer"></div>*@
                         <div class="portfolio-item teo-sistematica" ng-repeat="professor in controller.professoresOrdenados">
                             <div class="portfolio-item-wrapper">
-                                <div class="portfolio-item-img" ng-show="professor.urlImagem"><img ng-src="~/images/professores/{{professor.urlImagem}}" alt="" height="100%" width="100%"></div>
+                                <div class="portfolio-item-img" ng-show="professor.urlImagem"><img ng-src="images/professores/{{professor.urlImagem}}" alt="" height="100%" width="100%"></div>
                                 <div class="portfolio-item-caption">
                                     <h6 class="portfolio-item-title">{{professor.nome}}</h6>
                                     @*<span class="portfolio-item-subtitle serif">{{professor.area}}</span>*@
@@ -75,7 +75,7 @@
                     <div ng-repeat="professor in controller.professoresOrdenados">
                         <div class="row">
                             <div class="col-12 col-md-4" ng-show="professor.urlImagem">
-                                <img ng-src="~/images/professores/{{professor.urlImagem}}" alt="" width="100%">
+                                <img ng-src="images/professores/{{professor.urlImagem}}" alt="" width="100%">
                             </div>
                             <div class="col-12 col-md-8">
                                 <h6 class="single-portfolio-title">{{professor.nome}}</h6>
@@ -104,7 +104,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-4">
-                    <img ng-src="~/images/professores/{{controller.professor.urlImagem}}" alt="" width="100%">
+                    <img ng-src="images/professores/{{controller.professor.urlImagem}}" alt="" width="100%">
                 </div>
                 <div class="col-12 col-md-8 mt-3">
                     <h6 class="single-portfolio-title">{{controller.professor.nome}}</h6>

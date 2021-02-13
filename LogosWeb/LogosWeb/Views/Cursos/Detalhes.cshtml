@@ -28,7 +28,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="image-slider owl-carousel">
-                                <img ng-src="images/cursos/{{image}}" alt="" ng-repeat="image in controller.curso.imagens">
+                                <img ng-src="../../images/cursos/{{image}}" alt="" ng-repeat="image in controller.curso.imagens">
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                     <div ng-repeat="professor in controller.professores">
                         <div class="row">
                             <div class="col-12 col-md-4 text-center">
-                                <img ng-src="images/professores/{{professor.urlImagem}}" style="border-radius: 5%;" width="190" alt="">
+                                <img ng-src="../../images/professores/{{professor.urlImagem}}" style="border-radius: 5%;" width="190" alt="">
                             </div>
                             <div class="col-12 col-md-8 mt-3">
                                 <h6 class="single-portfolio-title">{{professor.nome}}</h6>
@@ -146,7 +146,7 @@
                 @*<div class="grid-sizer"></div>*@
                 <div class="portfolio-item branding" ng-repeat="sugestao in controller.sugestoesCursos | limitTo: 2">
                     <div class="portfolio-item-wrapper">
-                        <div class="portfolio-item-img"><img ng-src="images/cursos/{{sugestao.urlImagemPrincipal}}" alt=""></div>
+                        <div class="portfolio-item-img"><img ng-src="../../images/cursos/{{sugestao.urlImagemPrincipal}}" alt=""></div>
                         <div class="portfolio-item-caption">
                             <h6 class="portfolio-item-title">{{sugestao.nome}}</h6><span class="portfolio-item-subtitle serif">{{sugestao.grau}}</span>
                         </div><a class="portfolio-item-link" href="portfolio-single-1.html"></a>

@@ -20,6 +20,7 @@ namespace LogosWeb.Models
         public string Categoria { get; set; }
         public string Grau { get; set; }
         public List<int> Professores { get; set; }
+        public Grade Grade { get; set; }
         public List<Financeiro> Financeiro { get; set; }
         public string UrlImagemPrincipal { get; set; }
         public List<string> Imagens { get; set; }

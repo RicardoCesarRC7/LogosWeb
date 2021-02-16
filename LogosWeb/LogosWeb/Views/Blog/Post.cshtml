@@ -36,8 +36,8 @@
                                     <li>por {{controller.postagem.autor}}</li>
                                 </ul>
                             </div>
-                            <div class="post-content">
-                                <p>{{controller.postagem.conteudo}}</p>
+                            <div class="post-content text-justify">
+                                <p ng-repeat="paragrafo in controller.texto">{{paragrafo}}</p>
                             </div>
                             <!-- <div class="post-footer">
                                 <div class="post-tags"><a href="#">Lifestyle</a><a href="#">Music</a><a href="#">News</a><a href="#">Travel</a></div>

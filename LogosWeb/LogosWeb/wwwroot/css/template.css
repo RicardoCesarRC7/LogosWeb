@@ -84,7 +84,8 @@ section {
 body {
     margin: 0;
     font-family: "Poppins", Arial;
-    font-size: .875rem;
+    /*font-size: .875rem;*/
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.8;
     color: #788487;
@@ -11508,7 +11509,8 @@ pre[class*=language-] {
 }
 
 .info-list {
-    font-size: .8375rem;
+    /*font-size: .8375rem;*/
+    font-size: 1rem;
 }
 
 .info-list > li {
@@ -12170,7 +12172,7 @@ img.img-shadow,
     border-radius: .1875rem;
     width: 100%;
     max-width: 349.983px !important;
-    max-height: 349.983px !important;
+    /*max-height: 349.983px !important;*/
 }
 
 .team-wrap {

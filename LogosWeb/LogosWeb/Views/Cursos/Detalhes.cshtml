@@ -85,6 +85,82 @@
                 </div>
             </div>
             <hr class="m-t-30 m-b-30" ng-show="controller.professores != null && controller.professores.length > 0">
+            <!-- Grade com 1 Semestre -->
+            <div class="row" ng-show="controller.curso != null && controller.curso.grade != null && controller.curso.grade.semestres.length == 1">
+                <div class="col-12">
+                    <div class="info-list">
+                        <li><span class="info-list-title">Grade:</span></li>
+                    </div>
+                </div>
+                <div class="col-12 mt-4">
+                    <div ng-repeat="semestre in controller.curso.grade.semestres">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <table class="table">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th scope="row">#</th>
+                                            <th>Disciplina</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="">
+                                        <tr ng-repeat="disciplina in semestre.disciplinas">
+                                            <td scope="row">{{disciplina.disciplinaID}}</td>
+                                            <td>{{disciplina.nome}}</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="space" data-MY="20px"></div>
+                            </div>
+                        </div>
+                    </div>
+                    @*<div class="row"><button type="button" class="btn btn-circle btn-dark m-auto">Ver todos</button></div>*@
+                </div>
+            </div>
+            <!-- Grade com mais de 1 Semestre -->
+            <div class="row" ng-show="controller.curso != null && controller.curso.grade != null && controller.curso.grade.semestres.length > 1">
+                <div class="col-12">
+                    <div class="info-list">
+                        <li><span class="info-list-title">Grade:</span></li>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-4" ng-repeat="semestre in controller.curso.grade.semestres">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="info-list">
+                                <li><span class="info-list-title">{{semestre.semestreID}}º Semestre:</span></li>
+                            </div>
+                        </div>
+                        <div class="col-12 text-center">
+                            <table class="table">
+                                <thead class="thead-dark">
+                                    <tr>
+                                        @*<th scope="row">#</th>*@
+                                        <th>Disciplina</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="">
+                                    <tr ng-repeat="disciplina in semestre.disciplinas">
+                                        @*<td scope="row">{{disciplina.disciplinaID}}</td>*@
+                                        <td>{{disciplina.nome}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="space" data-MY="20px"></div>
+                        </div>
+                    </div>
+                    @*<div class="row"><button type="button" class="btn btn-circle btn-dark m-auto">Ver todos</button></div>*@
+                </div>
+            </div>
+            <hr class="m-t-30 m-b-30" ng-show="controller.curso != null && controller.curso.grade != null">
             <div class="col-12">
                 <div class="info-list">
                     <li><span class="info-list-title">Preços:</span></li>

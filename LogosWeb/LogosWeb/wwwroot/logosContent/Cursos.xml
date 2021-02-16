@@ -23,6 +23,103 @@
       <Categoria>Teologia e Ministério</Categoria>
       <Grau>Graduação</Grau>
       <Professores></Professores>
+      <Grade>
+        <Show>True</Show>
+        <Semestres>
+          <Semestre>
+            <SemestreID>1</SemestreID>
+            <Disciplinas>
+              <Disciplina>Metodologia Científica</Disciplina>
+              <Disciplina>Português Instrumental</Disciplina>
+              <Disciplina>Formação Espiritual I</Disciplina>
+              <Disciplina>Hebraico Bíblico – Gramática I</Disciplina>
+              <Disciplina>História da Igreja I</Disciplina>
+              <Disciplina>Introdução ao Novo Testamento</Disciplina>
+            </Disciplinas>
+          </Semestre>
+          <Semestre>
+            <SemestreID>2</SemestreID>
+            <Disciplinas>
+              <Disciplina>Ética Cristã</Disciplina>
+              <Disciplina>Didática</Disciplina>
+              <Disciplina>Formação Espiritual II</Disciplina>
+              <Disciplina>Hebraico Bíblico - Gramática II</Disciplina>
+              <Disciplina>História da Igreja II</Disciplina>
+              <Disciplina>Teologia do Novo Testamento</Disciplina>
+            </Disciplinas>
+          </Semestre>
+          <Semestre>
+            <SemestreID>3</SemestreID>
+            <Disciplinas>
+              <Disciplina>Dinâmica da Igreja Local</Disciplina>
+              <Disciplina>Exegese do Antigo Testamento I</Disciplina>
+              <Disciplina>Introdução à Filosofia</Disciplina>
+              <Disciplina>Introdução à Teologia</Disciplina>
+              <Disciplina>Introdução ao Antigo Testamento</Disciplina>
+              <Disciplina>Princípios de Educação Cristã</Disciplina>
+              <Disciplina>Religiosidade Brasileira</Disciplina>
+              <Disciplina>Teologia da Adoração</Disciplina>
+            </Disciplinas>
+          </Semestre>
+          <Semestre>
+            <SemestreID>4</SemestreID>
+            <Disciplinas>
+              <Disciplina>Hermenêutica Bíblica</Disciplina>
+              <Disciplina>Exegese do Antigo Testamento II</Disciplina>
+              <Disciplina>Teologia e Música</Disciplina>
+              <Disciplina>Teologia de Missões</Disciplina>
+              <Disciplina>Evangelismo e Discipulado</Disciplina>
+              <Disciplina>Teologia do Antigo Testamento</Disciplina>
+            </Disciplinas>
+          </Semestre>
+          <Semestre>
+            <SemestreID>5</SemestreID>
+            <Disciplinas>
+              <Disciplina>Aconselhamento Bíblico I</Disciplina>
+              <Disciplina>Grego Bíblico – Gramática I</Disciplina>
+              <Disciplina>Teologia Sistemática I</Disciplina>
+              <Disciplina>Pentateuco e Históricos</Disciplina>
+              <Disciplina>Gestão Eclesiástica</Disciplina>
+              <Disciplina>Ministério Pastoral</Disciplina>
+              <Disciplina>Igreja Local e Missões</Disciplina>
+            </Disciplinas>
+          </Semestre>
+          <Semestre>
+            <SemestreID>6</SemestreID>
+            <Disciplinas>
+              <Disciplina>Aconselhamento Bíblico II</Disciplina>
+              <Disciplina>Grego Bíblico – Gramática II</Disciplina>
+              <Disciplina>Teologia Sistemática II</Disciplina>
+              <Disciplina>Poéticos e Proféticos</Disciplina>
+              <Disciplina>Liderança Cristã</Disciplina>
+              <Disciplina>Teologia Contemporânea</Disciplina>
+              <Disciplina>Apologética</Disciplina>
+            </Disciplinas>
+          </Semestre>
+          <Semestre>
+            <SemestreID>7</SemestreID>
+            <Disciplinas>
+              <Disciplina>Seitas e Religiões</Disciplina>
+              <Disciplina>Exegese do Novo Testamento I</Disciplina>
+              <Disciplina>Teologia Sistemática III</Disciplina>
+              <Disciplina>Evangelhos e Atos</Disciplina>
+              <Disciplina>Homilética I</Disciplina>
+              <Disciplina>Introdução à Sociologia</Disciplina>
+            </Disciplinas>
+          </Semestre>
+          <Semestre>
+            <SemestreID>8</SemestreID>
+            <Disciplinas>
+              <Disciplina>Teologia da Família</Disciplina>
+              <Disciplina>Exegese do Novo Testamento II</Disciplina>
+              <Disciplina>Teologia Sistemática IV</Disciplina>
+              <Disciplina>Epístolas e Apocalipse</Disciplina>
+              <Disciplina>Homilética II</Disciplina>
+              <Disciplina>T.C.C – Artigo Acadêmico</Disciplina>
+            </Disciplinas>
+          </Semestre>
+        </Semestres>
+      </Grade>
       <Financeiro>
         <Financa>
           <ValorMensalidade>525</ValorMensalidade>
@@ -54,6 +151,29 @@
       <Categoria>Teologia e Ministério</Categoria>
       <Grau>Mestrado</Grau>
       <Professores>24, 25, 5, 12, 8, 27, 17, 22, 23</Professores>
+      <Grade>
+        <Show>True</Show>
+        <Semestres>
+          <Semestre>
+            <SemestreID>1</SemestreID>
+            <Disciplinas>
+              <Disciplina>Panorama literário do NT</Disciplina>
+              <Disciplina>Fundamentos exegéticos do NT</Disciplina>
+              <Disciplina>Didática do ensino superior</Disciplina>
+              <Disciplina>1 Coríntios e o ministério</Disciplina>
+              <Disciplina>Hermenêutica Avançada</Disciplina>
+              <Disciplina>Preparo da igreja para o futuro</Disciplina>
+              <Disciplina>Teologia bíblica e pós-modernidade</Disciplina>
+              <Disciplina>Metodologia da pesquisa científica</Disciplina>
+              <Disciplina>Crítica textual do Novo Testamento</Disciplina>
+              <Disciplina>Teologia e questões sociais</Disciplina>
+              <Disciplina>Introdução ao estudo crítico do Novo Testamento</Disciplina>
+              <Disciplina>Desafios pastorais da modernidade</Disciplina>
+              <Disciplina>Teologia bíblica do Antigo Testamento</Disciplina>
+            </Disciplinas>
+          </Semestre>
+        </Semestres>
+      </Grade>
       <Financeiro>
         <Financa>
           <ValorMensalidade>350</ValorMensalidade>
@@ -85,6 +205,34 @@
       <Categoria>Aconselhamento Bíblico</Categoria>
       <Grau>Mestrado</Grau>
       <Professores>14, 28, 29, 4, 27, 26, 17</Professores>
+      <Grade>
+        <Show>True</Show>
+        <Semestres>
+          <Semestre>
+            <SemestreID>1</SemestreID>
+            <Disciplinas>
+              <Disciplina>Introdução ao aconselhamento bíblico</Disciplina>
+              <Disciplina>Alicerces do aconselhamento bíblico</Disciplina>
+              <Disciplina>Qualidades essenciais do conselheiro bíblico</Disciplina>
+              <Disciplina>Métodos de mudança bíblica:</Disciplina>
+              <Disciplina>Assuntos de aconselhamento bíblico: Emoções</Disciplina>
+              <Disciplina>Assuntos de aconselhamento bíblico: Familia</Disciplina>
+              <Disciplina>Problemas e procedimentos</Disciplina>
+              <Disciplina>Fundamento teológico de aconselhamento bíblico 1</Disciplina>
+              <Disciplina>Fundamento teológico de aconselhamento bíblico 2</Disciplina>
+              <Disciplina>Hermenêutica</Disciplina>
+              <Disciplina>Provérbios 1</Disciplina>
+              <Disciplina>Provérbios 2</Disciplina>
+              <Disciplina>Observação de aconselhamento bíblico</Disciplina>
+              <Disciplina>Prática de aconselhamento bíblico 1</Disciplina>
+              <Disciplina>Prática de aconselhamento bíblico 2</Disciplina>
+              <Disciplina>Prática de aconselhamento bíblico 3</Disciplina>
+              <Disciplina>Técnica dissertação</Disciplina>
+              <Disciplina>Dissertação</Disciplina>
+            </Disciplinas>
+          </Semestre>
+        </Semestres>
+      </Grade>
       <Financeiro>
         <Financa>
           <ValorMensalidade>350</ValorMensalidade>
@@ -119,6 +267,7 @@
       <Categoria>Música e Ministério</Categoria>
       <Grau>Graduação</Grau>
       <Professores></Professores>
+      <Grade></Grade>
       <Financeiro>
         <Financa>
           <ValorMensalidade>330</ValorMensalidade>
@@ -145,6 +294,29 @@
       <Categoria>Aconselhamento Bíblico</Categoria>
       <Grau>Pós-graduacao</Grau>
       <Professores></Professores>
+      <Grade>
+        <Show>True</Show>
+        <Semestres>
+          <Semestre>
+            <SemestreID>1</SemestreID>
+            <Disciplinas>
+              <Disciplina>Fundamentos Bíblicos e Teológicos do Aconselhamento Bíblico</Disciplina>
+              <Disciplina>Hermenêutica para o preparo do Aconselhamento Bíblico</Disciplina>
+              <Disciplina>A Prática do Aconselhamento Bíblico</Disciplina>
+              <Disciplina>Ministério de Aconselhamento Bíblico e a igreja local</Disciplina>
+              <Disciplina>Aconselhamento Bíblico e o Ministério da Palavra</Disciplina>
+              <Disciplina>Biopsiquiatria e o Aconselhamento Bíblico</Disciplina>
+              <Disciplina>Aconselhamento Bíblico e os distúrbios da Sexualidade</Disciplina>
+              <Disciplina>Aconselhamento Bíblico e as doenças da mente</Disciplina>
+              <Disciplina>Aconselhamento Bíblico e a Redenção da Família</Disciplina>
+              <Disciplina>Metodologias e Procedimentos do Aconselhamento Bíblico</Disciplina>
+              <Disciplina>Metodologia e Didática do Ensino Superior</Disciplina>
+              <Disciplina>Metodologia do Estudo e da Pesquisa Científica</Disciplina>
+              <Disciplina>Orientação e T.C.C – monografia </Disciplina>
+            </Disciplinas>
+          </Semestre>
+        </Semestres>
+      </Grade>
       <Financeiro>
         <Financa>
           <ValorMensalidade>330</ValorMensalidade>
@@ -169,6 +341,28 @@
       <Categoria>Pregação e Exposição Bíblica</Categoria>
       <Grau>Pós-graduação</Grau>
       <Professores></Professores>
+      <Grade>
+        <Show>True</Show>
+        <Semestres>
+          <Semestre>
+            <SemestreID>1</SemestreID>
+            <Disciplinas>
+              <Disciplina>Fundamentos e Metodologias da Exposição Bíblica</Disciplina>
+              <Disciplina>Exposição Bíblica nos Livros da Lei</Disciplina>
+              <Disciplina>Metodologia e Didática do Ensino Superior</Disciplina>
+              <Disciplina>Exposição Bíblica em Atos dos Apóstolos</Disciplina>
+              <Disciplina>Metodologia do Estudo e da Pesquisa Científica</Disciplina>
+              <Disciplina>Exposição Bíblica nos Evangelhos</Disciplina>
+              <Disciplina>Exposição Bíblica nas Profecias do Antigo Testamento</Disciplina>
+              <Disciplina>Exposição Bíblica nas Epístolas</Disciplina>
+              <Disciplina>Fundamentos e Metodologias da Aplicação Bíblica</Disciplina>
+              <Disciplina>Exposição Bíblica na Literatura Poética do Antigo Testamento</Disciplina>
+              <Disciplina>Exposição Bíblica em Apocalipse</Disciplina>
+              <Disciplina>Exposição Bíblica em Narrativas do Antigo Testamento</Disciplina>
+            </Disciplinas>
+          </Semestre>
+        </Semestres>
+      </Grade>
       <Financeiro>
         <Financa>
           <ValorMensalidade>330</ValorMensalidade>
@@ -193,6 +387,28 @@
       <Categoria>Liderança e Ministério</Categoria>
       <Grau>Pós-graduação</Grau>
       <Professores></Professores>
+      <Grade>
+        <Show>True</Show>
+        <Semestres>
+          <Semestre>
+            <SemestreID>1</SemestreID>
+            <Disciplinas>
+              <Disciplina>Fundamentos Bíblicos e Teológicos da Liderança Cristã</Disciplina>
+              <Disciplina>Qualidades Essenciais do Líder Cristão</Disciplina>
+              <Disciplina>Liderança Cristã e a Resolução de Conflitos</Disciplina>
+              <Disciplina>Liderança Cristã e o Planejamento Estratégico</Disciplina>
+              <Disciplina>Metodologia da Pesquisa</Disciplina>
+              <Disciplina>O Líder Cristão e a Formação de Novos Líderes</Disciplina>
+              <Disciplina>Liderança Cristã e as Mudanças Culturais</Disciplina>
+              <Disciplina>Didática do Ensino Superior</Disciplina>
+              <Disciplina>O Líder Cristão como Mentor Espiritual</Disciplina>
+              <Disciplina>Liderança Cristã e a Mobilização de Pessoas</Disciplina>
+              <Disciplina>Prioridades do Líder Cristão</Disciplina>
+              <Disciplina>O Líder Cristão e a Comunicação na Era Digital</Disciplina>
+            </Disciplinas>
+          </Semestre>
+        </Semestres>
+      </Grade>
       <Financeiro>
         <Financa>
           <ValorMensalidade>330</ValorMensalidade>
@@ -217,6 +433,28 @@
       <Categoria>Música e Ministério</Categoria>
       <Grau>Pós-graduação</Grau>
       <Professores></Professores>
+      <Grade>
+        <Show>True</Show>
+        <Semestres>
+          <Semestre>
+            <SemestreID>1</SemestreID>
+            <Disciplinas>
+              <Disciplina>Vivências músico pedagógicas</Disciplina>
+              <Disciplina>Voz humana e a preparação para o canto</Disciplina>
+              <Disciplina>Regência aplicada</Disciplina>
+              <Disciplina>Simbologia, forma e estruturação da linguagem musical</Disciplina>
+              <Disciplina>Pedagogia musical - fundamentos e a prática de ensino</Disciplina>
+              <Disciplina>Harmonia Aplicada</Disciplina>
+              <Disciplina>Técnicas de escrita</Disciplina>
+              <Disciplina>Administração do ministério de música</Disciplina>
+              <Disciplina>Pilares da Adoração musical na igreja</Disciplina>
+              <Disciplina>Panorama histórico cultural da música cristã</Disciplina>
+              <Disciplina>Didática do Ensino Superior</Disciplina>
+              <Disciplina>Metodologia da Pesquisa</Disciplina>
+            </Disciplinas>
+          </Semestre>
+        </Semestres>
+      </Grade>
       <Financeiro>
         <Financa>
           <ValorMensalidade>330</ValorMensalidade>

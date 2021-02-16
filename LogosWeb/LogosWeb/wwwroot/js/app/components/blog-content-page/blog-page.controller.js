@@ -11,6 +11,7 @@ function BlogController($scope, $http) {
 
     self.postagens = null;
     self.postagem = null;
+    self.texto = [];
 
     self.categorias = null;
 
@@ -23,7 +24,6 @@ function BlogController($scope, $http) {
             let postId = parseInt(pathname[pathname.length - 1]);
 
             self.getPost(postId);
-            
         } 
 
         self.getBlog();
@@ -75,8 +75,17 @@ function BlogController($scope, $http) {
             if (response != null) {
 
                 self.postagem = response.data;
+                self.handlePostContent();
             }
         });
+    }
+
+    self.handlePostContent = function () {
+
+        if (self.postagem != null && self.postagem.conteudo) {
+
+            self.texto = self.postagem.conteudo.split('|');
+        }
     }
 
     self.filterByCategoria = function (categoria) {

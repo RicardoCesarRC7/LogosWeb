@@ -63,10 +63,10 @@ namespace LogosWeb.Models.Repository.Curso
 
                                     var formatosArr = cursoNode.InnerText.Split(',', StringSplitOptions.RemoveEmptyEntries);
 
-                                    if(formatosArr.Count() > 0)
+                                    if (formatosArr.Count() > 0)
                                     {
                                         curso.Formato = new List<EInteresseFormato>();
-                                        
+
                                         foreach (var formato in formatosArr)
                                         {
                                             curso.Formato.Add((EInteresseFormato)int.Parse(formato));
@@ -89,16 +89,79 @@ namespace LogosWeb.Models.Repository.Curso
                                     break;
 
                                 case "Professores":
-                                    
+
                                     var stringprofs = !string.IsNullOrEmpty(cursoNode.InnerText) ? cursoNode.InnerText.Split(',', StringSplitOptions.RemoveEmptyEntries) : new string[0];
 
                                     if (stringprofs.Count() > 0)
                                     {
                                         curso.Professores = new List<int>();
 
-                                        foreach(string strProf in stringprofs)
+                                        foreach (string strProf in stringprofs)
                                         {
                                             curso.Professores.Add(int.Parse(strProf.Replace(" ", "")));
+                                        }
+                                    }
+
+                                    break;
+
+                                case "Grade":
+
+                                    if (cursoNode != null && cursoNode.HasChildNodes)
+                                    {
+                                        curso.Grade = new Grade();
+
+                                        curso.Grade.GradeID = 1;
+
+                                        int counter = 1;
+
+                                        foreach (XmlNode gradeNode in cursoNode.ChildNodes)
+                                        {
+                                            switch (gradeNode.Name)
+                                            {
+                                                case "Show":
+                                                    curso.Grade.Show = gradeNode.InnerText == "True";
+                                                    break;
+
+                                                case "Semestres":
+
+                                                    if (gradeNode != null && gradeNode.HasChildNodes)
+                                                    {
+                                                        curso.Grade.Semestres = new List<Semestre>();
+
+                                                        foreach (XmlNode semestresNode in gradeNode.ChildNodes)
+                                                        {
+                                                            Semestre semestre = new Semestre();
+
+                                                            semestre.Disciplinas = new List<Disciplina>();
+
+                                                            foreach (XmlNode semestreNode in semestresNode.ChildNodes)
+                                                            {
+                                                                if (semestreNode.Name == "SemestreID")
+                                                                {
+                                                                    semestre.SemestreID = int.Parse(semestreNode.InnerText);
+                                                                }
+                                                                else
+                                                                {
+                                                                    foreach (XmlNode disciplinaNode in semestreNode.ChildNodes)
+                                                                    {
+                                                                        Disciplina disciplina = new Disciplina();
+
+                                                                        disciplina.DisciplinaID = counter;
+                                                                        disciplina.Nome = disciplinaNode.InnerText;
+
+                                                                        semestre.Disciplinas.Add(disciplina);
+
+                                                                        counter++;
+                                                                    }
+                                                                }
+                                                            }
+
+                                                            curso.Grade.Semestres.Add(semestre);
+                                                        }
+                                                    }
+
+                                                    break;
+                                            }
                                         }
                                     }
 
@@ -110,7 +173,7 @@ namespace LogosWeb.Models.Repository.Curso
                                     {
                                         curso.Financeiro = new List<Financeiro>();
 
-                                        foreach(XmlNode financeiroNode in cursoNode.ChildNodes)
+                                        foreach (XmlNode financeiroNode in cursoNode.ChildNodes)
                                         {
                                             var financa = new Financeiro();
 
@@ -127,7 +190,7 @@ namespace LogosWeb.Models.Repository.Curso
                                                         break;
                                                 }
                                             }
-                                                
+
                                             curso.Financeiro.Add(financa);
                                         }
                                     }

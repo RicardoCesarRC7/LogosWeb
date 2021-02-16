@@ -14,7 +14,7 @@ function NavigationController($scope) {
         {
             nome: 'Cursos', url: self.baseUrl + '/Cursos', subMenuItems: [
                 {
-                    nome: 'Mestrado', url: self.baseUrl + '/Cursos', subMenuItems: [
+                    nome: 'Master', url: self.baseUrl + '/Cursos', subMenuItems: [
                         { nome: 'Ministério', url: self.baseUrl + '/Cursos/Detalhes/2' },
                         { nome: 'Aconselhamento Bíblico', url: self.baseUrl + '/Cursos/Detalhes/3' }
                     ]

@@ -38,7 +38,7 @@ function NavigationController($scope) {
         { nome: 'Professores', url: self.baseUrl + '/Professores', subMenuItems: [] },
         { nome: 'Blog', url: self.baseUrl + '/Blog', subMenuItems: []},
         { nome: 'Fale conosco', url: self.baseUrl + '/Contato', subMenuItems: [] },
-        { nome: 'Área do aluno', url: 'https://portal.sponteeducacional.net.br/', subMenuItems: [] }
+        { nome: 'Área do aluno', url: 'https://portal.sponteeducacional.net.br/default.aspx?CID=71311', subMenuItems: [] }
     ];
 
     self.init = function () {

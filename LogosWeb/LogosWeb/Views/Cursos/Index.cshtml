@@ -17,7 +17,7 @@
 <!-- Hero end-->
 <!-- Portfolio-->
 <div ng-controller="CursosPanelController as controller" ng-init="controller.init()">
-    <section class="module p-t-35 p-b-0" >
+    <section class="module p-t-35 p-b-0">
         <div class="container">
             @*<div class="row">
                 <div class="col-md-12">
@@ -30,8 +30,6 @@
                     </ul>
                 </div>
             </div>*@
-        </div>
-        <div class="container-fluid">
             <div class="row row-portfolio" data-columns="4">
                 @*<div class="grid-sizer"></div>*@
                 <div class="portfolio-item {{curso.grau == 'Graduação' ? 'graduacao' : ''}}{{curso.grau == 'Pós-graduação' ? 'pos-graduacao reconhecimento-mec' : ''}}{{curso.grau == 'Mestrado' ? 'mestrado' : ''}}" ng-repeat="curso in controller.cursos">
@@ -41,6 +39,11 @@
                             <h6 class="portfolio-item-title">{{curso.nome}}</h6><span class="portfolio-item-subtitle serif">{{curso.categoria}}</span>
                         </div><a class="smoothscroll curso-show-info portfolio-item-link" href="#curso-details" style="cursor: pointer;" ng-click="controller.showCursoDetails(curso)"></a>
                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="space" data-MY="60px"></div>
                 </div>
             </div>
         </div>

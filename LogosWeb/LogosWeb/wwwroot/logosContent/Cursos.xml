@@ -133,6 +133,228 @@
     </Curso>
     <Curso>
       <CursoID>2</CursoID>
+      <Nome>Música Sacra</Nome>
+      <Descricao>
+        Capacita pessoas para o ministério de música
+        na igreja local, abrangendo teoria musical, canto,
+        regência, instrumentos, formação de conjuntos
+        e coral. Aborda, também, matérias de Teologia
+        Sistemática, Teologia da Adoração, Práticas
+        Ministeriais, etc. Curso prático, que envolve os
+        alunos em apresentações musicais das
+        programações do Seminário Logos. O curso
+        tem a duração de 2 anos.
+      </Descricao>
+      <HorarioAulas>Às terças e quintas-feiras, das 19:00h às 22:15h.</HorarioAulas>
+      <Duracao>2 anos (4 Semestres)</Duracao>
+      <Formato>1</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Música e Ministério</Categoria>
+      <Grau>Graduação</Grau>
+      <Professores></Professores>
+      <Grade></Grade>
+      <Financeiro>
+        <Financa>
+          <ValorMensalidade>330</ValorMensalidade>
+          <Informacao>Este valor com aulas de piano (R$300,00 para pagamento até o dia 10 de cada mês)</Informacao>
+        </Financa>
+        <Financa>
+          <ValorMensalidade>300</ValorMensalidade>
+          <Informacao>Este valor sem aulas de piano (R$270,00 para pagamento até o dia 10 de cada mês)</Informacao>
+        </Financa>
+      </Financeiro>
+      <UrlImagem>bacharel/bacharel-musica-sacra-main-1.png</UrlImagem>
+      <Imagens>
+        <Imagem>bacharel/bacharel-musica-sacra.JPG</Imagem>
+      </Imagens>
+    </Curso>
+    <Curso>
+      <CursoID>3</CursoID>
+      <Nome>Pós-graduação em Aconselhamento Bíblico</Nome>
+      <Descricao>A Pós-graduação em Aconselhamento Bíblico visa treinar conselheiros bíblicos e interessados no conhecimento e exercício do ministério de aconselhamento. O curso pressupõe que o aluno tenha conhecimento básico sobre a temática. As disciplinas visam aprofundar e discutir os assuntos pertinentes ao aconselhamento bíblico, fornecendo aperfeiçoamento, afim de tornar o aluno especialista na área.</Descricao>
+      <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
+      <Duracao>1 ano e 6 meses (3 Semestres, 18 meses)</Duracao>
+      <Formato>2</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Aconselhamento Bíblico</Categoria>
+      <Grau>Pós-graduação</Grau>
+      <Professores></Professores>
+      <Grade>
+        <Show>True</Show>
+        <Semestres>
+          <Semestre>
+            <SemestreID>1</SemestreID>
+            <Disciplinas>
+              <Disciplina>Fundamentos Bíblicos e Teológicos do Aconselhamento Bíblico</Disciplina>
+              <Disciplina>Hermenêutica para o preparo do Aconselhamento Bíblico</Disciplina>
+              <Disciplina>A Prática do Aconselhamento Bíblico</Disciplina>
+              <Disciplina>Ministério de Aconselhamento Bíblico e a igreja local</Disciplina>
+              <Disciplina>Aconselhamento Bíblico e o Ministério da Palavra</Disciplina>
+              <Disciplina>Biopsiquiatria e o Aconselhamento Bíblico</Disciplina>
+              <Disciplina>Aconselhamento Bíblico e os distúrbios da Sexualidade</Disciplina>
+              <Disciplina>Aconselhamento Bíblico e as doenças da mente</Disciplina>
+              <Disciplina>Aconselhamento Bíblico e a Redenção da Família</Disciplina>
+              <Disciplina>Metodologias e Procedimentos do Aconselhamento Bíblico</Disciplina>
+              <Disciplina>Metodologia e Didática do Ensino Superior</Disciplina>
+              <Disciplina>Metodologia do Estudo e da Pesquisa Científica</Disciplina>
+              <Disciplina>Orientação e T.C.C – monografia </Disciplina>
+            </Disciplinas>
+          </Semestre>
+        </Semestres>
+      </Grade>
+      <Financeiro>
+        <Financa>
+          <ValorMensalidade>330</ValorMensalidade>
+          <Informacao>18 parcelas; R$300,00 para pagamento até o dia 10</Informacao>
+        </Financa>
+      </Financeiro>
+      <UrlImagem>pos-graduacao/pos-graduacao-aconselhamento-biblico-main-1.png</UrlImagem>
+      <Imagens>
+        <Imagem>pos-graduacao/pos-graduacao-aconselhamento-biblico-1.jpeg</Imagem>
+        <Imagem>pos-graduacao/pos-graduacao-aconselhamento-biblico-2.jpeg</Imagem>
+        <Imagem>pos-graduacao/pos-graduacao-aconselhamento-biblico-3.jpeg</Imagem>
+      </Imagens>
+    </Curso>
+    <Curso>
+      <CursoID>4</CursoID>
+      <Nome>Pós-graduação em Exposição Bíblica</Nome>
+      <Descricao>A Pós-graduação em Exposição Bíblica visa treinar pastores e demais interessados no conhecimento e exercício da exposição das Escrituras Sagradas. O curso pressupõe que o aluno tenha conhecimento básico sobre a temática. As disciplinas visam aprofundar e discutir os assuntos pertinentes à exposição das Escrituras, tanto no Antigo quanto no Novo Testamento, fornecendo aperfeiçoamento para tornar o aluno especialista na área.</Descricao>
+      <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
+      <Duracao>1 ano e 6 meses (3 Semestres, 18 meses)</Duracao>
+      <Formato>2</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Pregação e Exposição Bíblica</Categoria>
+      <Grau>Pós-graduação</Grau>
+      <Professores></Professores>
+      <Grade>
+        <Show>True</Show>
+        <Semestres>
+          <Semestre>
+            <SemestreID>1</SemestreID>
+            <Disciplinas>
+              <Disciplina>Fundamentos e Metodologias da Exposição Bíblica</Disciplina>
+              <Disciplina>Exposição Bíblica nos Livros da Lei</Disciplina>
+              <Disciplina>Metodologia e Didática do Ensino Superior</Disciplina>
+              <Disciplina>Exposição Bíblica em Atos dos Apóstolos</Disciplina>
+              <Disciplina>Metodologia do Estudo e da Pesquisa Científica</Disciplina>
+              <Disciplina>Exposição Bíblica nos Evangelhos</Disciplina>
+              <Disciplina>Exposição Bíblica nas Profecias do Antigo Testamento</Disciplina>
+              <Disciplina>Exposição Bíblica nas Epístolas</Disciplina>
+              <Disciplina>Fundamentos e Metodologias da Aplicação Bíblica</Disciplina>
+              <Disciplina>Exposição Bíblica na Literatura Poética do Antigo Testamento</Disciplina>
+              <Disciplina>Exposição Bíblica em Apocalipse</Disciplina>
+              <Disciplina>Exposição Bíblica em Narrativas do Antigo Testamento</Disciplina>
+            </Disciplinas>
+          </Semestre>
+        </Semestres>
+      </Grade>
+      <Financeiro>
+        <Financa>
+          <ValorMensalidade>330</ValorMensalidade>
+          <Informacao>18 parcelas; R$300,00 para pagamento até o dia 10</Informacao>
+        </Financa>
+      </Financeiro>
+      <UrlImagem>pos-graduacao/pos-graduacao-exposicao-biblica-main-1.png</UrlImagem>
+      <Imagens>
+        <Imagem>pos-graduacao/pos-graduacao-exposicao-biblica-1.jpeg</Imagem>
+        <Imagem>pos-graduacao/pos-graduacao-exposicao-biblica-2.jpeg</Imagem>
+        <Imagem>pos-graduacao/pos-graduacao-exposicao-biblica-3.jpeg</Imagem>
+      </Imagens>
+    </Curso>
+    <Curso>
+      <CursoID>5</CursoID>
+      <Nome>Pós-graduação em Liderança Ministerial</Nome>
+      <Descricao>A Pós-graduação em Liderança Cristã visa treinar pastores, líderes e demais interessados para o conhecimento e exercício da liderança no âmbito cristão. As disciplinas objetivam fornecer bases e aprofundamento em diversos aspectos que envolvem o exercício da liderança e as qualificações e papéis do líder, aperfeiçoando o aluno para se tornar um especialista na área.</Descricao>
+      <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
+      <Duracao>1 ano e 6 meses (3 Semestres, 18 meses)</Duracao>
+      <Formato>2</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Liderança e Ministério</Categoria>
+      <Grau>Pós-graduação</Grau>
+      <Professores></Professores>
+      <Grade>
+        <Show>True</Show>
+        <Semestres>
+          <Semestre>
+            <SemestreID>1</SemestreID>
+            <Disciplinas>
+              <Disciplina>Fundamentos Bíblicos e Teológicos da Liderança Cristã</Disciplina>
+              <Disciplina>Qualidades Essenciais do Líder Cristão</Disciplina>
+              <Disciplina>Liderança Cristã e a Resolução de Conflitos</Disciplina>
+              <Disciplina>Liderança Cristã e o Planejamento Estratégico</Disciplina>
+              <Disciplina>Metodologia da Pesquisa</Disciplina>
+              <Disciplina>O Líder Cristão e a Formação de Novos Líderes</Disciplina>
+              <Disciplina>Liderança Cristã e as Mudanças Culturais</Disciplina>
+              <Disciplina>Didática do Ensino Superior</Disciplina>
+              <Disciplina>O Líder Cristão como Mentor Espiritual</Disciplina>
+              <Disciplina>Liderança Cristã e a Mobilização de Pessoas</Disciplina>
+              <Disciplina>Prioridades do Líder Cristão</Disciplina>
+              <Disciplina>O Líder Cristão e a Comunicação na Era Digital</Disciplina>
+            </Disciplinas>
+          </Semestre>
+        </Semestres>
+      </Grade>
+      <Financeiro>
+        <Financa>
+          <ValorMensalidade>330</ValorMensalidade>
+          <Informacao>18 parcelas; R$300,00 para pagamento até o dia 10</Informacao>
+        </Financa>
+      </Financeiro>
+      <UrlImagem>pos-graduacao/pos-graduacao-lideranca-ministerial-main-1.png</UrlImagem>
+      <Imagens>
+        <Imagem>pos-graduacao/pos-graduacao-lideranca-ministerial-1.jpeg</Imagem>
+        <Imagem>pos-graduacao/pos-graduacao-lideranca-ministerial-2.jpeg</Imagem>
+        <Imagem>pos-graduacao/pos-graduacao-lideranca-ministerial-3.jpeg</Imagem>
+      </Imagens>
+    </Curso>
+    <Curso>
+      <CursoID>6</CursoID>
+      <Nome>Pós-graduação em Educação Musical</Nome>
+      <Descricao>A Pós-graduação em Educação Musical na Igreja tem como objetivo equipar músicos e educadores à docência empírica e à vivência musical. O aluno ampliará sua visão sobre o ensino de forma clara e sistematizada, aperfeiçoando suas práticas de execução, aprofundando seus conhecimentos para ter melhor capacidade de atuação.</Descricao>
+      <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
+      <Duracao>1 ano e 6 meses (3 Semestres, 18 meses)</Duracao>
+      <Formato>2</Formato>
+      <Publicoalvo></Publicoalvo>
+      <Categoria>Música e Ministério</Categoria>
+      <Grau>Pós-graduação</Grau>
+      <Professores></Professores>
+      <Grade>
+        <Show>True</Show>
+        <Semestres>
+          <Semestre>
+            <SemestreID>1</SemestreID>
+            <Disciplinas>
+              <Disciplina>Vivências músico pedagógicas</Disciplina>
+              <Disciplina>Voz humana e a preparação para o canto</Disciplina>
+              <Disciplina>Regência aplicada</Disciplina>
+              <Disciplina>Simbologia, forma e estruturação da linguagem musical</Disciplina>
+              <Disciplina>Pedagogia musical - fundamentos e a prática de ensino</Disciplina>
+              <Disciplina>Harmonia Aplicada</Disciplina>
+              <Disciplina>Técnicas de escrita</Disciplina>
+              <Disciplina>Administração do ministério de música</Disciplina>
+              <Disciplina>Pilares da Adoração musical na igreja</Disciplina>
+              <Disciplina>Panorama histórico cultural da música cristã</Disciplina>
+              <Disciplina>Didática do Ensino Superior</Disciplina>
+              <Disciplina>Metodologia da Pesquisa</Disciplina>
+            </Disciplinas>
+          </Semestre>
+        </Semestres>
+      </Grade>
+      <Financeiro>
+        <Financa>
+          <ValorMensalidade>330</ValorMensalidade>
+          <Informacao>18 parcelas; R$300,00 para pagamento até o dia 10</Informacao>
+        </Financa>
+      </Financeiro>
+      <UrlImagem>pos-graduacao/pos-graduacao-educacao-musical-main-1.png</UrlImagem>
+      <Imagens>
+        <Imagem>pos-graduacao/pos-graduacao-educacao-musical-1.jpeg</Imagem>
+        <Imagem>pos-graduacao/pos-graduacao-educacao-musical-2.jpeg</Imagem>
+        <Imagem>pos-graduacao/pos-graduacao-educacao-musical-3.jpeg</Imagem>
+      </Imagens>
+    </Curso>
+    <Curso>
+      <CursoID>7</CursoID>
       <Nome>Master em Ministério</Nome>
       <Descricao>
         Curso oferecido em módulos intensivos de
@@ -188,7 +410,7 @@
       </Imagens>
     </Curso>
     <Curso>
-      <CursoID>3</CursoID>
+      <CursoID>8</CursoID>
       <Nome>Master em Aconselhamento Bíblico</Nome>
       <Descricao>
         Curso oferecido em módulos intensivos de
@@ -244,228 +466,6 @@
         <Imagem>mestrado/mestrado-aconselhamento-biblico-1.jpeg</Imagem>
         <Imagem>mestrado/mestrado-aconselhamento-biblico-2.jpeg</Imagem>
         <Imagem>mestrado/mestrado-aconselhamento-biblico-3.jpeg</Imagem>
-      </Imagens>
-    </Curso>
-    <Curso>
-      <CursoID>4</CursoID>
-      <Nome>Música Sacra</Nome>
-      <Descricao>
-        Capacita pessoas para o ministério de música
-        na igreja local, abrangendo teoria musical, canto,
-        regência, instrumentos, formação de conjuntos
-        e coral. Aborda, também, matérias de Teologia
-        Sistemática, Teologia da Adoração, Práticas
-        Ministeriais, etc. Curso prático, que envolve os
-        alunos em apresentações musicais das
-        programações do Seminário Logos. O curso
-        tem a duração de 2 anos.
-      </Descricao>
-      <HorarioAulas>Às terças e quintas-feiras, das 19:00h às 22:15h.</HorarioAulas>
-      <Duracao>2 anos (4 Semestres)</Duracao>
-      <Formato>1</Formato>
-      <Publicoalvo></Publicoalvo>
-      <Categoria>Música e Ministério</Categoria>
-      <Grau>Graduação</Grau>
-      <Professores></Professores>
-      <Grade></Grade>
-      <Financeiro>
-        <Financa>
-          <ValorMensalidade>330</ValorMensalidade>
-          <Informacao>Este valor com aulas de piano (R$300,00 para pagamento até o dia 10 de cada mês)</Informacao>
-        </Financa>
-        <Financa>
-          <ValorMensalidade>300</ValorMensalidade>
-          <Informacao>Este valor sem aulas de piano (R$270,00 para pagamento até o dia 10 de cada mês)</Informacao>
-        </Financa>
-      </Financeiro>
-      <UrlImagem>bacharel/bacharel-musica-sacra-main-1.png</UrlImagem>
-      <Imagens>
-        <Imagem>bacharel/bacharel-musica-sacra.JPG</Imagem>
-      </Imagens>
-    </Curso>
-    <Curso>
-      <CursoID>5</CursoID>
-      <Nome>Pós-graduação em Aconselhamento Bíblico</Nome>
-      <Descricao>A Pós-graduação em Aconselhamento Bíblico visa treinar conselheiros bíblicos e interessados no conhecimento e exercício do ministério de aconselhamento. O curso pressupõe que o aluno tenha conhecimento básico sobre a temática. As disciplinas visam aprofundar e discutir os assuntos pertinentes ao aconselhamento bíblico, fornecendo aperfeiçoamento, afim de tornar o aluno especialista na área.</Descricao>
-      <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
-      <Duracao>1 ano e 6 meses (3 Semestres, 18 meses)</Duracao>
-      <Formato>2</Formato>
-      <Publicoalvo></Publicoalvo>
-      <Categoria>Aconselhamento Bíblico</Categoria>
-      <Grau>Pós-graduacao</Grau>
-      <Professores></Professores>
-      <Grade>
-        <Show>True</Show>
-        <Semestres>
-          <Semestre>
-            <SemestreID>1</SemestreID>
-            <Disciplinas>
-              <Disciplina>Fundamentos Bíblicos e Teológicos do Aconselhamento Bíblico</Disciplina>
-              <Disciplina>Hermenêutica para o preparo do Aconselhamento Bíblico</Disciplina>
-              <Disciplina>A Prática do Aconselhamento Bíblico</Disciplina>
-              <Disciplina>Ministério de Aconselhamento Bíblico e a igreja local</Disciplina>
-              <Disciplina>Aconselhamento Bíblico e o Ministério da Palavra</Disciplina>
-              <Disciplina>Biopsiquiatria e o Aconselhamento Bíblico</Disciplina>
-              <Disciplina>Aconselhamento Bíblico e os distúrbios da Sexualidade</Disciplina>
-              <Disciplina>Aconselhamento Bíblico e as doenças da mente</Disciplina>
-              <Disciplina>Aconselhamento Bíblico e a Redenção da Família</Disciplina>
-              <Disciplina>Metodologias e Procedimentos do Aconselhamento Bíblico</Disciplina>
-              <Disciplina>Metodologia e Didática do Ensino Superior</Disciplina>
-              <Disciplina>Metodologia do Estudo e da Pesquisa Científica</Disciplina>
-              <Disciplina>Orientação e T.C.C – monografia </Disciplina>
-            </Disciplinas>
-          </Semestre>
-        </Semestres>
-      </Grade>
-      <Financeiro>
-        <Financa>
-          <ValorMensalidade>330</ValorMensalidade>
-          <Informacao>18 parcelas; R$300,00 para pagamento até o dia 10</Informacao>
-        </Financa>
-      </Financeiro>
-      <UrlImagem>pos-graduacao/pos-graduacao-aconselhamento-biblico-main-1.png</UrlImagem>
-      <Imagens>
-        <Imagem>pos-graduacao/pos-graduacao-aconselhamento-biblico-1.jpeg</Imagem>
-        <Imagem>pos-graduacao/pos-graduacao-aconselhamento-biblico-2.jpeg</Imagem>
-        <Imagem>pos-graduacao/pos-graduacao-aconselhamento-biblico-3.jpeg</Imagem>
-      </Imagens>
-    </Curso>
-    <Curso>
-      <CursoID>6</CursoID>
-      <Nome>Pós-graduação em Exposição Bíblica</Nome>
-      <Descricao>A Pós-graduação em Exposição Bíblica visa treinar pastores e demais interessados no conhecimento e exercício da exposição das Escrituras Sagradas. O curso pressupõe que o aluno tenha conhecimento básico sobre a temática. As disciplinas visam aprofundar e discutir os assuntos pertinentes à exposição das Escrituras, tanto no Antigo quanto no Novo Testamento, fornecendo aperfeiçoamento para tornar o aluno especialista na área.</Descricao>
-      <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
-      <Duracao>1 ano e 6 meses (3 Semestres, 18 meses)</Duracao>
-      <Formato>2</Formato>
-      <Publicoalvo></Publicoalvo>
-      <Categoria>Pregação e Exposição Bíblica</Categoria>
-      <Grau>Pós-graduação</Grau>
-      <Professores></Professores>
-      <Grade>
-        <Show>True</Show>
-        <Semestres>
-          <Semestre>
-            <SemestreID>1</SemestreID>
-            <Disciplinas>
-              <Disciplina>Fundamentos e Metodologias da Exposição Bíblica</Disciplina>
-              <Disciplina>Exposição Bíblica nos Livros da Lei</Disciplina>
-              <Disciplina>Metodologia e Didática do Ensino Superior</Disciplina>
-              <Disciplina>Exposição Bíblica em Atos dos Apóstolos</Disciplina>
-              <Disciplina>Metodologia do Estudo e da Pesquisa Científica</Disciplina>
-              <Disciplina>Exposição Bíblica nos Evangelhos</Disciplina>
-              <Disciplina>Exposição Bíblica nas Profecias do Antigo Testamento</Disciplina>
-              <Disciplina>Exposição Bíblica nas Epístolas</Disciplina>
-              <Disciplina>Fundamentos e Metodologias da Aplicação Bíblica</Disciplina>
-              <Disciplina>Exposição Bíblica na Literatura Poética do Antigo Testamento</Disciplina>
-              <Disciplina>Exposição Bíblica em Apocalipse</Disciplina>
-              <Disciplina>Exposição Bíblica em Narrativas do Antigo Testamento</Disciplina>
-            </Disciplinas>
-          </Semestre>
-        </Semestres>
-      </Grade>
-      <Financeiro>
-        <Financa>
-          <ValorMensalidade>330</ValorMensalidade>
-          <Informacao>18 parcelas; R$300,00 para pagamento até o dia 10</Informacao>
-        </Financa>
-      </Financeiro>
-      <UrlImagem>pos-graduacao/pos-graduacao-exposicao-biblica-main-1.png</UrlImagem>
-      <Imagens>
-        <Imagem>pos-graduacao/pos-graduacao-exposicao-biblica-1.jpeg</Imagem>
-        <Imagem>pos-graduacao/pos-graduacao-exposicao-biblica-2.jpeg</Imagem>
-        <Imagem>pos-graduacao/pos-graduacao-exposicao-biblica-3.jpeg</Imagem>
-      </Imagens>
-    </Curso>
-    <Curso>
-      <CursoID>7</CursoID>
-      <Nome>Pós-graduação em Liderança Ministerial</Nome>
-      <Descricao>A Pós-graduação em Liderança Cristã visa treinar pastores, líderes e demais interessados para o conhecimento e exercício da liderança no âmbito cristão. As disciplinas objetivam fornecer bases e aprofundamento em diversos aspectos que envolvem o exercício da liderança e as qualificações e papéis do líder, aperfeiçoando o aluno para se tornar um especialista na área.</Descricao>
-      <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
-      <Duracao>1 ano e 6 meses (3 Semestres, 18 meses)</Duracao>
-      <Formato>2</Formato>
-      <Publicoalvo></Publicoalvo>
-      <Categoria>Liderança e Ministério</Categoria>
-      <Grau>Pós-graduação</Grau>
-      <Professores></Professores>
-      <Grade>
-        <Show>True</Show>
-        <Semestres>
-          <Semestre>
-            <SemestreID>1</SemestreID>
-            <Disciplinas>
-              <Disciplina>Fundamentos Bíblicos e Teológicos da Liderança Cristã</Disciplina>
-              <Disciplina>Qualidades Essenciais do Líder Cristão</Disciplina>
-              <Disciplina>Liderança Cristã e a Resolução de Conflitos</Disciplina>
-              <Disciplina>Liderança Cristã e o Planejamento Estratégico</Disciplina>
-              <Disciplina>Metodologia da Pesquisa</Disciplina>
-              <Disciplina>O Líder Cristão e a Formação de Novos Líderes</Disciplina>
-              <Disciplina>Liderança Cristã e as Mudanças Culturais</Disciplina>
-              <Disciplina>Didática do Ensino Superior</Disciplina>
-              <Disciplina>O Líder Cristão como Mentor Espiritual</Disciplina>
-              <Disciplina>Liderança Cristã e a Mobilização de Pessoas</Disciplina>
-              <Disciplina>Prioridades do Líder Cristão</Disciplina>
-              <Disciplina>O Líder Cristão e a Comunicação na Era Digital</Disciplina>
-            </Disciplinas>
-          </Semestre>
-        </Semestres>
-      </Grade>
-      <Financeiro>
-        <Financa>
-          <ValorMensalidade>330</ValorMensalidade>
-          <Informacao>18 parcelas; R$300,00 para pagamento até o dia 10</Informacao>
-        </Financa>
-      </Financeiro>
-      <UrlImagem>pos-graduacao/pos-graduacao-lideranca-ministerial-main-1.png</UrlImagem>
-      <Imagens>
-        <Imagem>pos-graduacao/pos-graduacao-lideranca-ministerial-1.jpeg</Imagem>
-        <Imagem>pos-graduacao/pos-graduacao-lideranca-ministerial-2.jpeg</Imagem>
-        <Imagem>pos-graduacao/pos-graduacao-lideranca-ministerial-3.jpeg</Imagem>
-      </Imagens>
-    </Curso>
-    <Curso>
-      <CursoID>8</CursoID>
-      <Nome>Pós-graduação em Educação Musical</Nome>
-      <Descricao>A Pós-graduação em Educação Musical na Igreja tem como objetivo equipar músicos e educadores à docência empírica e à vivência musical. O aluno ampliará sua visão sobre o ensino de forma clara e sistematizada, aperfeiçoando suas práticas de execução, aprofundando seus conhecimentos para ter melhor capacidade de atuação.</Descricao>
-      <HorarioAulas>Módulos mensais, com aulas nas sextas-feiras, das 19:00h às 22:15h, e sábados, das 08:00h às 18:00h.</HorarioAulas>
-      <Duracao>1 ano e 6 meses (3 Semestres, 18 meses)</Duracao>
-      <Formato>2</Formato>
-      <Publicoalvo></Publicoalvo>
-      <Categoria>Música e Ministério</Categoria>
-      <Grau>Pós-graduação</Grau>
-      <Professores></Professores>
-      <Grade>
-        <Show>True</Show>
-        <Semestres>
-          <Semestre>
-            <SemestreID>1</SemestreID>
-            <Disciplinas>
-              <Disciplina>Vivências músico pedagógicas</Disciplina>
-              <Disciplina>Voz humana e a preparação para o canto</Disciplina>
-              <Disciplina>Regência aplicada</Disciplina>
-              <Disciplina>Simbologia, forma e estruturação da linguagem musical</Disciplina>
-              <Disciplina>Pedagogia musical - fundamentos e a prática de ensino</Disciplina>
-              <Disciplina>Harmonia Aplicada</Disciplina>
-              <Disciplina>Técnicas de escrita</Disciplina>
-              <Disciplina>Administração do ministério de música</Disciplina>
-              <Disciplina>Pilares da Adoração musical na igreja</Disciplina>
-              <Disciplina>Panorama histórico cultural da música cristã</Disciplina>
-              <Disciplina>Didática do Ensino Superior</Disciplina>
-              <Disciplina>Metodologia da Pesquisa</Disciplina>
-            </Disciplinas>
-          </Semestre>
-        </Semestres>
-      </Grade>
-      <Financeiro>
-        <Financa>
-          <ValorMensalidade>330</ValorMensalidade>
-          <Informacao>18 parcelas; R$300,00 para pagamento até o dia 10</Informacao>
-        </Financa>
-      </Financeiro>
-      <UrlImagem>pos-graduacao/pos-graduacao-educacao-musical-main-1.png</UrlImagem>
-      <Imagens>
-        <Imagem>pos-graduacao/pos-graduacao-educacao-musical-1.jpeg</Imagem>
-        <Imagem>pos-graduacao/pos-graduacao-educacao-musical-2.jpeg</Imagem>
-        <Imagem>pos-graduacao/pos-graduacao-educacao-musical-3.jpeg</Imagem>
       </Imagens>
     </Curso>
   </Cursos>

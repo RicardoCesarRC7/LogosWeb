@@ -2,7 +2,7 @@
     .module('logosApp')
     .controller('NavigationController', NavigationController);
 
-function NavigationController($scope) {
+function NavigationController($scope, $timeout) {
 
     var self = this;
 
@@ -43,6 +43,41 @@ function NavigationController($scope) {
 
     self.init = function () {
 
+        $timeout(function () {
+            self.startPortfolio(); //método do custom.min.js
+        }, 500)
+    }
+
+    self.startPortfolio = function () {
+        /* - - - - - - - - - - - - - - - - - - - - - - - - - - - -  /*
+        /* Portfolio masonry
+        /* - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+        var filters = $('.filters'),
+            worksgrid = $('.row-portfolio');
+
+        $('a', filters).on('click', function () {
+            var selector = $(this).attr('data-filter');
+            $('.current', filters).removeClass('current');
+            $(this).addClass('current');
+            worksgrid.isotope({
+                filter: selector
+            });
+            return false;
+        });
+
+        $(window).on('resize', function () {
+            worksgrid.imagesLoaded(function () {
+                worksgrid.isotope({
+                    layoutMode: 'masonry',
+                    itemSelector: '.portfolio-item',
+                    transitionDuration: '0.4s',
+                    masonry: {
+                        columnWidth: '.grid-sizer',
+                    },
+                });
+            });
+        });
     }
 
 }

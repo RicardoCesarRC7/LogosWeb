@@ -19,17 +19,17 @@
 <div ng-controller="CursosPanelController as controller" ng-init="controller.init()">
     <section class="module p-t-35 p-b-0">
         <div class="container">
-            @*<div class="row">
+            <div class="row">
                 <div class="col-md-12">
                     <ul class="filters serif">
-                        <li><a class="current" href="#" data-filter="*">Todos</a></li>
-                        <li><a href="#" data-filter=".mestrado">Mestrado</a></li>
-                        <li><a href="#" data-filter=".pos-graduacao">Pós-graduação</a></li>
-                        <li><a href="#" data-filter=".graduacao">Graduação</a></li>
-                        <li><a href="#" data-filter=".reconhecimento-mec">Reconhecidos pelo MEC</a></li>
+                        <li><a class="current" href="" data-filter="*">Todos</a></li>
+                        <li><a href="" data-filter=".mestrado">Master</a></li>
+                        <li><a href="" data-filter=".pos-graduacao">Pós-graduação</a></li>
+                        <li><a href="" data-filter=".graduacao">Graduação</a></li>
+                        <li><a href="" data-filter=".reconhecimento-mec">Reconhecidos pelo MEC</a></li>
                     </ul>
                 </div>
-            </div>*@
+            </div>
             <div class="row row-portfolio" data-columns="4">
                 @*<div class="grid-sizer"></div>*@
                 <div class="portfolio-item {{curso.grau == 'Graduação' ? 'graduacao' : ''}}{{curso.grau == 'Pós-graduação' ? 'pos-graduacao reconhecimento-mec' : ''}}{{curso.grau == 'Mestrado' ? 'mestrado' : ''}}" ng-repeat="curso in controller.cursos">

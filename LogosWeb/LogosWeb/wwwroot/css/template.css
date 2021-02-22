@@ -13693,7 +13693,7 @@ img.img-shadow,
 .container .row-portfolio {
     margin-right: -5px;
     margin-left: -5px;
-    height: auto !important;
+    /*height: auto !important;*/
 }
 
 .container-fluid .row-portfolio {

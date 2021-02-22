@@ -1,6 +1,6 @@
 ﻿angular
     .module('logosApp')
-    .controller('NavigationController', NavigationController);
+    .controller('NavigationController', ['$scope', '$timeout', NavigationController]);
 
 function NavigationController($scope, $timeout) {
 

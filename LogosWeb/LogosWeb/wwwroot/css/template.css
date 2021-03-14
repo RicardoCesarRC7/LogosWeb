@@ -13039,6 +13039,10 @@ img.img-shadow,
     border-color: rgba(240, 240, 240, .8);
 }
 
+.header.header-small .extra-nav .palavra-direcao {
+    border-right-color: rgba(240, 240, 240, .8);
+}
+
 .header .inner-nav > ul > li > a::after,
 .header.header-small .inner-nav > ul > li > a::after {
     display: none;
@@ -13100,6 +13104,10 @@ img.img-shadow,
     .header.header-small .extra-nav > ul > li:first-child,
     .header.header-transparent .extra-nav > ul > li:first-child {
         border-color: rgba(240, 240, 240, .8);
+    }
+
+    .header.header-transparent .extra-nav palavra-direcao {
+        border-right-color: rgba(240, 240, 240, .8);
     }
 
     .header .extra-nav > ul > li > a,

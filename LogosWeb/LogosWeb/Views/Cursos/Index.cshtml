@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="row row-portfolio" data-columns="4">
-                @*<div class="grid-sizer"></div>*@
+                <div class="grid-sizer"></div>
                 <div class="portfolio-item {{curso.grau == 'Graduação' ? 'graduacao' : ''}}{{curso.grau == 'Pós-graduação' ? 'pos-graduacao reconhecimento-mec' : ''}}{{curso.grau == 'Mestrado' ? 'mestrado' : ''}}" ng-repeat="curso in controller.cursos">
                     <div class="portfolio-item-wrapper">
                         <div class="portfolio-item-img"><img ng-src="images/cursos/{{curso.urlImagemPrincipal}}" alt=""></div>

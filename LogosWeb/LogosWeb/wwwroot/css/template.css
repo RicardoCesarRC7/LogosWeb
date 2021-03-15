@@ -13039,7 +13039,7 @@ img.img-shadow,
     border-color: rgba(240, 240, 240, .8);
 }
 
-.header.header-small .extra-nav .palavra-direcao {
+.header.header-small .inner-brand.extra-nav > ul > li {
     border-right-color: rgba(240, 240, 240, .8);
 }
 
@@ -13106,7 +13106,7 @@ img.img-shadow,
         border-color: rgba(240, 240, 240, .8);
     }
 
-    .header.header-transparent .extra-nav palavra-direcao {
+    .header.header-transparent .inner-brand.extra-nav > ul > li {
         border-right-color: rgba(240, 240, 240, .8);
     }
 
@@ -14942,6 +14942,10 @@ body.off-canvas-sidebar-open:after {
     .whatsapp-contact {
         display: none;
     }
+
+    .palavra-direcao {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1395px) {
@@ -14950,3 +14954,9 @@ body.off-canvas-sidebar-open:after {
         display: none;
     }
 }
+
+/*@media screen and (min-width: 992px) {
+    .palavra-direcao-min {
+        display: none;
+    }
+}*/

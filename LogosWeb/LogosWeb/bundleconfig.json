@@ -40,5 +40,16 @@
       "renameLocals": true
     },
     "sourceMap": false
+  },
+  {
+    "outputFileName": "wwwroot/js/podcast.min.js",
+    "inputFiles": [
+      "wwwroot/js/app/components/podcast/podcast-page.controller.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
   }
 ]

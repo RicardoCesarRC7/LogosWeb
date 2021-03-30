@@ -14994,3 +14994,7 @@ body.off-canvas-sidebar-open:after {
         display: none;
     }
 }*/
+
+.sugestoes-cursos {
+    height: auto !important;
+}

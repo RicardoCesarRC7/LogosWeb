@@ -14907,6 +14907,33 @@ body.off-canvas-sidebar-open:after {
         transform: translateY(-0.3125rem);
     }
 
+.podcast-icon {
+    position: fixed;
+    display: block;
+    bottom: 11.6000rem;
+    right: 1.5625rem;
+    z-index: 999;
+    background: rgb(0, 0, 0);
+    height: 4rem;
+    width: 4rem;
+    line-height: 2.25rem;
+    text-align: center;
+    font-size: .875rem;
+    border-radius: 100%;
+    box-shadow: 0 0 0 5px rgba(0, 0, 0, .05);
+    transition: .5s all ease;
+    transform: translateY(16.0rem);
+    color: #788487;
+}
+
+    .podcast-icon.podcast-icon-visible {
+        transform: translateY(0);
+    }
+
+    .podcast-icon:hover {
+        transform: translateY(-0.3125rem);
+    }
+
 /* @media (max-width: 767.98px) {
     .form-icon {
         display: none;
@@ -14942,13 +14969,20 @@ body.off-canvas-sidebar-open:after {
     .whatsapp-contact {
         display: none;
     }
+}
+
+@media screen and (max-width: 1492px) {
+
+    .whatsapp-contact {
+        display: none;
+    }
 
     .palavra-direcao {
         display: none;
     }
 }
 
-@media screen and (min-width: 1395px) {
+@media screen and (min-width: 1492px) {
 
     .whatsapp-contact-min {
         display: none;

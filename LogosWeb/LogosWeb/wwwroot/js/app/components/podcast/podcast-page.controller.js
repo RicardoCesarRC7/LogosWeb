@@ -13,9 +13,10 @@ function PodcastPageController($scope, $timeout) {
     self.init = function () {
 
         self.content = [
-            { nome: 'Devocional', descricao: 'bla bla bla' },
-            { nome: 'Estudo', descricao: 'bla bla bla' },
-            { nome: 'Teologia', descricao: 'bla bla bla' }
+            { nome: 'Devocionais', descricao: 'Devocionais curtos' },
+            { nome: 'Pílulas Acadêmicas', descricao: 'Conversa sobre assuntos específicos, tratados com abordagem acadêmica' },
+            { nome: 'Painéis', descricao: 'Painéis sobre assuntos interessantes' },
+            { nome: 'Eventos', descricao: 'Eventos gravados' }
         ];
 
         $timeout(function () {

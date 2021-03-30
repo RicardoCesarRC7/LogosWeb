@@ -50,6 +50,7 @@ function NavigationController($scope, $timeout) {
             },
             { nome: 'Professores', url: self.baseUrl + '/Professores', subMenuItems: [] },
             { nome: 'Blog', url: self.baseUrl + '/Blog', subMenuItems: [] },
+            { nome: 'Podcast', url: self.baseUrl + '/Podcast', subMenuItems: [] },
             { nome: 'Fale conosco', url: self.baseUrl + '/Contato', subMenuItems: [] },
             { nome: 'Área do aluno', url: 'https://portal.sponteeducacional.net.br/default.aspx?CID=71311', subMenuItems: [] }
         ];

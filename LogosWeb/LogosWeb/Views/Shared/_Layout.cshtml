@@ -49,11 +49,10 @@
         </div>
     </div>
     <!-- form on modal end -->
-
     <!-- modal palavra direcao -->
     <div class="modal fade" id="modal-palavra-direcao" tabindex="-1" role="dialog" aria-labelledby="modalPalavraDirecao" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
-            <div class="modal-content" style="background-color: #ffffffcf">
+            <div class="modal-content" style="background-color: #ffffffe0">
                 <div class="modal-header" style="border-bottom: none;">
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
                 </div>
@@ -63,10 +62,29 @@
             </div>
         </div>
     </div>
+    <!-- modal palavra direcao end -->
+
+    <!-- modal propagandas -->
+    <div class="modal fade" id="modal-propagandas" tabindex="-1" role="dialog" aria-labelledby="modalPropagandas" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content" style="background-color: #ffffffe0">
+                <div class="modal-header" style="border-bottom: none;">
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <partial name="../Partial/_ModalPropagandas" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal palavra direcao end -->
 
     <partial name="../Partial/_OffCanvas" />
 
     <div ng-controller="BottomButtonsController as controller">
+
+        <!-- Podcast button -->
+        <a class="podcast-icon d-lg-block d-none" href="/podcast" target="_blank" data-toggle="tooltip" data-placement="left" title="Ouça nossos Podcasts!"><i class="fab fa-spotify fa-3x" style="color: #28a745; transform: translateY(25%)"></i></a>
 
         <!-- Whatsapp button -->
         <a class="whatsapp-icon d-lg-block d-none" href="https://api.whatsapp.com/send?phone=5511999813557&amp;text=Ol%C3%A1" target="_blank" data-toggle="tooltip" data-placement="left" title="Fale conosco!"><i class="fab fa-whatsapp fa-3x" style="color: white; transform: translateY(25%)"></i></a>

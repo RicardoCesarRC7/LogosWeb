@@ -7,7 +7,7 @@ function ProfessoresPanelController($scope, $http) {
     var self = this;
 
     self.professores = null;
-    self.professoresOrdenados = null;
+    self.professoresFixos = null;
     self.professor = null;
 
     self.init = function () {
@@ -24,19 +24,22 @@ function ProfessoresPanelController($scope, $http) {
 
             if (response != null) {
 
-                self.professores = response.data.filter(p => !p.isVisitante);
-                self.professoresOrdenados = response.data.filter(p => !p.isVisitante);
+                self.professores = response.data;
+                self.professoresVisitantes = response.data.filter(p => p.isVisitante);
+                self.professoresFixos = response.data.filter(p => !p.isVisitante);
 
-                self.ordenarProfessores();
+                self.ordenarProfessores(self.professoresFixos);
+                self.ordenarProfessores(self.professoresVisitantes);
+                self.ordenarProfessores(self.professores);
             }
         });
     }
 
-    self.ordenarProfessores = function () {
+    self.ordenarProfessores = function (professores) {
 
-        if (self.professoresOrdenados != null && self.professoresOrdenados.length > 0) {
+        if (professores != null && professores.length > 0) {
 
-            self.professoresOrdenados.sort(function (a, b) {
+            professores.sort(function (a, b) {
                 if (a.nome > b.nome) {
                     return 1;
                 }

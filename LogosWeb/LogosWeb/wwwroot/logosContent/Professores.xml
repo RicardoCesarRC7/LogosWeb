@@ -120,7 +120,7 @@
       <Nome>Norival Almeida Santos</Nome>
       <Descricao>Mestrando em Ministério pelo Seminário Batista Logos, Pós-graduando em Aconselhamento Bíblico pela Sociedade de Estudos Bíblicos Interdiciplinares, Bacharel em Teologia pelo Seminário Batista Logos, convalidação pela Faculdade Evangélica de Tecnologia, Ciências e Biotecnologia da CGADB. Pastor da Igreja Batista Vida Nova, São Paulo, SP.</Descricao>
       <Area>Teologia e Ministério</Area>
-      <Visitante>False</Visitante>
+      <Visitante>True</Visitante>
       <UrlImagem>norival-almeida-prof.png</UrlImagem>
       <Grau>5</Grau>
       <RedesSociais>
@@ -184,7 +184,7 @@
     <Professor>
       <ProfessorID>17</ProfessorID>
       <Nome>Wagner Amaral</Nome>
-      <Descricao>Doutor em Ciências da Religião pela PUC, SP, Mestre em Teologa pela FTBSP, Pós-graduado em Planejamento Educacional e Docência do Ensino Superior pela ESAB, Bacharel em Teologia pelo Seminário Batista do Cariri e pela Faculdade Kuryos. Diretor Administrativo e Executivo do Seminário Batista Logos.</Descricao>
+      <Descricao>Doutor em Ciências da Religião pela PUC, SP, Mestre em Teologia pela FTBSP, Pós-graduado em Planejamento Educacional e Docência do Ensino Superior pela ESAB, Bacharel em Teologia pelo Seminário Batista do Cariri e pela Faculdade Kuryos. Diretor Administrativo e Executivo do Seminário Batista Logos.</Descricao>
       <Area>Teologia Sistemática</Area>
       <Visitante>False</Visitante>
       <UrlImagem>wagner-lima-amaral.png</UrlImagem>

@@ -30,7 +30,6 @@ function ProfessoresPanelController($scope, $http) {
 
                 self.ordenarProfessores(self.professoresFixos);
                 self.ordenarProfessores(self.professoresVisitantes);
-                self.ordenarProfessores(self.professores);
             }
         });
     }

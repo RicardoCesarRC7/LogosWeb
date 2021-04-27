@@ -36,7 +36,7 @@ function PodcastPageController($scope, $timeout) {
     self.scrollToList = function () {
 
         $('html, body').animate({
-            scrollTop: $('##podcast-list-section').offset().top - 100
+            scrollTop: $('#podcast-list-section').offset().top - 100
         }, 1000);
     }
 

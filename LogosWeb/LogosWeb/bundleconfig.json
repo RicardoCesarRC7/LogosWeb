@@ -28,7 +28,7 @@
       "wwwroot/js/app/components/navigation/navigation.controller.js",
       "wwwroot/js/app/components/footer/footer.controller.js",
       "wwwroot/js/app/components/contato-panel/contato-panel.controller.js",
-      "wwwroot/js/app/components/blog-content-page/blog-page.controller.js",
+      //"wwwroot/js/app/components/blog-content-page/blog-page.controller.js",
       "wwwroot/js/app/components/cursos-panel/cursos-panel.controller.js",
       "wwwroot/js/app/components/professores-panel/professores-panel.controller.js",
       "wwwroot/js/app/components/valores-panel/valores-panel.controller.js",

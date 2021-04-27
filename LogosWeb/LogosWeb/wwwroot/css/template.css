@@ -14998,3 +14998,7 @@ body.off-canvas-sidebar-open:after {
 .sugestoes-cursos {
     height: auto !important;
 }
+
+.blog-paragraph-citacao {
+    margin-left: 300px !important;
+}

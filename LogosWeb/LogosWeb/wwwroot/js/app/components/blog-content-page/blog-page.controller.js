@@ -1,8 +1,8 @@
 ﻿angular
     .module('logosApp')
-    .controller('BlogController', ['$scope', '$http', BlogController]);
+    .controller('BlogController', ['$scope', '$http', '$sce', '$timeout', BlogController]);
 
-function BlogController($scope, $http) {
+function BlogController($scope, $http, $sce, $timeout) {
 
     var self = this;
 
@@ -24,9 +24,12 @@ function BlogController($scope, $http) {
             let postId = parseInt(pathname[pathname.length - 1]);
 
             self.getPost(postId);
-        } 
 
-        self.getBlog();
+        } else {
+
+            self.getBlog();
+        }
+
     }
 
     self.getBlog = function () {
@@ -84,7 +87,57 @@ function BlogController($scope, $http) {
 
         if (self.postagem != null && self.postagem.conteudo) {
 
-            self.texto = self.postagem.conteudo.split('|');
+            let textoCorrido = self.postagem.conteudo.split('|');
+
+            angular.forEach(textoCorrido, function(paragrafo, index) {
+
+                if (paragrafo != null && paragrafo.length > 0) {
+
+                    if (paragrafo.includes('{NEGRITO}')) {
+
+                        paragrafo = paragrafo.replaceAll('{NEGRITO}', '<b>')
+                        paragrafo = paragrafo.replaceAll('{NEGRITO/}', '</b>')
+                    }
+
+                    if (paragrafo.includes('{ITALICO}')) {
+
+                        paragrafo = paragrafo.replaceAll('{ITALICO}', '<i>')
+                        paragrafo = paragrafo.replaceAll('{ITALICO/}', '</i>')
+                    }
+
+                    if (paragrafo.includes('{LISTAPONTO}')) {
+
+                        paragrafo = paragrafo.replaceAll('{LISTAPONTO}', '<li>').replaceAll('{LISTAPONTO/}', '</li>');
+                    }
+
+                    if (paragrafo.includes('{LISTAINICIO}'))
+                        paragrafo = paragrafo.replaceAll('{LISTAINICIO}', '<ul>')
+
+
+                    if (paragrafo.includes('{LISTAFIM}'))
+                        paragrafo = paragrafo.replaceAll('{LISTAFIM}', '</ul>')
+
+                    if (paragrafo.toUpperCase().includes('BIBLIOGRAFIA') || paragrafo.toUpperCase().includes('REFERÊNCIAS BIBLIOGRÁFICAS')) {
+                        paragrafo = '<hr />' + paragrafo;
+                    }
+
+                    self.texto.push($sce.trustAsHtml(paragrafo.trim())); 
+                }
+            });
+
+            $timeout(function () {
+
+                $('.blog-text-paragraphs p').each(function () {
+
+                    if ($(this).text().includes('{CITACAO}')) {
+
+                        $(this).addClass('blog-paragraph-citacao');
+                        $(this).text($(this).text().replace('{CITACAO}', ''));
+                        $(this).text($(this).text().replace('{CITACAO/}', ''));
+                    }
+                });
+
+            }, 1000);
         }
     }
 
@@ -96,4 +149,8 @@ function BlogController($scope, $http) {
             if (self.categoriaFilter == categoria.nome)
                 self.categoriaFilter = '';
     }
+}
+
+const ETagTextType = {
+    NEGRITO: 1
 }

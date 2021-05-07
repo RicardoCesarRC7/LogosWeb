@@ -13,6 +13,7 @@ function ContatoPanelController($scope, $http, $timeout) {
 
         self.getContatoInfo();
         self.getTestemunhos();
+        self.manageVideosSlider();
     }
 
     self.getContatoInfo = function () {
@@ -73,5 +74,15 @@ function ContatoPanelController($scope, $http, $timeout) {
                 ],
             }, $('.review-carousel').data('carousel-options')));
         }
+    }
+
+    self.manageVideosSlider = function () {
+
+        $('#videos-logos-slider').on('mouseenter', function () {
+            $('#videos-logos-slider').superslides('stop');
+        });
+        $('#videos-logos-slider').on('mouseleave', function () {
+            $('#videos-logos-slider').superslides('start');
+        });
     }
 }

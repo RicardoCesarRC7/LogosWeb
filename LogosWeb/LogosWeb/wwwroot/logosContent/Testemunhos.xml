@@ -2,14 +2,24 @@
 <Logos>
   <Testemunhos>
     <Testemunho>
-      <Nome>Ricardo Pereira</Nome>
-      <Descricao>O Seminário Batista Logos é uma insituição compromissada com o ensino da Palavra de Deus.</Descricao>
-      <Imagem>ricardo.jpg</Imagem>
+      <Nome>Lídia Leite - Presidente da SAIBRES</Nome>
+      <Descricao>"Nós temos visto, ao longo dos anos, que o Seminário Batista Logos tem um ensino de excelência porque o seu corpo docente é formado por professores capacitados, professores que buscam honrar e glorificar a Deus."</Descricao>
+      <Imagem>lidia-leite.png</Imagem>
     </Testemunho>
     <Testemunho>
-      <Nome>Eduardo de Jesus</Nome>
-      <Descricao>Uma excelente escola de estudo teológico onde aprendemos sobre Deus, Sua Palavra e como sermos servos dele.</Descricao>
-      <Imagem>eduardo.jpg</Imagem>
+      <Nome>Marcos Granconato - Pastor da Igreja Batista Redenção (São Paulo - SP)</Nome>
+      <Descricao>"No Seminário Batista Logos você terá acesso a um ensino teológico ortodoxo e de profundidade."</Descricao>
+      <Imagem>marcos-granconato-pastor.png</Imagem>
+    </Testemunho>
+    <Testemunho>
+      <Nome>Luciano Martins - Presidente da AIBRECES</Nome>
+      <Descricao>"O Seminário Batista Logos é o local preparado para abençoar a sua vida."</Descricao>
+      <Imagem>luciano-martins-pastor.png</Imagem>
+    </Testemunho>
+    <Testemunho>
+      <Nome>Fernando Sousa - Pastor da Igreja Batista Cachoeirinha (Manaus - AM)</Nome>
+      <Descricao>"Passam-se gerações, mas a integridade doutrinária do Seminário Batista Logos continua com relevância cultural equipando pastores, professores e outros cristãos."</Descricao>
+      <Imagem>fernando-sousa.png</Imagem>
     </Testemunho>
   </Testemunhos>
 </Logos>

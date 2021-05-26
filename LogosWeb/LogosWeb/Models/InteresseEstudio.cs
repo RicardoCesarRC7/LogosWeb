@@ -39,7 +39,7 @@ namespace LogosWeb.Models
                 SmtpClient client = new SmtpClient("smtp.gmail.com", 587);
 
                 client.UseDefaultCredentials = false;
-                client.Credentials = new NetworkCredential("logoswebapp@gmail.com", "nsibvphyqhorvvar");
+                client.Credentials = new NetworkCredential("logoswebapp@gmail.com", "");
                 client.EnableSsl = true;
 
                 client.Send(message);
